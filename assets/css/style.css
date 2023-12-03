@@ -1460,18 +1460,10 @@ button {
 }
 
 .single_partner li a {
+    display: block;
     width: 130px;
     height: 70px;
-    margin: 0px 64px;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.single_partner li a:hover {
-    opacity: 1;
+    margin: 0px 60px;
 }
 
 /* partner end */
