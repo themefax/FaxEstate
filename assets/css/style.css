@@ -1771,11 +1771,16 @@ button {
 }
 
 .banner_area_2 {
-    padding: 120px 80px 120px 80px;
+    padding-left: 80px;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    border-radius: 24px;
+    border-radius: 25px;
+    height: 700px;
+}
+
+.banner_2_text {
+    margin-top: 135px;
 }
 
 .banner_2_text h1,
@@ -1815,18 +1820,16 @@ button {
 
 .banner_2_search {
     position: relative;
-    bottom: -184px;
+    bottom: -140px;
     padding: 30px;
     background: var(--colorWhite);
     border-radius: 10px;
     box-shadow: 0px 10px 24px 0px rgba(3, 26, 38, 0.06);
 }
 
-
 .banner_2_search form ul {
     width: 88%;
 }
-
 
 .banner_search form ul li {
     width: 23%;
@@ -1936,25 +1939,13 @@ button {
     background: var(--colorBlue);
 }
 
+.single_amenites li a:hover span {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(6%) saturate(0%) hue-rotate(37deg) brightness(105%) contrast(108%);
+}
+
 .amenities_area_btn {
     margin-top: 60px;
     text-align: center;
-}
-
-.amenities_area_btn a {
-    /* background: var(--colorBlack); */
-}
-
-.amenities_area_btn a:hover {
-    /* background: var(--colorBlue); */
-}
-
-.amenities_area_btn a i {
-    /* color: var(--colorBlack); */
-}
-
-.amenities_area_btn a:hover i {
-    /* color: var(--colorBlue); */
 }
 
 /* amenities end */
@@ -1979,10 +1970,9 @@ button {
     color: var(--colorWhite);
 }
 
-
 .single_property_2 .single_property_img {
     padding: 20px 20px 0px 20px;
-    overflow: hidden;
+    height: 250px;
 }
 
 .single_property_2 .single_property_img img {
@@ -2003,16 +1993,16 @@ button {
 }
 
 .single_property_2 .single_property_top {
-    padding: 28px 22px 28px 22px;
+    padding: 30px 20px 18px 20px;
 }
 
 .single_property_2 .single_property_text {
     width: 100%;
     left: 0%;
-    margin-top: 0;
+    margin: 0;
     box-shadow: none;
     background: none;
-
+    filter: none;
 }
 
 .single_property_2 .single_property_bottom {
