@@ -140,7 +140,8 @@ button {
     -o-transition: all linear .3s;
 }
 
-.common_btn::after {
+.common_btn::after,
+.common_btn_2::after {
     position: absolute;
     content: "";
     top: 0;
@@ -158,11 +159,13 @@ button {
     -o-transition: all linear .3s;
 }
 
+.common_btn_2:hover,
 .common_btn:hover {
     background: var(--colorBlack);
     color: var(--colorWhite);
 }
 
+.common_btn_2:hover:after,
 .common_btn:hover:after {
     left: 105%;
 }
@@ -175,17 +178,14 @@ button {
     color: var(--colorWhite);
     background: var(--colorBlue);
     border-radius: 40px;
+    position: relative;
+    overflow: hidden;
     text-transform: capitalize;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
-}
-
-.common_btn_2:hover {
-    color: var(--colorWhite);
-    background: var(--colorBlack);
 }
 
 .common_btn_2 i {
@@ -209,7 +209,6 @@ button {
 }
 
 .common_btn_2:hover i {
-    width: 60px;
     color: var(--colorBlack);
 }
 
@@ -273,7 +272,7 @@ button {
 
 
 /*================================
-    HOME PAGE_1 START
+    HOME PAGE 01 START
 ================================*/
 
 /* main_manu start */
@@ -434,7 +433,8 @@ button {
     padding-left: 25px;
 }
 
-.main_menu .droap_menu li a:hover::after {
+.main_menu .droap_menu li a:hover::after,
+.main_menu .droap_menu li a.active::after {
     opacity: 1;
     right: 20px;
 }
@@ -574,7 +574,7 @@ button {
 .banner_text {
     margin-right: 150px;
     position: relative;
-    margin-bottom: 120px;
+    margin-bottom: 75px;
     height: auto !important;
 }
 
@@ -639,7 +639,7 @@ button {
 }
 
 .banner_search .nav li:last-child button {
-    border: none;
+    border-right: none;
 }
 
 .banner_search .nav-link.active,
@@ -763,6 +763,7 @@ button {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    z-index: 9;
 }
 
 .adv_search_area.show_search {
@@ -1672,13 +1673,13 @@ button {
 /* footer end */
 
 /*================================
-    HOME PAGE_1 START
+    HOME PAGE 01 START
 ================================*/
 
 
 
 /*=============================
-    HOME PAGE_2 START
+    HOME PAGE 02 START
 =============================*/
 
 /* main_manu_2 start */
@@ -1688,7 +1689,6 @@ button {
 
 .main_menu_2 .navbar-nav .nav-item .nav-link {
     color: var(--colorBlack);
-    margin: 0px 20px;
 }
 
 .main_menu_2 .navbar-nav .nav-item .nav-link::after {
@@ -1696,42 +1696,69 @@ button {
 }
 
 .main_menu_2 .droap_menu li a:hover,
-.main_menu_2 .droap_menu li a.active {
+.main_menu_2 .droap_menu li a.active,
+.main_menu_2 .droap_menu li a:hover::after,
+.main_menu_2 .droap_menu li a.active::after {
     color: var(--colorBlue);
 }
 
-.user_call {
+.main_menu_2 .user_call {
     color: var(--colorBlack);
 }
 
-.user_call i {
+.main_menu_2 .user_call i {
     margin-right: 4px;
 }
 
-.main_manu_btn {
+.main_menu_2 .user_call:hover {
+    color: var(--colorBlue);
+}
+
+.main_menu_2 .main_manu_btn {
     padding-right: 0;
     border-right: none;
 }
 
-.main_manu_btn a {
+.main_menu_2 .main_manu_btn a {
     border-radius: 36px;
     color: var(--colorWhite);
     background: var(--colorBlue);
 }
 
-.main_manu_btn a i {
+.main_menu_2 .main_manu_btn a i {
     margin-right: 7px;
 }
 
-.main_menu_2 .toggol_bar {
-    width: 50px;
-    height: 50px;
+.main_menu_2 .main_manu_btn a:hover {
     background: var(--colorBlack);
-    margin-top: 0px;
+    color: var(--colorWhite);
+}
+
+.main_menu_2 .main_manu_btn a::after {
+    background: linear-gradient(to right, rgb(255 255 255 / 0%) 0%, rgb(255 255 255 / 30%) 100%);
+}
+
+.main_menu_2 .toggol_bar {
+    width: 45px;
+    height: 45px;
+    background: var(--colorBlack);
+    margin-top: -7px;
     line-height: 50px;
     border-radius: 50%;
-    padding-top: 12px;
+    padding-top: 9px;
     padding-left: 12px;
+}
+
+.main_menu_2 .toggol_bar_1 {
+    width: 20px;
+}
+
+.main_menu_2 .toggol_bar_2 {
+    width: 15px !important;
+}
+
+.main_menu_2 .toggol_bar:hover .toggol_bar_1 {
+    width: 14px;
 }
 
 /* main_manu_2 end */
@@ -1751,10 +1778,31 @@ button {
     border-radius: 24px;
 }
 
-.banner_2_text h1 {
+.banner_2_text h1,
+.banner_2_text h1 span {
     font-size: 60px;
     font-weight: 700;
     line-height: 80px;
+    color: var(--colorBlack);
+    font-family: var(--headingFont);
+    position: relative;
+    z-index: 1;
+}
+
+.banner_2_text h1 span::after {
+    position: absolute;
+    content: "";
+    background: #FCA739;
+    top: 24px;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    z-index: -1;
 }
 
 .banner_2_text p {
@@ -1764,18 +1812,6 @@ button {
     margin-top: 13px;
     margin-bottom: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .banner_2_search {
     position: relative;
@@ -1799,9 +1835,6 @@ button {
     justify-content: end;
 }
 
-
-
-
 .banner_2_search .nav li button {
     padding: 0;
     margin-right: 30px;
@@ -1809,34 +1842,55 @@ button {
     font-family: var(--headingFont);
     background: transparent;
     text-transform: uppercase;
-
+    border-right: 0;
+    border-bottom: 2px solid transparent;
 }
 
 .banner_2_search .nav-link.active,
 .banner_2_search .show>.nav-link {
     color: var(--colorBlack);
     background: transparent;
-    border-bottom: 2px solid var(--colorBlue);
-
+    border-color: var(--colorBlue);
 }
-
-
-
-
-
-
-
-
-
 
 .banner_2_search .tab-content {
     padding: 0;
-    width: 100%;
     margin-top: 20px;
+    position: initial;
+}
+
+.banner_2_search .adv_search_icon {
+    top: 20px;
+    right: 12px;
+}
+
+.banner_2_search .adv_search_area {
+    border-radius: 10px;
+}
+
+.banner_2_search .adv_search_close {
+    border-radius: 50%;
 }
 
 
+.banner_2_search .select2-container--default .select2-selection--single,
+.banner_2_search .banner_input_btn,
+.banner_2_search form ul li input {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
 
+.banner_2_search .banner_input_btn {
+    background: var(--colorBlue);
+    color: var(--colorWhite);
+}
+
+.banner_2_search .banner_input_btn:hover {
+    background: var(--colorBlack);
+}
 
 /* banner_2 end */
 
@@ -1888,25 +1942,103 @@ button {
 }
 
 .amenities_area_btn a {
-    background: var(--colorBlack);
+    /* background: var(--colorBlack); */
 }
 
 .amenities_area_btn a:hover {
-    background: var(--colorBlue);
+    /* background: var(--colorBlue); */
 }
 
 .amenities_area_btn a i {
-    color: var(--colorBlack);
+    /* color: var(--colorBlack); */
 }
 
 .amenities_area_btn a:hover i {
-    color: var(--colorBlue);
+    /* color: var(--colorBlue); */
 }
 
 /* amenities end */
 
 
+/* property start */
+.single_property_2 {
+    border: 1px solid rgba(3, 26, 38, 0.10);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
 
+.single_property_2 .feature_link {
+    border-radius: 5px;
+}
+
+.single_property_img .feature_link:hover {
+    background: var(--colorBlue);
+    color: var(--colorWhite);
+}
+
+
+.single_property_2 .single_property_img {
+    padding: 20px 20px 0px 20px;
+    overflow: hidden;
+}
+
+.single_property_2 .single_property_img img {
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.single_property_2:hover .single_property_img img {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+
+.single_property_2 .single_property_top {
+    padding: 28px 22px 28px 22px;
+}
+
+.single_property_2 .single_property_text {
+    width: 100%;
+    left: 0%;
+    margin-top: 0;
+    box-shadow: none;
+    background: none;
+
+}
+
+.single_property_2 .single_property_bottom {
+    background: transparent;
+    padding: 18px 22px;
+}
+
+.single_property_2 .property_price {
+    font-size: 14px;
+    background: var(--colorBlue);
+    color: var(--colorWhite);
+    padding: 0px 10px;
+    top: -14px;
+    right: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.property_price b {
+    font-size: 18px;
+}
+
+/* property end */
 
 
 
@@ -1924,7 +2056,7 @@ button {
 
 
 /*=============================
-    HOME PAGE_2 END
+    HOME PAGE 02 END
 =============================*/
 
 
