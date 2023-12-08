@@ -229,7 +229,6 @@ $(function () {
     });
 
 
-
     //======testimonial 2 slider======
     $('.testimonial_2_slider').slick({
         slidesToShow: 1,
@@ -245,7 +244,8 @@ $(function () {
     });
 
 
-
+    //======WOW JS========
+    new WOW().init();
 
 
 
