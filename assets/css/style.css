@@ -3986,11 +3986,11 @@ button {
 }
 
 .blog_details_tag {
-    gap: 5px;
+    gap: 10px;
 }
 
 .blog_details_tag li a {
-    padding: 4px 11px;
+    padding: 6px 13px;
     font-size: 12px;
     font-weight: 400;
     font-family: var(--headingFont);
@@ -4093,7 +4093,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 28px;
 }
 
@@ -4129,6 +4129,29 @@ button {
 
 .blog_details_right form {
     margin-left: 25px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.blog_details_right form button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: var(--colorPrimary);
+    color: var(--colorBlack);
+    top: 5px;
+    right: 5px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.blog_details_right form button:hover {
+    background: var(--colorBlack);
+    color: var(--colorWhite);
 }
 
 .blog_owner {
@@ -4190,9 +4213,13 @@ button {
     color: var(--colorPrimary);
 }
 
+.blog_details_right_header.sidebar_blog {
+    padding-bottom: 40px;
+}
+
 .blog_details_right_header {
     padding-left: 25px;
-    padding-top: 43px;
+    padding-top: 37px;
     border-top: 1px solid rgba(3, 26, 38, 0.10);
 }
 
@@ -4204,7 +4231,7 @@ button {
 
 .popular_blog {
     margin-top: 25px;
-    margin-bottom: 45px;
+    /* margin-bottom: 45px; */
 }
 
 .popular_blog_img {
@@ -4233,7 +4260,7 @@ button {
 
 .categories_property {
     margin-top: 25px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 
 .categories_property li a {
@@ -4278,6 +4305,7 @@ button {
 
 .blog_details_right_header .blog_details_tag {
     margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 .blog_state {
@@ -4388,11 +4416,13 @@ button {
     border-color: var(--colorPrimary);
 }
 
+.pricing_faq_area {
+    background: none !important;
+}
+
 /*=============================
     PRICEING END
 =============================*/
-
-
 
 
 /*=============================
@@ -4437,6 +4467,14 @@ button {
     box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10);
 }
 
+.reservation_details h4 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
 .reservation_details ul {
     margin-top: 18px;
 }
@@ -4458,6 +4496,13 @@ button {
     font-family: var(--headingFont);
 }
 
+.checkout_right a {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: -6px;
+}
+
 .checkout_checkbox {
     display: flex;
     flex-wrap: wrap;
@@ -4465,67 +4510,9 @@ button {
     margin-top: 22px;
 }
 
-.checkout_checkbox input {
-    margin: 0;
-    padding: 0;
-    width: 20px;
-    height: 20px;
-    border-radius: 50% !important;
-    margin-right: 10px;
-}
-
-.checkout_checkbox .form-check-input:checked {
-    background-color: var(--colorBlack);
-    border-color: var(--colorBlack);
-}
-
-.checkout_checkbox .form-check-input:focus {
-    box-shadow: none;
-    border-color: rgba(3, 26, 38, 0.10);
-}
-
-.checkout_checkbox label {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: var(--headingFont);
-    text-transform: capitalize;
-}
-
-.checkout_payment_describe {
-    padding: 20px 30px;
-    margin-top: 20px;
-    background: #F3F5F9;
-    margin-bottom: 20px;
-}
-
-.checkout_payment_describe p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
-}
-
-.payment_system {
-    margin-top: 23px;
-}
-
-.payment_system .checkout_checkbox {
-    margin-top: 0;
-}
-
-.payment_system ul {
-    gap: 10px;
-    margin-left: 15px;
-}
-
-.payment_system ul li a {
-    width: 38px;
-    height: 26px;
-}
-
 /*=============================
     CHECKOUT END
 =============================*/
-
 
 
 /*=============================
@@ -4593,18 +4580,19 @@ button {
 }
 
 .contact_map {
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
 }
 
 .contact_map iframe {
     width: 100%;
+    height: 100%;
 }
 
 /*=============================
     CONTACT END
 =============================*/
-
 
 
 /*=============================
@@ -4616,6 +4604,8 @@ button {
 
 .faq_accordion .accordion-item {
     background: var(--colorWhite);
+    border: none;
+    box-shadow: 0px 6px 50px 1px rgba(3, 26, 38, 0.10);
 }
 
 .faq_accordion button {
@@ -4626,8 +4616,8 @@ button {
     padding: 22px 20px 22px 70px;
     background: var(--colorWhite);
     color: var(--colorBlack);
-    box-shadow: rgba(3, 26, 38, 0.1) 0px 6px 50px 1px;
     opacity: 0.7;
+    box-shadow: none !important;
 }
 
 .faq_accordion button:focus {
@@ -4672,21 +4662,9 @@ button {
     padding: 0px 20px 35px 70px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /*=============================
     FAQ END
 =============================*/
-
 
 
 /*=============================
@@ -4708,10 +4686,11 @@ button {
     font-size: 34px;
     font-weight: 700;
     text-transform: capitalize;
+    margin-bottom: 30px;
 }
 
 .single_input {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .single_input label {
@@ -4731,22 +4710,41 @@ button {
     top: 45px;
     right: 20px;
     font-size: 16px;
-    color: var(--paraColor);
+    color: var(--paraColor) !important;
     margin-top: 0 !important;
     cursor: pointer;
 }
 
-.forget_password {
+.single_input .form-check {
+    margin-bottom: 0;
+}
+
+.single_input .form-check input {
+    padding: 0;
+    border-radius: 0;
+    margin-top: 3px;
+}
+
+.single_input .form-check label {
+    font-weight: 400;
+    color: var(--paraColor);
+    margin: 0;
+}
+
+.single_input .forget_password {
     font-size: 15px;
     font-weight: 400;
     display: block;
     text-align: end;
     color: var(--paraColor);
     transition: all linear .3s;
-    margin-top: 10px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
-.forget_password:hover {
+.single_input .forget_password:hover {
     color: var(--colorBlack);
 }
 
@@ -4757,20 +4755,30 @@ button {
 }
 
 .login_text p {
-    margin-top: 14px;
+    margin-top: 25px;
     text-align: center;
-    color: var(--colorBlack);
 }
 
 .login_text p a {
     margin-left: 5px;
     color: var(--colorBlue);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.login_text p a:hover {
+    color: var(--colorBlack);
 }
 
 .login_text span {
     text-align: center;
     display: block;
-    margin-top: 32px;
+    margin-top: 25px;
+    text-transform: capitalize;
+    color: var(--colorBlack);
 }
 
 .other_login_option {
@@ -4778,13 +4786,27 @@ button {
     margin-top: 25px;
 }
 
+.other_login_option li {
+    width: 40%;
+}
+
 .other_login_option li a {
-    padding: 17px 42px;
+    padding: 15px 20px;
     font-size: 15px;
     font-weight: 500;
     color: var(--colorBlack);
     border: 1px solid rgba(3, 26, 38, 0.10);
     background: rgba(255, 255, 255, 0.00);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .other_login_option li a span {
@@ -4795,14 +4817,33 @@ button {
     margin-right: 6px;
 }
 
+.other_login_option li a:hover {
+    border-color: var(--colorBlack);
+}
+
 .login_img {
     height: 100%;
+}
+
+.show_confirm_password .close_eye,
+.show_password .close_eye {
+    display: none;
+}
+
+
+.show_confirm_password.show .close_eye,
+.show_password.show .close_eye {
+    display: inline-block;
+}
+
+.show_confirm_password.show .open_eye,
+.show_password.show .open_eye {
+    display: none;
 }
 
 /*=============================
     LOGIN END
 =============================*/
-
 
 
 /*=============================
@@ -4866,7 +4907,6 @@ button {
 =============================*/
 
 
-
 /*=============================
     ERROR START
 =============================*/
@@ -4882,6 +4922,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 22px;
 }
 
 .main_error h2 {

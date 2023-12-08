@@ -248,6 +248,21 @@ $(function () {
     new WOW().init();
 
 
+    //======STICKY SIDEBAR======= 
+    $(".sticky_sidebar").stickit({
+        top: 90,
+    })
+
+
+    //=====LOGIN PASSWORD======== 
+    $(".show_password").on("click", function () {
+        $(".show_password").toggleClass("show");
+    });
+
+    $(".show_confirm_password").on("click", function () {
+        $(".show_confirm_password").toggleClass("show");
+    });
+
 
 
 });

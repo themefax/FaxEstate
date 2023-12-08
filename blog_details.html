@@ -240,6 +240,19 @@
                                 <a href="#">Reply</a>
                             </div>
                         </div>
+                        <div class="blog_comment d-flex flex-wrap">
+                            <div class="blog_comment_img">
+                                <img src="assets/images/comment_1.png" alt="img" class="img-fluid w-100">
+                            </div>
+                            <div class="blog_comment_text">
+                                <h4>Douglas Lyphe</h4>
+                                <span>march 26,2023 at 10:47 pm</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis turpis,
+                                    maximus ut augue et, imperdiet tempor nisi. Fusce at lacus a risus viverra suscipit.
+                                </p>
+                                <a href="#">Reply</a>
+                            </div>
+                        </div>
                         <form action="#">
                             <h2>Leave a Comment</h2>
                             <div class="row">
@@ -260,7 +273,7 @@
                                 </div>
                                 <div class="col-xl-12">
                                     <div class="blog_form_input">
-                                        <textarea rows="10" placeholder="Your Comment Here..."></textarea>
+                                        <textarea rows="5" placeholder="Your Comment Here..."></textarea>
                                     </div>
                                 </div>
                                 <div class="col-xl-12">
@@ -279,11 +292,13 @@
                     </div>
                 </div>
                 <div class="col-xl-4">
-                    <div class="blog_details_right">
-                        <form action="#">
-                            <input type="text" placeholder="Search...">
-                        </form>
-                        <div class="blog_owner">
+                    <div class="sticky_sidebar">
+                        <div class="blog_details_right">
+                            <form action="#">
+                                <input type="text" placeholder="Search...">
+                                <button type="submit"><i class="far fa-search"></i></button>
+                            </form>
+                            <!-- <div class="blog_owner">
                             <div class="blog_owner_img">
                                 <img src="assets/images/blog_owner.png" alt="img" class="img-fluid w-100">
                             </div>
@@ -295,116 +310,118 @@
                                 <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                             </ul>
-                        </div>
-                        <div class="blog_details_right_header">
-                            <h3>Popular Blog</h3>
-                            <div class="popular_blog d-flex flex-wrap">
-                                <div class="popular_blog_img">
-                                    <img src="assets/images/popular_blog_1.jpg" alt="img" class="img-fluid w-100">
+                        </div> -->
+                            <div class="blog_details_right_header sidebar_blog">
+                                <h3>Popular Blog</h3>
+                                <div class="popular_blog d-flex flex-wrap">
+                                    <div class="popular_blog_img">
+                                        <img src="assets/images/popular_blog_1.jpg" alt="img" class="img-fluid w-100">
+                                    </div>
+                                    <div class="popular_blog_text">
+                                        <p>
+                                            <span><img src="assets/images/calender.png" alt="icon"
+                                                    class="img-fluid w-100"></span>
+                                            March 23, 2023
+                                        </p>
+                                        <a class="item_title" href="#">The Best Delicious Coffee Shop In Bangkok
+                                            China.</a>
+                                    </div>
                                 </div>
-                                <div class="popular_blog_text">
-                                    <p>
-                                        <span><img src="assets/images/calender.png" alt="icon"
-                                                class="img-fluid w-100"></span>
-                                        March 23, 2023
-                                    </p>
-                                    <a class="item_title" href="#">The Best Delicious Coffee Shop In Bangkok
-                                        China.</a>
+                                <div class="popular_blog d-flex flex-wrap">
+                                    <div class="popular_blog_img">
+                                        <img src="assets/images/popular_blog_2.jpg" alt="img" class="img-fluid w-100">
+                                    </div>
+                                    <div class="popular_blog_text">
+                                        <p>
+                                            <span><img src="assets/images/calender.png" alt="icon"
+                                                    class="img-fluid w-100"></span>
+                                            March 24, 2023
+                                        </p>
+                                        <a class="item_title" href="#">Luxury top-floor properties available for
+                                            purchase.</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="popular_blog d-flex flex-wrap">
-                                <div class="popular_blog_img">
-                                    <img src="assets/images/popular_blog_2.jpg" alt="img" class="img-fluid w-100">
+                                <div class="popular_blog d-flex flex-wrap">
+                                    <div class="popular_blog_img">
+                                        <img src="assets/images/popular_blog_3.jpg" alt="img" class="img-fluid w-100">
+                                    </div>
+                                    <div class="popular_blog_text">
+                                        <p>
+                                            <span><img src="assets/images/calender.png" alt="icon"
+                                                    class="img-fluid w-100"></span>
+                                            March 25, 2023
+                                        </p>
+                                        <a class="item_title" href="#">Skills that you can learn the Real Estate
+                                            Market.</a>
+                                    </div>
                                 </div>
-                                <div class="popular_blog_text">
-                                    <p>
-                                        <span><img src="assets/images/calender.png" alt="icon"
-                                                class="img-fluid w-100"></span>
-                                        March 24, 2023
-                                    </p>
-                                    <a class="item_title" href="#">Luxury top-floor properties available for
-                                        purchase.</a>
-                                </div>
-                            </div>
-                            <div class="popular_blog d-flex flex-wrap">
-                                <div class="popular_blog_img">
-                                    <img src="assets/images/popular_blog_3.jpg" alt="img" class="img-fluid w-100">
-                                </div>
-                                <div class="popular_blog_text">
-                                    <p>
-                                        <span><img src="assets/images/calender.png" alt="icon"
-                                                class="img-fluid w-100"></span>
-                                        March 25, 2023
-                                    </p>
-                                    <a class="item_title" href="#">Skills that you can learn the Real Estate Market.</a>
-                                </div>
-                            </div>
 
-                        </div>
-                        <div class="blog_details_right_header">
-                            <h3>Categories Property</h3>
-                            <ul class="categories_property">
-                                <li>
-                                    <a class="common_btn d-flex flex-wrap justify-content-between" href="#">
-                                        <p>Real Estate</p>
-                                        <span>(6 properties)</span>
+                            </div>
+                            <div class="blog_details_right_header">
+                                <h3>Categories Property</h3>
+                                <ul class="categories_property">
+                                    <li>
+                                        <a class="common_btn d-flex flex-wrap justify-content-between" href="#">
+                                            <p>Real Estate</p>
+                                            <span>(6 properties)</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="common_btn d-flex flex-wrap justify-content-between" href="#">
+                                            <p>House</p>
+                                            <span>(8 properties)</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="common_btn d-flex flex-wrap justify-content-between" href="#">
+                                            <p>Home Land</p>
+                                            <span>(26 properties)</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="common_btn d-flex flex-wrap justify-content-between" href="#">
+                                            <p>Garages</p>
+                                            <span>(15 properties)</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="common_btn d-flex flex-wrap justify-content-between" href="#">
+                                            <p>Bath Beds</p>
+                                            <span>(74 properties)</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="blog_details_right_header">
+                                <h3>Popular Tags</h3>
+                                <ul class="blog_details_tag d-flex flex-wrap">
+                                    <li><a class="common_btn" href="#">House Build</a></li>
+                                    <li><a class="common_btn" href="#">Apartment</a></li>
+                                    <li><a class="common_btn" href="#">House design</a></li>
+                                    <li><a class="common_btn" href="#">Real</a></li>
+                                    <li><a class="common_btn" href="#">Luxury</a></li>
+                                    <li><a class="common_btn" href="#">House rental</a></li>
+                                    <li><a class="common_btn" href="#">Estate</a></li>
+                                    <li><a class="common_btn" href="#">Modern house</a></li>
+                                    <li><a class="common_btn" href="#">House tree</a></li>
+                                    <li><a class="common_btn" href="#">House sell</a></li>
+                                </ul>
+                            </div>
+                            <div class="blog_details_right_header">
+                                <div class="blog_state">
+                                    <a href="index.html">
+                                        <img src="assets/images/blog_logo.jpg" alt="logo" class="img-fluid w-100">
                                     </a>
-                                </li>
-                                <li>
-                                    <a class="common_btn d-flex flex-wrap justify-content-between" href="#">
-                                        <p>House</p>
-                                        <span>(8 properties)</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="common_btn d-flex flex-wrap justify-content-between" href="#">
-                                        <p>Home Land</p>
-                                        <span>(26 properties)</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="common_btn d-flex flex-wrap justify-content-between" href="#">
-                                        <p>Garages</p>
-                                        <span>(15 properties)</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="common_btn d-flex flex-wrap justify-content-between" href="#">
-                                        <p>Bath Beds</p>
-                                        <span>(74 properties)</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="blog_details_right_header">
-                            <h3>Popular Tags</h3>
-                            <ul class="blog_details_tag d-flex flex-wrap mb_45">
-                                <li><a class="common_btn" href="#">House Build</a></li>
-                                <li><a class="common_btn" href="#">Apartment</a></li>
-                                <li><a class="common_btn" href="#">House design</a></li>
-                                <li><a class="common_btn" href="#">Real</a></li>
-                                <li><a class="common_btn" href="#">Luxury</a></li>
-                                <li><a class="common_btn" href="#">House rental</a></li>
-                                <li><a class="common_btn" href="#">Estate</a></li>
-                                <li><a class="common_btn" href="#">Modern house</a></li>
-                                <li><a class="common_btn" href="#">House tree</a></li>
-                                <li><a class="common_btn" href="#">House sell</a></li>
-                            </ul>
-                        </div>
-                        <div class="blog_details_right_header">
-                            <div class="blog_state">
-                                <a href="index.html">
-                                    <img src="assets/images/blog_logo.jpg" alt="logo" class="img-fluid w-100">
-                                </a>
-                                <p>Helping you Craft The <b>Best Houses.</b></p>
-                                <a class="read_btn" href="#">Read More<i class="fas fa-arrow-right"
-                                        aria-hidden="true"></i></a>
+                                    <p>Helping you Craft The <b>Best Houses.</b></p>
+                                    <a class="read_btn" href="#">Read More<i class="fas fa-arrow-right"
+                                            aria-hidden="true"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center mt_105 xs_mt_85">
+            <div class="row justify-content-center mt_115 xs_mt_95">
                 <div class="col-xl-6">
                     <div class="section_heading mb_25">
                         <h2>Related Blog Posts</h2>
@@ -622,6 +639,7 @@
     <script src="assets/js/jquery.youtube-background.min.js"></script>
     <!--wow js-->
     <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/sticky_sidebar.js"></script>
 
     <!--main/custom js-->
     <script src="assets/js/main.js"></script>

@@ -135,47 +135,64 @@
     ==============================-->
     <section class="login_area pt_120 xs_pt_100 pb_120 xs_pb_100">
         <div class="container">
-            <div class="main_login_area">
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="login_text">
-                            <h4>Login</h4>
-                            <form action="#">
-                                <div class="single_input">
-                                    <label>Account</label>
-                                    <input type="text" placeholder="Email or user name">
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="main_login_area">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="login_text">
+                                    <h4>Login</h4>
+                                    <form action="#">
+                                        <div class="single_input">
+                                            <label>Account</label>
+                                            <input type="text" placeholder="Email or user name">
+                                        </div>
+                                        <div class="single_input">
+                                            <label>Password</label>
+                                            <input type="password" placeholder="********">
+                                            <span class="show_password">
+                                                <i class="far fa-eye open_eye"></i>
+                                                <i class="far fa-eye-slash close_eye"></i>
+                                            </span>
+                                        </div>
+                                        <div
+                                            class="single_input d-flex flex-wrap align-items-center justify-content-between">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Remember me
+                                                </label>
+                                            </div>
+                                            <a class="forget_password" href="#">Forgot password ?</a>
+                                        </div>
+                                        <button class="common_btn" type="submit">Login</button>
+                                    </form>
+                                    <span>Or login with</span>
+                                    <ul class="other_login_option d-flex flex-wrap justify-content-center">
+                                        <li>
+                                            <a href="#">
+                                                <span><img src="assets/images/google.png" alt="img"
+                                                        class="img-fluid w-100"></span>
+                                                google
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span><img src="assets/images/facebook.png" alt="img"
+                                                        class="img-fluid w-100"></span>
+                                                facebook
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p>Don’t you have an account? <a href="sign_up.html">Register</a></p>
                                 </div>
-                                <div class="single_input">
-                                    <label>Password</label>
-                                    <input type="text" placeholder="********">
-                                    <span><i class="far fa-eye"></i></span>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="login_img">
+                                    <img src="assets/images/login_bg.jpg" alt="img" class="img-fluid w-100">
                                 </div>
-                                <a class="forget_password" href="#">Forgot Password ?</a>
-                                <button class="common_btn">Login</button>
-                            </form>
-                            <p>Don’t you have an account? <a href="registration.html">Register</a></p>
-                            <span>or login with</span>
-                            <ul class="other_login_option d-flex flex-wrap justify-content-center">
-                                <li>
-                                    <a href="#">
-                                        <span><img src="assets/images/google.png" alt="img"
-                                                class="img-fluid w-100"></span>
-                                        google
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span><img src="assets/images/facebook.png" alt="img"
-                                                class="img-fluid w-100"></span>
-                                        facebook
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="login_img">
-                            <img src="assets/images/login_bg.jpg" alt="img" class="img-fluid w-100">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -317,6 +334,7 @@
     <script src="assets/js/jquery.youtube-background.min.js"></script>
     <!--wow js-->
     <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/sticky_sidebar.js"></script>
 
     <!--main/custom js-->
     <script src="assets/js/main.js"></script>
