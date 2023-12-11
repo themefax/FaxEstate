@@ -849,7 +849,7 @@ button {
 }
 
 .banner_search .select2-container--default .select2-selection--single .select2-selection__arrow {
-    top: -1px;
+    top: 1px;
 }
 
 .banner_search .select2-container--default .select2-selection--single .select2-selection__arrow b {
@@ -2035,6 +2035,7 @@ button {
     padding: 0;
     margin-top: 20px;
     position: initial;
+    box-shadow: none;
 }
 
 .banner_2_search .adv_search_icon {
@@ -4125,6 +4126,7 @@ button {
 
 .blog_details_right {
     border-left: 1px solid rgba(3, 26, 38, 0.10);
+    overflow: hidden;
 }
 
 .blog_details_right form {
@@ -4963,8 +4965,314 @@ button {
 
 
 /*=============================
-    PROPERTY DETAILS START
+    PAYMENT PAGE START
 =============================*/
+.payment_area {
+    border: 1px solid rgba(3, 26, 38, 0.10);
+    padding: 30px;
+}
+
+.payment_area h5 {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.single_payment {
+    display: block;
+    background: var(--colorWhite);
+    border: 1px solid rgba(3, 26, 38, 0.10);
+    margin-top: 20px;
+    max-height: 80px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.single_payment:hover {
+    background: var(--colorWhite);
+    box-shadow: 0px 6px 70px 0px rgba(8, 5, 33, 0.16);
+}
+
+.payment_modal .modal-content {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.payment_modal .modal-body {
+    padding: 30px;
+}
+
+.pay_modal_info p {
+    margin-bottom: 20px;
+}
+
+.pay_modal_info ul li {
+    font-size: 16px;
+    color: var(--paraColor);
+    position: relative;
+    padding-left: 30px;
+    margin: 10px 0px;
+}
+
+.pay_modal_info ul li::after {
+    position: absolute;
+    content: "";
+    background: url(../images/checkmark.png);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    top: 3px;
+    left: 0;
+    width: 20px;
+    height: 18px;
+}
+
+.pay_modal_info input,
+.pay_modal_info textarea,
+.pay_modal_info .nice-select {
+    margin-top: 15px;
+    border: 1px solid rgba(8, 5, 33, 0.10) !important;
+}
+
+.pay_modal_info .nice-select:after {
+    margin-top: -3px;
+    right: 20px;
+}
+
+.nice-select {
+    border-radius: 10px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pay_modal_info .nice-select {
+    margin-top: 10px;
+    border-radius: 0;
+}
+
+.pay_modal_info .nice-select .option {
+    font-weight: 400;
+    margin: 0;
+}
+
+.pay_modal_info .nice-select .option::after {
+    display: none;
+}
+
+.payment_btn_area {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.payment_btn_area button {
+    border: none;
+    border-radius: 0;
+}
+
+.payment_btn_area button.btn-danger {
+    background: var(--colorOrange);
+    color: var(--colorWhite);
+}
+
+.payment_btn_area button.btn-danger:hover {
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
 /*=============================
-    PROPERTY DETAILS END
+    PAYMENT PAGE END
+=============================*/
+
+
+/*=============================
+    AGENCIES PAGE START
+=============================*/
+.single_agencies {
+    filter: drop-shadow(0px 24px 60px rgba(3, 26, 38, 0.14));
+    overflow: hidden;
+    background: var(--colorWhite);
+    margin-bottom: 25px;
+}
+
+.single_agencies_img {
+    display: block;
+    height: 220px;
+    overflow: hidden;
+}
+
+.single_agencies_img img {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.single_agencies_text {
+    padding: 35px;
+}
+
+.single_agencies_text .agencies_logo {
+    width: 120px;
+    position: relative;
+    margin-top: -70px;
+    overflow: hidden;
+    border: 1px solid rgba(3, 26, 38, 0.10);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 1;
+}
+
+.single_agencies_text .item_title {
+    margin-top: 20px;
+}
+
+.single_agencies_text p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.single_agencies_text .list li {
+    color: var(--paraColor);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.single_agencies_text .list li span {
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 80px;
+}
+
+.single_agencies_text .social_link {
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.single_agencies_text .social_link li a {
+    color: var(--colorBlack);
+}
+
+.single_agencies:hover .single_agencies_img img {
+    transform: scale(1.05) rotate(2deg);
+    -webkit-transform: scale(1.06) rotate(2deg);
+    -moz-transform: scale(1.05) rotate(2deg);
+    -ms-transform: scale(1.05) rotate(2deg);
+    -o-transform: scale(1.05) rotate(2deg);
+}
+
+/*=============================
+    AGENCIES PAGE END
+=============================*/
+
+
+/*=============================
+    AGENCIES DETAILS START
+=============================*/
+.agencies_details {}
+
+.agencies_details_area {}
+
+.agencies_details_img {
+    height: 370px;
+    overflow: hidden;
+}
+
+.agencies_details_header {
+    margin-top: -50px;
+    width: 80%;
+    margin-left: 10%;
+    background: var(--colorWhite);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.agencies_details_header .img {
+    width: 170px;
+    margin-right: 20px;
+    border-right: 1px solid rgba(3, 26, 38, 0.10);
+}
+
+.agencies_details_header .text {}
+
+.agencies_details_header .text h2 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.agencies_details_header .text p {}
+
+.agencies_details_text {}
+
+.agencies_details_text h3 {}
+
+.agencies_details_text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.agencies_details_text p {
+    margin-bottom: 25px;
+}
+
+.agencies_details_text ul {
+    margin-bottom: 30px;
+}
+
+.agencies_details_text ul li {
+    color: var(--paraColor);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.agencies_details_text ul li span {
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 80px;
+}
+
+.agencies_details_text .agent_map {
+    height: 400px;
+    overflow: hidden;
+}
+
+.agencies_details_text .agent_map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.agencies_property_heading {
+    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/*=============================
+    AGENCIES DETAILS END
 =============================*/
