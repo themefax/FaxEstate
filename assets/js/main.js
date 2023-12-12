@@ -264,5 +264,38 @@ $(function () {
     });
 
 
+    //=====BARFILLER BAR=====
+    $(document).ready(function () {
+        $('#bar1').barfiller();
+        $('#bar2').barfiller();
+        $('#bar3').barfiller();
+        $('#bar4').barfiller();
+        $('#bar5').barfiller();
+    });
+
+
+    //=====LOGIN PASSWORD======== 
+    $('.slider-for2').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        fade: true,
+        asNavFor: '.slider-nav2'
+    });
+    $('.slider-nav2').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for2',
+        dots: false,
+        arrows: true,
+        focusOnSelect: true,
+        centerMode: true,
+        centerPadding: '0px',
+        focusOnSelect: true,
+        nextArrow: '<i class="fas fa-long-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="fas fa-long-arrow-left prevArrow"></i>',
+    });
+
 
 });

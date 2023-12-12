@@ -1,3 +1,41 @@
+/****************************************
+Template Name: RESTINA - Restaurant Food Ordering System HTML Template.
+Author: ThemeLab-Portfolio 
+Author Email: themelab.bd@gmail.com
+Version: 1.0
+Description: CTAKE is Multi Page HTML Template designed for Restaurants, cafes, Seafood, Bakeries, bars, Catering, and Food business websites. It is designed with a Unique and clean & modern Look. This template is designed based on the Bootstrap5 Grid System. You can customize it very easily to fit your needs. CTAKE is a fully responsive layout. It fits perfectly on various displays and resolutions from regular desktop screens to tablets, iPads, iPhones, and small mobile devices.
+***************************************
+
+CSS INDEX
+===================================
+01. GLOBAL CSS 
+02. HOME PAGE 01
+03. HOME PAGE 02 
+04. HOME PAGE 03
+05. ABOUT US PAGE 01
+06. ABOUT US PAGE 02
+07. MENU STYLE 01
+08. MENU STYLE 02
+09. MENU GRID VIEW PAGE
+10. MENU DETAILS PAGE
+11. BRANCH PAGE
+12. BLOG DETAILS PAGE
+13. DASHBOARD PAGE 
+14. CART VIEW PAGE
+15. SERVICE PAGE
+16. SERVICE DETAILS PAGE
+17. FAQ'S PAGE
+18. CHEFS DETAILS PAGE
+19. RESERVATION PAGE
+20. CHECKOUT PAGE
+21. PAYMENT PAGE
+22. CONTACT PAGE
+23. SIGN IN PAGE
+24. PRIVACY POLICY PAGE
+25. ERROR/404 PAGE
+**********************************/
+
+
 /*=============================
     GLOBAL CSS START
 =============================*/
@@ -3248,11 +3286,14 @@ button {
     font-family: "font awesome 5 free";
     font-size: 22px;
     font-weight: 600;
-    top: 55px;
-    left: 65px;
+    top: 50%;
+    left: 50%;
     color: var(--colorBlack);
-    animation: circle_animi_2 linear 25s infinite;
-    -webkit-animation: circle_animi_2 linear 25s infinite;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 @keyframes circle_animi {
@@ -3270,24 +3311,6 @@ button {
         -moz-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
         -o-transform: rotate(360deg);
-    }
-}
-
-@keyframes circle_animi_2 {
-    from {
-        transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(-360deg);
-        -webkit-transform: rotate(-360deg);
-        -moz-transform: rotate(-360deg);
-        -ms-transform: rotate(-360deg);
-        -o-transform: rotate(-360deg);
     }
 }
 
@@ -5275,4 +5298,674 @@ button {
 
 /*=============================
     AGENCIES DETAILS END
+=============================*/
+
+
+/*=============================
+    PROPERTY DETAILS START
+=============================*/
+.property_details {
+    background: #F3F5F9;
+}
+
+.single_property_details {
+    margin-top: 25px;
+    padding: 40px;
+    background: var(--colorWhite);
+    box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10);
+}
+
+.single_property_details h4 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.property_details_share {
+    gap: 7px;
+}
+
+.property_details_share li a {
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 34px;
+    color: var(--colorBlack);
+    border-radius: 50%;
+    border: 1px solid rgba(3, 26, 38, 0.10);
+    transition: all linear .3s;
+}
+
+.property_details_share li a:hover {
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+.property_details_address {
+    margin-top: 15px;
+}
+
+.property_details_address ul {
+    gap: 20px;
+    align-items: center;
+}
+
+.property_details_address ul li {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--paraColor);
+}
+
+.property_details_address ul li i {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.property_details_address ul li span {
+    font-size: 14px;
+    padding: 4px 12px;
+    font-weight: 500;
+    font-family: var(--paraFont);
+    color: var(--colorBlack);
+    background: var(--colorPrimary);
+    text-transform: capitalize;
+    position: relative;
+    overflow: hidden;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.property_details_address h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--paraFont);
+    color: var(--colorBlack);
+}
+
+.flat_details {
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.flat_details li {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.flat_details li span {
+    display: inline-block;
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 15px;
+    padding: 6px;
+    margin-right: 3px;
+    border: 1px solid rgb(15 15 15 / 19%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.property_dtls_decription {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.property_apartment_details li {
+    width: 33%;
+    margin-top: 13px;
+}
+
+.property_apartment_details li p {
+    font-size: 15px;
+    font-family: var(--headingFont);
+    color: var(--colorBlack);
+}
+
+.property_apartment_details li p span {
+    margin-left: 10px;
+    color: var(--paraColor);
+}
+
+.property_facilities {
+    margin-top: 50px;
+}
+
+.property_facilities ul {
+    margin-top: 10px;
+}
+
+.property_facilities ul li {
+    width: 25%;
+    margin-top: 20px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 28px;
+    font-family: var(--headingFont);
+}
+
+.property_facilities ul li::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: url(../images/checkmark.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.apertment_layout {
+    height: 765px;
+    margin-top: 25px;
+}
+
+.apertment_map {
+    margin-top: 30px;
+    height: 400px;
+}
+
+.apertment_map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.apertment_video {
+    height: 430px;
+    margin-top: 30px;
+}
+
+.apertment_video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.apartment_review {
+    margin-top: 24px;
+    margin-bottom: 56px;
+}
+
+.apartment_review_counter {
+    padding: 35px 40px 40px 40px;
+    text-align: center;
+    background: #F3F5F9;
+}
+
+.apartment_review_counter h3 {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.apartment_review_counter p {
+    margin-top: 13px;
+    margin-bottom: 7px;
+}
+
+.apartment_review_counter p i {
+    color: #FFA800;
+}
+
+.apartment_review_counter span {
+    font-family: var(--headingFont);
+}
+
+.apartment_reviewer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 31px 0px 30px 0px;
+    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
+}
+
+.apartment_reviewer:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.apartment_reviewer_img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+.apartment_reviewer_text {
+    width: 90%;
+    margin-left: 20px;
+}
+
+.apartment_reviewer_text_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.apartment_reviewer_text_top h5 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.apartment_reviewer_text_top span {
+    display: block;
+    margin-top: 8px;
+    /* font-family: var(--headingFont); */
+}
+
+.apartment_reviewer_text_top p {
+    margin-top: 0 !important;
+}
+
+.apartment_reviewer_text_top p i {
+    color: #FFA800;
+}
+
+.apartment_reviewer_text p {
+    margin-top: 20px;
+}
+
+.apertment_form {
+    /* margin-top: 2px; */
+}
+
+.apertment_form_input {
+    margin-top: 25px;
+}
+
+.apertment_form_input label {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: var(--headingFont);
+    text-transform: capitalize;
+}
+
+.apertment_form_input input {
+    margin-top: 8px;
+}
+
+.apertment_form_input textarea {
+    margin-top: 17px;
+}
+
+.apertment_form_input ul {
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.apertment_form_input ul li {
+    padding-right: 10px;
+    border-right: 1px solid rgba(3, 26, 38, 0.20);
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.apertment_form_input ul li:last-child {
+    border-right: none;
+}
+
+.apertment_form_input ul li i {
+    color: rgba(3, 26, 38, 0.20);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.apertment_form_input ul li:hover i {
+    color: #FFA800;
+}
+
+.schedule_input {
+    margin-top: 20px;
+}
+
+.schedule_input a {
+    width: 100%;
+    text-align: center;
+}
+
+.sales_executive {
+    margin-top: 25px;
+    padding: 60px 0px;
+    text-align: center;
+    background: url(../images/blog_owner_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sales_executive_img {
+    width: 230px;
+    height: 230px;
+    margin: auto;
+    display: block;
+}
+
+.sales_executive_img img {
+    border-radius: 50%;
+}
+
+.sales_executive_name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: var(--colorWhite);
+    text-transform: capitalize;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.sales_executive_name:hover {
+    color: var(--colorPrimary);
+}
+
+.sales_executive p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: var(--colorWhite);
+    opacity: 0.7;
+    text-transform: capitalize;
+}
+
+.sales_executive ul {
+    margin-top: 30px;
+}
+
+.sales_executive ul li {
+    border-right: 2px solid #9b929252;
+    line-height: 18px;
+}
+
+.sales_executive ul li a {
+    font-size: 16px;
+    padding: 0px 8px;
+    color: var(--colorWhite);
+    transition: all linear .3s;
+}
+
+.sales_executive ul li:last-child {
+    border-right: none;
+}
+
+.sales_executive ul li a:hover {
+    color: var(--colorPrimary);
+}
+
+.property_details_bottom h4 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+
+
+.property_details_slider {
+    margin: 0px 12px;
+}
+
+
+
+.property_details_large_img {
+    height: 570px;
+    overflow: hidden;
+}
+
+.property_details_large_img::after {
+    position: absolute;
+    content: "";
+    background: rgba(3, 26, 38, 0.40);
+    width: 100%;
+    height: 99%;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+.property_details_slider .slider-nav2 {
+    width: 750px;
+    position: absolute;
+    margin-top: -130px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.property_details_small_img {
+    margin: 0px 5px;
+    height: 90px;
+    border: 1px solid #ffffff91;
+}
+
+.property_details_slider .nextArrow,
+.property_details_slider .prevArrow {
+    width: 35px;
+    height: 35px;
+    line-height: 35px !important;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 1;
+}
+
+.property_details_slider .prevArrow {
+    right: auto;
+    left: -50px;
+}
+
+.property_details_slider .nextArrow:hover,
+.property_details_slider .nextArrow,
+.property_details_slider .prevArrow:hover {
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+    color: var(--colorBlack);
+}
+
+.slick-slide.slick-current.slick-active.slick-center .property_details_small_img {
+    border-color: var(--colorPrimary);
+}
+
+.single_bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px;
+}
+
+.single_bar p {
+    color: #031A26;
+    font-family: var(--headingFont);
+    font-size: 15px;
+    font-weight: 400;
+    width: 70px;
+}
+
+/*=============================
+    PROPERTY DETAILS END
+=============================*/
+
+/*=============================
+    DASHBOARD START
+=============================*/
+/* dashboard sidebar start */
+.dashboard_sidebar {
+    background: var(--colorWhite);
+    overflow: hidden;
+    height: 100%;
+}
+
+.dashboard_sidebar_user {
+    padding: 50px;
+    text-align: center;
+    border-radius: 12px;
+    background: var(--lightBg);
+    margin-bottom: 60px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.dashboard_sidebar_user .img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid var(--colorWhite);
+    margin: 0 auto;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.dashboard_sidebar_user .img img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.dashboard_sidebar_user .img label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    font-size: 12px;
+    border-radius: 30px;
+    border: 1px solid rgba(88, 92, 84, 0.50);
+    background: var(--colorWhite);
+    transition: all linear .3s;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: var(--colorBlack);
+    cursor: pointer;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.dashboard_sidebar_user .img label:hover {
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.dashboard_sidebar_user h3 {
+    font-size: 20px;
+    margin-top: 22px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.dashboard_sidebar_menu ul li a {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    border-radius: 10px;
+    border: 1px solid rgba(8, 5, 33, 0.10);
+    padding: 12px 25px;
+    color: var(--paraColor);
+    font-family: var(--headingFont);
+    text-transform: capitalize;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.dashboard_sidebar_menu ul li a::after {
+    position: absolute;
+    content: "\f054";
+    font-family: "font awesome 5 free";
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--paraColor);
+    top: 50%;
+    right: 25px;
+    transition: all linear .3s;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.dashboard_sidebar_menu ul li:last-child a {
+    margin-bottom: 0;
+}
+
+.dashboard_sidebar_menu ul li a i {
+    margin-right: 10px;
+}
+
+.dashboard_sidebar_menu ul li a:hover,
+.dashboard_sidebar_menu ul li a.active {
+    color: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+.dashboard_sidebar_menu ul li a:hover::after,
+.dashboard_sidebar_menu ul li a.active::after {
+    color: var(--colorPrimary);
+}
+
+/* dashboard sidebar end */
+
+
+
+
+
+
+
+
+
+/*=============================
+    DASHBOARD END
 =============================*/
