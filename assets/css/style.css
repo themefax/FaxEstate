@@ -5815,7 +5815,7 @@ button {
 =============================*/
 /* dashboard sidebar start */
 .dashboard_sidebar {
-    background: var(--colorWhite);
+    background: var(--colorBlack);
     overflow: hidden;
     height: 100%;
 }
@@ -5823,13 +5823,7 @@ button {
 .dashboard_sidebar_user {
     padding: 50px;
     text-align: center;
-    border-radius: 12px;
-    background: var(--lightBg);
-    margin-bottom: 60px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;
+    border-bottom: 1px solid #ffffff70;
 }
 
 .dashboard_sidebar_user .img {
@@ -5882,7 +5876,7 @@ button {
 .dashboard_sidebar_user .img label:hover {
     background: var(--colorPrimary);
     border-color: var(--colorPrimary);
-    color: var(--colorWhite);
+    color: var(--colorBlack);
 }
 
 .dashboard_sidebar_user h3 {
@@ -5891,72 +5885,124 @@ button {
     margin-bottom: 5px;
     text-align: center;
     font-weight: 700;
+    color: var(--colorPrimary);
+}
+
+.dashboard_sidebar_user p {
+    color: var(--colorWhite);
+}
+
+.dashboard_sidebar_menu ul {
+    padding: 40px;
 }
 
 .dashboard_sidebar_menu ul li a {
-    display: block;
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 400;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
-    border-radius: 10px;
-    border: 1px solid rgba(8, 5, 33, 0.10);
-    padding: 12px 25px;
-    color: var(--paraColor);
-    font-family: var(--headingFont);
+    border-bottom: 1px solid #ffffff2b;
+    color: var(--colorWhite);
     text-transform: capitalize;
     position: relative;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.dashboard_sidebar_menu ul li a::after {
-    position: absolute;
-    content: "\f054";
-    font-family: "font awesome 5 free";
-    font-weight: 600;
-    font-size: 12px;
-    color: var(--paraColor);
-    top: 50%;
-    right: 25px;
-    transition: all linear .3s;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
+    opacity: .7;
+    padding: 13px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .dashboard_sidebar_menu ul li:last-child a {
     margin-bottom: 0;
+    padding-bottom: 0;
+    border: none;
 }
 
-.dashboard_sidebar_menu ul li a i {
-    margin-right: 10px;
+.dashboard_sidebar_menu ul li a span {
+    margin-right: 15px;
+    width: 18px;
+    display: block;
 }
 
 .dashboard_sidebar_menu ul li a:hover,
 .dashboard_sidebar_menu ul li a.active {
     color: var(--colorPrimary);
-    border-color: var(--colorPrimary);
+    opacity: 1;
 }
 
-.dashboard_sidebar_menu ul li a:hover::after,
-.dashboard_sidebar_menu ul li a.active::after {
-    color: var(--colorPrimary);
+.dashboard_sidebar_menu ul li a:hover span,
+.dashboard_sidebar_menu ul li a.active span {
+    filter: brightness(0) saturate(100%) invert(82%) sepia(54%) saturate(982%) hue-rotate(360deg) brightness(104%) contrast(103%);
 }
 
 /* dashboard sidebar end */
+
+
+/* dashboard overview start */
+.dashboard_content .welcome {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.dashboard_content .dashboard_title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.profile_overview_item {
+    background: #1ec38b;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.profile_overview_item.orange {
+    background: #FF9911;
+}
+
+.profile_overview_item.red {
+    background: #6ae;
+}
+
+.profile_overview_item p {
+    color: var(--colorWhite);
+    font-size: 34px;
+}
+
+.profile_overview_item h3 {
+    font-size: 40px;
+    color: var(--colorWhite);
+    font-weight: 700;
+    border-left: 1px solid #ffffff47;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.profile_overview_item h3 span {
+    display: block;
+    color: var(--colorWhite);
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* dashboard overview end */
+
+
 
 
 
