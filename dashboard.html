@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animated_barfiller.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -20,236 +22,371 @@
 
 <body>
 
-    <!--=============================
-        MAIN MENU START
-    ==============================-->
-    <nav class="navbar navbar-expand-lg main_menu">
-        <div class="container container_large">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo_1.png" alt="AI Image Generator" class="img-fluid">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="far fa-bars menu_icon_bar"></i>
-                <i class="far fa-times close_icon_close"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home <i class="far fa-angle-down"></i></a>
-                        <ul class="droap_menu">
-                            <li><a class="active" href="index.html">home style 01</a></li>
-                            <li><a href="index_2.html">home style 02</a></li>
-                            <li><a href="index_3.html">home style 03</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Listing <i class="far fa-angle-down"></i></a>
-                        <ul class="droap_menu">
-                            <li><a href="#">Listing 1</a></li>
-                            <li><a href="#">Listing 2</a></li>
-                            <li><a href="#">Listing 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Property <i class="far fa-angle-down"></i></a>
-                        <ul class="droap_menu">
-                            <li><a href="#">Property 1</a></li>
-                            <li><a href="#">Property 2</a></li>
-                            <li><a href="#">Property 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">pages <i class="far fa-angle-down"></i></a>
-                        <ul class="droap_menu">
-                            <li><a href="#">page 1</a></li>
-                            <li><a href="#">page 1</a></li>
-                            <li><a href="#">page 1</a></li>
-                            <li><a href="#">page 1</a></li>
-                            <li><a href="#">page 1</a></li>
-                            <li><a href="#">page 1</a></li>
-                            <li><a href="#">page 1</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">contact</a>
-                    </li>
-                </ul>
-                <ul class="menu_right d-flex align-items-center">
-                    <li>
-                        <a class="user_icon" href="#">
-                            <span> <img src="assets/images/user_icon_1.png" alt="user" class="img-fluid w-100">
-                            </span>
-                            Profile
-                        </a>
-                    </li>
-                    <li class="manu_btn">
-                        <a class="common_btn" href="#">Add Listing</a>
-                    </li>
-                    <li>
-                        <div class="toggol_bar">
-                            <span class="toggol_bar_1"></span>
-                            <span class="toggol_bar_2"></span>
-                            <span class="toggol_bar_1"></span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--=============================
-        MAIN MENU END
-    ==============================-->
-
-
-    <!--=============================
-        BREADCRUMBS START
-    ==============================-->
-    <section class="breadcrumbs" style="background: url(./assets/images/breadcrumbs_bg.jpg);">
-        <div class="breadcrumbs_overly">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 justify-content-center">
-                        <div class="breadcrumb_text">
-                            <h1>Contact Us</h1>
-                            <ul class="d-flex flex-wrap justify-content-center">
-                                <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--=============================
-        BREADCRUMBS END
-    ==============================-->
-
 
     <!--=========================
         DASHBOARD INFO START
     ==========================-->
-    <section class="dashboard pt_120 xs_pt_80 pb_120 xs_pb_100">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 col-lg-4">
-                    <div class="dashboard_sidebar">
-                        <div class="dashboard_sidebar_user">
-                            <div class="img">
-                                <img src="assets/images/agent_8.jpg" alt="dashboard" class="img-fluid w-100">
-                                <label for="profile_photo"><i class="far fa-camera"></i></label>
-                                <input type="file" id="profile_photo" hidden>
+    <section class="dashboard">
+        <div class="dashboard_sidebar">
+            <a class="dashboard_sidebar_logo" href="index.html">
+                <img src="assets/images/logo_1.png" alt="FaxEstate" class="img-fluid w-100">
+            </a>
+            <div class="dashboard_sidebar_user">
+                <div class="img">
+                    <img src="assets/images/agent_8.jpg" alt="dashboard" class="img-fluid w-100">
+                    <label for="profile_photo"><i class="far fa-camera"></i></label>
+                    <input type="file" id="profile_photo" hidden>
+                </div>
+                <h3>Addition Smith</h3>
+                <p>Paris, France</p>
+            </div>
+            <div class="dashboard_sidebar_menu">
+                <ul>
+                    <li>
+                        <a class="active" href="#">
+                            <span>
+                                <img src="assets/images/dashboard_icon_1.png" alt="icon" class="img-fluid w-100">
+                            </span>
+                            dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                <img src="assets/images/dashboard_icon_2.png" alt="icon" class="img-fluid w-100">
+                            </span>
+                            Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                <img src="assets/images/dashboard_icon_3.png" alt="icon" class="img-fluid w-100">
+                            </span>
+                            Property
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                <img src="assets/images/dashboard_icon_4.png" alt="icon" class="img-fluid w-100">
+                            </span>
+                            Pricing Plan
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                <img src="assets/images/dashboard_icon_5.png" alt="icon" class="img-fluid w-100">
+                            </span>
+                            Reviews
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                <img src="assets/images/dashboard_icon_6.png" alt="icon" class="img-fluid w-100">
+                            </span>
+                            Wishlist
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                <img src="assets/images/dashboard_icon_7.png" alt="icon" class="img-fluid w-100">
+                            </span>
+                            Change Password
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                <img src="assets/images/dashboard_icon_8.png" alt="icon" class="img-fluid w-100">
+                            </span>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="dashboard_content">
+            <h2 class="dashboard_title">Welcome To Your Profile</h2>
+
+            <div class="dashboard_overview">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="dashboard_overview_item">
+                            <div class="icon">
+                                <i class="far fa-list-ul"></i>
                             </div>
-                            <h3>Addition Smith</h3>
-                            <p>Paris, France</p>
+                            <h3> 471 <span>Listing Property</span></h3>
                         </div>
-                        <div class="dashboard_sidebar_menu">
-                            <ul>
-                                <li>
-                                    <a class="active" href="#">
-                                        <span>
-                                            <img src="assets/images/dashboard_icon_1.png" alt="icon"
-                                                class="img-fluid w-100">
-                                        </span>
-                                        dashboard
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>
-                                            <img src="assets/images/dashboard_icon_2.png" alt="icon"
-                                                class="img-fluid w-100">
-                                        </span>
-                                        Profile
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>
-                                            <img src="assets/images/dashboard_icon_3.png" alt="icon"
-                                                class="img-fluid w-100">
-                                        </span>
-                                        Property
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>
-                                            <img src="assets/images/dashboard_icon_4.png" alt="icon"
-                                                class="img-fluid w-100">
-                                        </span>
-                                        Pricing Plan
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>
-                                            <img src="assets/images/dashboard_icon_5.png" alt="icon"
-                                                class="img-fluid w-100">
-                                        </span>
-                                        Reviews
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>
-                                            <img src="assets/images/dashboard_icon_6.png" alt="icon"
-                                                class="img-fluid w-100">
-                                        </span>
-                                        Wishlist
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>
-                                            <img src="assets/images/dashboard_icon_7.png" alt="icon"
-                                                class="img-fluid w-100">
-                                        </span>
-                                        Change Password
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>
-                                            <img src="assets/images/dashboard_icon_8.png" alt="icon"
-                                                class="img-fluid w-100">
-                                        </span>
-                                        Logout
-                                    </a>
-                                </li>
-                            </ul>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="dashboard_overview_item blue">
+                            <div class="icon">
+                                <i class="fas fa-spinner"></i>
+                            </div>
+                            <h3> 56 <span>Pending Property</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="dashboard_overview_item orange">
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <h3> 37 <span>Wishlist</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="dashboard_overview_item red">
+                            <div class="icon">
+                                <i class="far fa-star"></i>
+                            </div>
+                            <h3> 27 <span>Reviews</span></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-9 col-lg-8">
-                    <div class="dashboard_content">
-
-                        <p class="welcome">Addition Smith</p>
-                        <h2 class="dashboard_title">Welcome To Your Profile</h2>
-
-                        <div class="dashboard_overview">
-                            <div class="row">
-                                <div class="col-xl-4 col-sm-6">
-                                    <div class="profile_overview_item">
-                                        <p><i class="far fa-list-ul"></i></p>
-                                        <h3>248 <span>Property</span></h3>
+                <div class="row">
+                    <div class="col-xl-9">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="overview_chart">
+                                    <div class="example-two"></div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="review_progressbar mt_25">
+                                    <h3>Summary</h3>
+                                    <div class="single_bar">
+                                        <p>Income <span>$540</span></p>
+                                        <div id="bar6" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="90"></span>
+                                        </div>
+                                    </div>
+                                    <div class="single_bar">
+                                        <p>Profit <span>$540</span></p>
+                                        <div id="bar7" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="65"></span>
+                                        </div>
+                                    </div>
+                                    <div class="single_bar">
+                                        <p>Expenses <span>$540</span></p>
+                                        <div id="bar8" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="80"></span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-sm-6">
-                                    <div class="profile_overview_item orange">
-                                        <p><i class="far fa-star"></i></p>
-                                        <h3>672 <span>Reviews</span></h3>
+                            </div>
+                        </div>
+                        <div class="overview_listing">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="images">images</th>
+                                        <th class="details">details</th>
+                                        <th class="price">price</th>
+                                        <th class="status">status</th>
+                                        <th class="action">action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="images">
+                                            <img src="assets/images/property_1.jpg" alt="property"
+                                                class="img-fluid w-100">
+                                        </td>
+                                        <td class="details">
+                                            <a class="item_title" href="property_details.html">Leisure Beautiful
+                                                Health</a>
+                                            <p>Posting date: March 22, 2023</p>
+                                        </td>
+                                        <td class="price">
+                                            <h3>$599.00</h3>
+                                        </td>
+                                        <td class="status">
+                                            <span class="approved">approved</span>
+                                        </td>
+                                        <td class="action">
+                                            <a href="#"><i class="far fa-pen"></i> Edit</a>
+                                            <a href="#"><i class="far fa-trash"></i> Delete</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="images">
+                                            <img src="assets/images/property_2.jpg" alt="property"
+                                                class="img-fluid w-100">
+                                        </td>
+                                        <td class="details">
+                                            <a class="item_title" href="property_details.html">Hermosa Casa al Norte</a>
+                                            <p>Posting date: March 22, 2023</p>
+                                        </td>
+                                        <td class="price">
+                                            <h3>$455.00</h3>
+                                        </td>
+                                        <td class="status">
+                                            <span class="pending">pending</span>
+                                        </td>
+                                        <td class="action">
+                                            <a href="#"><i class="far fa-pen"></i> Edit</a>
+                                            <a href="#"><i class="far fa-trash"></i> Delete</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="images">
+                                            <img src="assets/images/property_3.jpg" alt="property"
+                                                class="img-fluid w-100">
+                                        </td>
+                                        <td class="details">
+                                            <a class="item_title" href="property_details.html">South Side Garden
+                                                House</a>
+                                            <p>Posting date: March 22, 2023</p>
+                                        </td>
+                                        <td class="price">
+                                            <h3>$599.00</h3>
+                                        </td>
+                                        <td class="status">
+                                            <span class="sold">sold</span>
+                                        </td>
+                                        <td class="action">
+                                            <a href="#"><i class="far fa-pen"></i> Edit</a>
+                                            <a href="#"><i class="far fa-trash"></i> Delete</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="images">
+                                            <img src="assets/images/property_4.jpg" alt="property"
+                                                class="img-fluid w-100">
+                                        </td>
+                                        <td class="details">
+                                            <a class="item_title" href="property_details.html">Leisure Beautiful
+                                                Health</a>
+                                            <p>Posting date: March 22, 2023</p>
+                                        </td>
+                                        <td class="price">
+                                            <h3>$599.00</h3>
+                                        </td>
+                                        <td class="status">
+                                            <span class="approved">approved</span>
+                                        </td>
+                                        <td class="action">
+                                            <a href="#"><i class="far fa-pen"></i> Edit</a>
+                                            <a href="#"><i class="far fa-trash"></i> Delete</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="images">
+                                            <img src="assets/images/property_5.jpg" alt="property"
+                                                class="img-fluid w-100">
+                                        </td>
+                                        <td class="details">
+                                            <a class="item_title" href="property_details.html">Hermosa Casa al Norte</a>
+                                            <p>Posting date: March 22, 2023</p>
+                                        </td>
+                                        <td class="price">
+                                            <h3>$455.00</h3>
+                                        </td>
+                                        <td class="status">
+                                            <span class="pending">pending</span>
+                                        </td>
+                                        <td class="action">
+                                            <a href="#"><i class="far fa-pen"></i> Edit</a>
+                                            <a href="#"><i class="far fa-trash"></i> Delete</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="row mt_25">
+                                <div class="col-12">
+                                    <div id="pagination_area">
+                                        <nav aria-label="...">
+                                            <ul class="pagination justify-content-start">
+                                                <li class="page-item"><a class="page-link" href="#"><i
+                                                            class="far fa-angle-double-left" aria-hidden="true"></i></a>
+                                                </li>
+                                                <li class="page-item"><a class="page-link active" href="#">01</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">02</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">03</a></li>
+                                                <li class="page-item"><a class="page-link" href="#"><i
+                                                            class="far fa-angle-double-right"
+                                                            aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </nav>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-sm-6">
-                                    <div class="profile_overview_item red">
-                                        <p><i class="far fa-heart"></i></p>
-                                        <h3>143 <span>Bookmarked</span></h3>
-                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="dashboard_overview_review">
+                            <h2>Recent Reviews</h2>
+                            <div class="single_review">
+                                <div class="single_review_img">
+                                    <img src="assets/images/comment_1.png" alt="img" class="img-fluid w-100">
+                                </div>
+                                <div class="single_review_text">
+                                    <h3>Elon Gated
+                                        <span>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </h3>
+                                    <h6>February 24, 2023</h6>
+                                    <p>Nullam metus metus, imperdiet ut ex quis, ultrices feugiat neque. Etiam vitae
+                                        accumsan neque, id gravida ligula donec ut tincidunt orci dignissim id sed
+                                        tincidunt mi libero.</p>
+                                </div>
+                            </div>
+                            <div class="single_review">
+                                <div class="single_review_img">
+                                    <img src="assets/images/comment_2.png" alt="img" class="img-fluid w-100">
+                                </div>
+                                <div class="single_review_text">
+                                    <h3>Elon Gated
+                                        <span>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </h3>
+                                    <h6>February 24, 2023</h6>
+                                    <p>Nullam metus metus, imperdiet ut ex quis, ultrices feugiat neque. Etiam vitae
+                                        accumsan neque, id gravida ligula donec ut tincidunt orci dignissim id sed
+                                        tincidunt mi libero.</p>
+                                </div>
+                            </div>
+                            <div class="single_review">
+                                <div class="single_review_img">
+                                    <img src="assets/images/comment_3.png" alt="img" class="img-fluid w-100">
+                                </div>
+                                <div class="single_review_text">
+                                    <h3>Elon Gated
+                                        <span>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </h3>
+                                    <h6>February 24, 2023</h6>
+                                    <p>Nullam metus metus, imperdiet ut ex quis, ultrices feugiat neque. Etiam vitae
+                                        accumsan neque, id gravida ligula donec ut tincidunt orci dignissim id sed
+                                        tincidunt mi libero.</p>
                                 </div>
                             </div>
                         </div>
@@ -262,117 +399,6 @@
         DASHBOARD INFO END
     ==========================-->
 
-
-    <!--=============================
-        FOOTER START
-    ==============================-->
-    <footer class="footer">
-        <div class="container container_large">
-            <div class="row">
-                <div class="col-xl-7">
-                    <div class="footer_left pt_110 xs_pt_90 pb_80">
-                        <div class="row justify-content-between">
-                            <div class="col-xl-5">
-                                <div class="footer_description">
-                                    <a class="footer_logo" href="#">
-                                        <img src="assets/images/footer_logo.png" alt="logo" class="img-fluid w-100">
-                                    </a>
-                                    <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean quis orci sit amet
-                                        odio maximus sagittis et eu odio.</p>
-                                    <ul class="d-flex flex-wrap">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                    <div class="footer_shape_1"><img src="assets/images/footer_shape_1.png" alt="img"
-                                            class="img-fluid w-100"></div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3">
-                                <div class="footer_link">
-                                    <h4>Navigation</h4>
-                                    <ul>
-                                        <li><a href="#">Home One</a></li>
-                                        <li><a href="#">Properties Right</a></li>
-                                        <li><a href="#">Properties List</a></li>
-                                        <li><a href="#">Property Details</a></li>
-                                        <li><a href="#">Agents Listing</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xl-3">
-                                <div class="footer_link">
-                                    <h4>Important Link</h4>
-                                    <ul>
-                                        <li><a href="#">Dashboard</a></li>
-                                        <li><a href="#">Wishlist</a></li>
-                                        <li><a href="#">Change Password</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5">
-                    <div class="footer_right">
-                        <h4>Get in Touch with Us</h4>
-                        <form action="#">
-                            <div class="row">
-                                <div class="col-xl-6">
-                                    <div class="footer_form_input">
-                                        <input type="text" placeholder="First name">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="footer_form_input">
-                                        <input type="text" placeholder="Last name">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="footer_form_input">
-                                        <input type="email" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="footer_form_input">
-                                        <input type="text" placeholder="Phone number">
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="footer_form_input">
-                                        <textarea rows="2" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <button class="common_btn footer_btn">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copy_right">
-            <div class="container container_large">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="copyright_area d-flex flex-wrap justify-content-between">
-                            <p>© 2023 FaxEstate All Rights Reserved by site</p>
-                            <ul class="d-flex flex-wrap">
-                                <li><a href="#">Privacy Policy </a></li>
-                                <li><a href="#">Term of Service</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--=============================
-        FOOTER END
-    ==============================-->
 
 
     <!--jquery library js-->
@@ -393,6 +419,9 @@
     <script src="assets/js/jquery.youtube-background.min.js"></script>
     <!--wow js-->
     <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/sticky_sidebar.js"></script>
+    <script src="assets/js/animated_barfiller.js"></script>
+    <script src="assets/js/jquery.simple-bar-graph.min.js"></script>
 
     <!--main/custom js-->
     <script src="assets/js/main.js"></script>

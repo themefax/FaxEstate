@@ -4,16 +4,18 @@ $(function () {
 
 
     //=======menu fix js====== 
-    var navoff = $('.main_menu').offset().top;
-    $(window).scroll(function () {
-        var scrolling = $(this).scrollTop();
+    if ($('.main_menu').offset() != undefined) {
+        var navoff = $('.main_menu').offset().top;
+        $(window).scroll(function () {
+            var scrolling = $(this).scrollTop();
 
-        if (scrolling > 300) {
-            $('.main_menu').addClass('menu_fix');
-        } else {
-            $('.main_menu').removeClass('menu_fix');
-        }
-    });
+            if (scrolling > navoff) {
+                $('.main_menu').addClass('menu_fix');
+            } else {
+                $('.main_menu').removeClass('menu_fix');
+            }
+        });
+    }
 
 
     //=======select2====== 
@@ -271,6 +273,9 @@ $(function () {
         $('#bar3').barfiller();
         $('#bar4').barfiller();
         $('#bar5').barfiller();
+        $('#bar6').barfiller();
+        $('#bar7').barfiller();
+        $('#bar8').barfiller();
     });
 
 
