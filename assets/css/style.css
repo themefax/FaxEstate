@@ -5237,20 +5237,12 @@ button {
     border-right: 1px solid rgba(3, 26, 38, 0.10);
 }
 
-.agencies_details_header .text {}
-
 .agencies_details_header .text h2 {
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 5px;
     margin-top: 5px;
 }
-
-.agencies_details_header .text p {}
-
-.agencies_details_text {}
-
-.agencies_details_text h3 {}
 
 .agencies_details_text h3 {
     font-size: 20px;
@@ -5300,6 +5292,33 @@ button {
     font-size: 24px;
     margin-bottom: 5px;
     margin-top: 5px;
+}
+
+.agencies_tabs {
+    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
+    gap: 20px;
+}
+
+.agencies_tabs .nav-item button {
+    border: none;
+    border-radius: 0;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    border-bottom: 3px solid var(--colorWhite);
+    padding: 0px 0px 10px 0px;
+}
+
+.agencies_tabs .nav-item button:hover,
+.agencies_tabs .nav-item button.active {
+    background: none;
+    color: var(--colorBlack);
+    border-color: var(--colorPrimary);
+}
+
+.agencies_details .single_agent_img {
+    height: 280px;
 }
 
 /*=============================
@@ -5526,7 +5545,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     padding: 30px 0px 30px 0px;
-    border-bottom: 1px solid rgba(3, 26, 38, 0.10);
+    border-bottom: 1px solid rgb(3 26 38 / 4%);
 }
 
 .single_review:last-child {
@@ -5545,12 +5564,6 @@ button {
     margin-left: 20px;
 }
 
-/* .apartment_reviewer_text_top {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-} */
-
 .single_review_text h3 {
     font-size: 18px;
     font-weight: 700;
@@ -5559,6 +5572,10 @@ button {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.single_review_text h3 a {
+    color: var(--colorBlack);
 }
 
 .single_review_text h3 span {
@@ -5970,6 +5987,11 @@ button {
 .dashboard_content .dashboard_title {
     font-size: 22px;
     font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .dashboard_overview_item {
@@ -6089,13 +6111,26 @@ button {
     margin-top: 5px;
 }
 
+.overview_listing table tr .details span {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    color: var(--ratingColor);
+}
+
+.overview_listing table tr .details span b {
+    font-weight: 400;
+    color: var(--paraColor);
+    margin-left: 5px;
+}
+
 .overview_listing table tr .price {
     min-width: 150px;
     width: 15%;
 }
 
 .overview_listing table tr .price h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -6164,8 +6199,6 @@ button {
     padding-bottom: 5px;
 }
 
-.dashboard_overview_review {}
-
 .dashboard_overview_review .single_review_text {
     width: 100%;
     margin-left: 0px;
@@ -6176,18 +6209,11 @@ button {
     padding: 20px 0px 20px 0px;
 }
 
-
-
-
-
 .overview_chart {
     border: 1px solid rgb(3 26 38 / 4%);
     padding: 20px;
     margin-top: 25px;
 }
-
-.overview_chart .example-two {}
-
 
 .dashboard_overview .review_progressbar {
     border: 1px solid rgb(3 26 38 / 4%);
@@ -6233,6 +6259,156 @@ button {
 /* dashboard overview end */
 
 
+/* dashboard profile start */
+.dashboard_profile {
+    margin-top: 25px;
+}
+
+.dashboard_profile_info {
+    border: 1px solid rgba(3, 26, 38, 0.10);
+}
+
+.dashboard_profile_img {
+    border-right: 1px solid rgba(3, 26, 38, 0.10);
+    margin-right: 10px;
+    padding: 25px;
+}
+
+.dashboard_profile_img img {
+    border: 5px solid var(--colorWhite);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dashboard_profile_text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.dashboard_profile_text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.dashboard_profile_text .list li {
+    margin-bottom: 15px;
+}
+
+.dashboard_profile_text .list li span {
+    color: var(--colorBlack);
+    font-weight: 600;
+    display: inline-block;
+    width: 120px;
+}
+
+.dashboard_profile_text .icon {
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.dashboard_profile_text .icon li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: var(--colorPrimary);
+    color: var(--colorBlack);
+}
+
+.dashboard_profile_text .icon li a:hover {
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
+.dashboard_profile_edit {
+    border: 1px solid rgba(3, 26, 38, 0.10);
+    padding: 25px;
+    margin-top: 25px;
+}
+
+.dashboard_profile_edit h3 {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.dashboard_profile_edit form label {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    display: block;
+    color: var(--colorBlack);
+}
+
+.dashboard_profile_edit form input {
+    margin-bottom: 15px;
+    border: 1px solid rgb(3 26 38 / 5%);
+}
+
+.dashboard_profile_edit form input[type=file] {
+    background: var(--colorWhite);
+    padding: 9px 20px;
+}
+
+.dashboard_profile_edit form .common_btn {
+    margin-top: 25px;
+}
+
+.dashboard_profile_edit .note-editor.note-airframe,
+.dashboard_profile_edit .note-editor.note-frame {
+    border: 1px solid rgb(3 26 38 / 5%);
+    background: var(--colorWhite);
+}
+
+.dashboard_profile_edit .note-toolbar {
+    background: #66aaee21;
+    padding: 12px 20px;
+}
+
+.dashboard_profile_edit .note-editor.note-airframe .note-editing-area .note-editable,
+.dashboard_profile_edit .note-editor.note-frame .note-editing-area .note-editable {
+    padding: 12px 20px;
+    min-height: 150px;
+}
+
+.dashboard_profile_edit p {
+    color: var(--colorBlack);
+}
+
+/* dashboard profile end */
+
+
+/* dashboard reviews start */
+.dashboard_reviews {
+    border: 1px solid rgb(3 26 38 / 4%);
+    padding: 20px;
+    margin-top: 25px;
+    padding-top: 0;
+}
+
+/* dashboard reviews end */
+
+
+/* dashboard add property start */
+.dashboard_add_property {}
+
+.add_property_info {
+    border: 1px solid rgb(3 26 38 / 4%);
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.add_property_info h3 {}
+
+.add_property_input {}
+
+.add_property_input label {}
+
+.add_property_input input {}
 
 
 
@@ -6240,6 +6416,14 @@ button {
 
 
 
+
+
+
+
+
+
+
+/* dashboard add property end */
 
 
 /*=============================

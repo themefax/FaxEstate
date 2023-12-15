@@ -303,4 +303,10 @@ $(function () {
     });
 
 
+    //=====SUMMER NOTE======== 
+    $(document).ready(function () {
+        $('.summer_note').summernote();
+    });
+
+
 });
