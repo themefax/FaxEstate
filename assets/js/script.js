@@ -2,7 +2,6 @@ $(function () {
 
     "use strict";
 
-
     //=======menu fix js====== 
     if ($('.main_menu').offset() != undefined) {
         var navoff = $('.main_menu').offset().top;
@@ -24,10 +23,8 @@ $(function () {
     });
 
 
-
     //======select js=======
     $('.select_js').niceSelect();
-
 
 
     //======destination slider======

@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/select2.min.css">
-    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/animated_barfiller.css">
+    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css">
     <link rel="stylesheet" href="assets/css/summernote.min.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -43,7 +43,7 @@
             <div class="dashboard_sidebar_menu">
                 <ul>
                     <li>
-                        <a class="active" href="#">
+                        <a href="dashboard.html">
                             <span>
                                 <img src="assets/images/dashboard_icon_1.png" alt="icon" class="img-fluid w-100">
                             </span>
@@ -51,7 +51,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="dashboard_profile.html">
                             <span>
                                 <img src="assets/images/dashboard_icon_2.png" alt="icon" class="img-fluid w-100">
                             </span>
@@ -59,7 +59,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="dashboard_property.html">
                             <span>
                                 <img src="assets/images/dashboard_icon_3.png" alt="icon" class="img-fluid w-100">
                             </span>
@@ -67,7 +67,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="dashboard_pricing.html">
                             <span>
                                 <img src="assets/images/dashboard_icon_4.png" alt="icon" class="img-fluid w-100">
                             </span>
@@ -75,15 +75,15 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a class="active" href="dashboard_order.html">
                             <span>
-                                <img src="assets/images/dashboard_icon_5.png" alt="icon" class="img-fluid w-100">
+                                <img src="assets/images/dashboard_icon_7.png" alt="icon" class="img-fluid w-100">
                             </span>
-                            Reviews
+                            order
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="dashboard_wishlist.html">
                             <span>
                                 <img src="assets/images/dashboard_icon_6.png" alt="icon" class="img-fluid w-100">
                             </span>
@@ -91,11 +91,11 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="dashboard_review.html">
                             <span>
-                                <img src="assets/images/dashboard_icon_7.png" alt="icon" class="img-fluid w-100">
+                                <img src="assets/images/dashboard_icon_5.png" alt="icon" class="img-fluid w-100">
                             </span>
-                            Change Password
+                            Reviews
                         </a>
                     </li>
                     <li>
@@ -110,54 +110,87 @@
             </div>
         </div>
         <div class="dashboard_content">
-            <h2 class="dashboard_title">pricing plan</h2>
-
-            <div class="dashboard_pricing">
-                <div class="row">
-                    <div class="col-xl-3">
-                        <div class="single_pricing">
-                            <h5>Basic</h5>
-                            <p>Basic listing submission, active for 30 days</p>
-                            <h2>$259.00</h2>
-                            <ul>
-                                <li>All Operating Supported</li>
-                                <li>20 Property Listings</li>
-                                <li>30 Days Availability</li>
-                                <li>Feature Properties</li>
-                                <li>24/7 Full support</li>
-                            </ul>
-                            <a class="common_btn" href="#">Choose This Pack</a>
+            <h2 class="dashboard_title">order invoice</h2>
+            <div class="dashboard_order_invoice_area mt_20">
+                <a class="back_btn common_btn" href="dashboard_order.html"><i class="far fa-long-arrow-left"></i> Go
+                    Back <span></span></a>
+                <div class="dashboard_order_invoice">
+                    <div class="dashboard_invoice_logo_area">
+                        <div class="invoice_logo">
+                            <img src="assets/images/logo_1.png" alt="logo" class="img-fluid w-100">
+                        </div>
+                        <div class="text">
+                            <h2>invoice</h2>
+                            <p>invoice no: #4574</p>
+                            <p>date: 16-10-2024</p>
                         </div>
                     </div>
-                    <div class="col-xl-3">
-                        <div class="single_pricing">
-                            <h5>Professional</h5>
-                            <p>Basic listing submission, active for 60 days</p>
-                            <h2>$699.00</h2>
+                    <div class="dashboard_invoice_header">
+                        <div class="text">
+                            <h2>Bill To</h2>
+                            <p>7232 Broadway Suite 308, Jackson Heights, 11372, NY, United States</p>
+                            <p>+1347-430-9510</p>
+                            <p>example@gmail.com</p>
+                        </div>
+                        <div class="text">
+                            <h2>Ship To</h2>
                             <ul>
-                                <li>All Operating Supported</li>
-                                <li>30 Property Listings</li>
-                                <li>60 Days Availability</li>
-                                <li>Feature Properties</li>
-                                <li>24/7 Full support</li>
+                                <li><span>Name:</span> Koile Lavendra</li>
+                                <li><span>Email:</span> example@yahoo.com</li>
+                                <li><span>Phone:</span> (123) - 222 -1452</li>
+                                <li><span>Address:</span> 441, 4th street, Washington DC, USA</li>
                             </ul>
-                            <a class="common_btn" href="#">Choose This Pack</a>
                         </div>
                     </div>
-                    <div class="col-xl-3">
-                        <div class="single_pricing">
-                            <h5>Business</h5>
-                            <p>Basic listing submission, active for 30 days</p>
-                            <h2>$999.00</h2>
-                            <ul>
-                                <li>All Operating Supported</li>
-                                <li>40 Property Listings</li>
-                                <li>90 Days Availability</li>
-                                <li>Feature Properties</li>
-                                <li>24/7 Full support</li>
-                            </ul>
-                            <a class="common_btn" href="#">Choose This Pack</a>
+                    <div class="invoice_table dashboard_order">
+                        <div class="table-responsive">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Total</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Lemon Meat Bone</td>
+                                        <td>$25.00</td>
+                                        <td>01</td>
+                                        <td>$25.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fresh Red Seedless</td>
+                                        <td>$30.00</td>
+                                        <td>02</td>
+                                        <td>$60.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Carrot Vegetables</td>
+                                        <td>$50.00</td>
+                                        <td>01</td>
+                                        <td>$50.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3"><b>Subtotal</b></td>
+                                        <td><b>$440.00</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">Delivery Charge</td>
+                                        <td>$10.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3"><b>Total</b></td>
+                                        <td><b>$135.00</b></td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
+                    </div>
+                    <div class="dashboard_invoice_footer">
+                        <h4>Notes</h4>
+                        <p>Thanks for your purchase</p>
+                        <a class="common_btn" href="#"><i class="far fa-print"></i> Print
+                            PDF<span></span></a>
                     </div>
                 </div>
             </div>
@@ -166,7 +199,6 @@
     <!--=========================
         DASHBOARD INFO END
     ==========================-->
-
 
 
     <!--jquery library js-->
@@ -187,13 +219,16 @@
     <script src="assets/js/jquery.youtube-background.min.js"></script>
     <!--wow js-->
     <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/sticky_sidebar.js"></script>
+    <!--animated barfiller js-->
     <script src="assets/js/animated_barfiller.js"></script>
+    <!--simple-bar-graph js-->
     <script src="assets/js/jquery.simple-bar-graph.min.js"></script>
+    <!--sticky sidebar js-->
+    <script src="assets/js/sticky_sidebar.js"></script>
+    <!--summernote js-->
     <script src="assets/js/summernote.min.js"></script>
-
     <!--main/custom js-->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 

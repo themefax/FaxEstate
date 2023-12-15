@@ -4381,6 +4381,7 @@ button {
     margin-top: 25px;
     padding: 57px 50px 50px 50px;
     border: 1px solid rgba(3, 26, 38, 0.10);
+    background: var(--colorWhite);
 }
 
 .single_pricing h5 {
@@ -6266,6 +6267,7 @@ button {
 
 .dashboard_profile_info {
     border: 1px solid rgba(3, 26, 38, 0.10);
+    background: var(--colorWhite);
 }
 
 .dashboard_profile_img {
@@ -6317,6 +6319,11 @@ button {
     text-align: center;
     background: var(--colorPrimary);
     color: var(--colorBlack);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .dashboard_profile_text .icon li a:hover {
@@ -6324,12 +6331,15 @@ button {
     color: var(--colorWhite);
 }
 
+.add_property_info,
 .dashboard_profile_edit {
     border: 1px solid rgba(3, 26, 38, 0.10);
     padding: 25px;
     margin-top: 25px;
+    background: var(--colorWhite);
 }
 
+.add_property_info h3,
 .dashboard_profile_edit h3 {
     text-transform: capitalize;
     font-weight: 600;
@@ -6337,6 +6347,7 @@ button {
     margin-bottom: 25px;
 }
 
+.add_property_info form label,
 .dashboard_profile_edit form label {
     text-transform: capitalize;
     margin-bottom: 5px;
@@ -6344,37 +6355,60 @@ button {
     color: var(--colorBlack);
 }
 
+.add_property_info form input,
 .dashboard_profile_edit form input {
     margin-bottom: 15px;
-    border: 1px solid rgb(3 26 38 / 5%);
+    border: 1px solid rgba(3, 26, 38, 0.10);
 }
 
+.add_property_info form input[type=file],
 .dashboard_profile_edit form input[type=file] {
     background: var(--colorWhite);
     padding: 9px 20px;
 }
 
+.add_property_info form .common_btn,
 .dashboard_profile_edit form .common_btn {
     margin-top: 25px;
 }
 
+.add_property_info .select2-container--default .select2-selection--single {
+    border: 1px solid rgba(3, 26, 38, 0.10);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    margin-bottom: 15px;
+}
+
+.add_property_info .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px;
+}
+
+.add_property_info .note-editor.note-airframe,
+.add_property_info .note-editor.note-frame,
 .dashboard_profile_edit .note-editor.note-airframe,
 .dashboard_profile_edit .note-editor.note-frame {
     border: 1px solid rgb(3 26 38 / 5%);
     background: var(--colorWhite);
 }
 
+.add_property_info .note-toolbar,
 .dashboard_profile_edit .note-toolbar {
     background: #66aaee21;
     padding: 12px 20px;
 }
 
+.add_property_info .note-editor.note-airframe .note-editing-area .note-editable,
+.add_property_info .note-editor.note-frame .note-editing-area .note-editable,
 .dashboard_profile_edit .note-editor.note-airframe .note-editing-area .note-editable,
 .dashboard_profile_edit .note-editor.note-frame .note-editing-area .note-editable {
     padding: 12px 20px;
     min-height: 150px;
 }
 
+.add_property_info p,
 .dashboard_profile_edit p {
     color: var(--colorBlack);
 }
@@ -6394,38 +6428,206 @@ button {
 
 
 /* dashboard add property start */
-.dashboard_add_property {}
-
-.add_property_info {
-    border: 1px solid rgb(3 26 38 / 4%);
-    padding: 20px;
-    margin-top: 25px;
+.add_property_aminities .form-check input {
+    padding: 0;
+    border-radius: 0;
 }
 
-.add_property_info h3 {}
-
-.add_property_input {}
-
-.add_property_input label {}
-
-.add_property_input input {}
-
-
-
-
-
-
-
-
-
-
-
-
-
+.add_property_aminities .form-check label {
+    margin: 0;
+}
 
 /* dashboard add property end */
 
 
+/* dashboard order start */
+.dashboard_order {
+    margin-top: 20px;
+}
+
+.dashboard_order table {
+    width: 100%;
+    border: 1px solid rgb(3 26 38 / 4%);
+    margin: 0;
+    /* margin-top: 25px; */
+}
+
+.dashboard_order table tr {
+    border-bottom: 1px solid rgb(3 26 38 / 4%);
+}
+
+.dashboard_order table tr th,
+.dashboard_order table tr td {
+    padding: 10px 20px;
+    border-right: 1px solid rgb(3 26 38 / 4%);
+}
+
+.dashboard_order table tr th {
+    background: #66aaee21;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.dashboard_order table tr td {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--colorBlack);
+}
+
+.dashboard_order table tr .serial {
+    min-width: 130px;
+}
+
+.dashboard_order table tr .package {
+    min-width: 200px;
+}
+
+.dashboard_order table tr .date {
+    min-width: 180px;
+}
+
+.dashboard_order table tr .price {
+    min-width: 150px;
+}
+
+.dashboard_order table tr .action {
+    min-width: 100px;
+}
+
+.dashboard_order table tr .action a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+    border-radius: 50%;
+    transition: all linear .3s;
+}
+
+.dashboard_order table tr .action a:hover {
+    color: var(--colorBlack);
+    background: var(--colorPrimary);
+}
+
+/* dashboard order end */
+
+/* order invoice start */
+.dashboard_order_invoice {
+    border: 1px solid rgb(3 26 38 / 4%);
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.dashboard_invoice_logo_area {
+    background: #66aaee21;
+    background: var(--colorBlack);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.dashboard_invoice_logo_area .invoice_logo {
+    width: 180px;
+}
+
+.dashboard_invoice_logo_area .text h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--colorWhite);
+}
+
+.dashboard_invoice_logo_area .text p {
+    text-transform: capitalize;
+    color: var(--colorWhite);
+}
+
+.dashboard_invoice_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #01040E14;
+    padding: 30px;
+}
+
+.dashboard_invoice_header .text {
+    width: 45%;
+}
+
+.dashboard_invoice_header .text p {
+    margin-top: 5px;
+}
+
+.dashboard_invoice_header .text h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.dashboard_invoice_header .text ul li {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--paraColor);
+    margin-top: 5px;
+}
+
+.dashboard_invoice_header .text ul li span {
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    display: inline-block;
+    width: 100px;
+    font-weight: 600;
+}
+
+.invoice_table {
+    border-radius: 0;
+    border: none;
+    margin: 0;
+}
+
+.invoice_table table tr th,
+.invoice_table table tr td {
+    width: 25%;
+    padding: 12px 30px;
+    text-align: left;
+}
+
+.dashboard_invoice_footer {
+    padding: 30px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.dashboard_invoice_footer h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.dashboard_invoice_footer a {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.dashboard_invoice_footer a i {
+    margin-right: 5px;
+}
+
+.invoice_table table tr td b {
+    color: var(--colorBlack);
+    font-weight: 500;
+}
+
+.dashboard_order_invoice_area a i {
+    margin-right: 5px;
+}
+
+/* order invoice end */
 /*=============================
     DASHBOARD END
 =============================*/

@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/select2.min.css">
-    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/animated_barfiller.css">
+    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css">
+    <link rel="stylesheet" href="assets/css/summernote.min.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
-
     <!--=========================
         DASHBOARD INFO START
     ==========================-->
@@ -42,7 +42,7 @@
             <div class="dashboard_sidebar_menu">
                 <ul>
                     <li>
-                        <a class="active" href="#">
+                        <a class="active" href="dashboard.html">
                             <span>
                                 <img src="assets/images/dashboard_icon_1.png" alt="icon" class="img-fluid w-100">
                             </span>
@@ -50,7 +50,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="dashboard_profile.html">
                             <span>
                                 <img src="assets/images/dashboard_icon_2.png" alt="icon" class="img-fluid w-100">
                             </span>
@@ -58,7 +58,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="dashboard_property.html">
                             <span>
                                 <img src="assets/images/dashboard_icon_3.png" alt="icon" class="img-fluid w-100">
                             </span>
@@ -66,7 +66,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="dashboard_pricing.html">
                             <span>
                                 <img src="assets/images/dashboard_icon_4.png" alt="icon" class="img-fluid w-100">
                             </span>
@@ -74,15 +74,15 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="dashboard_order.html">
                             <span>
-                                <img src="assets/images/dashboard_icon_5.png" alt="icon" class="img-fluid w-100">
+                                <img src="assets/images/dashboard_icon_7.png" alt="icon" class="img-fluid w-100">
                             </span>
-                            Reviews
+                            order
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="dashboard_wishlist.html">
                             <span>
                                 <img src="assets/images/dashboard_icon_6.png" alt="icon" class="img-fluid w-100">
                             </span>
@@ -90,11 +90,11 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="dashboard_review.html">
                             <span>
-                                <img src="assets/images/dashboard_icon_7.png" alt="icon" class="img-fluid w-100">
+                                <img src="assets/images/dashboard_icon_5.png" alt="icon" class="img-fluid w-100">
                             </span>
-                            Change Password
+                            Reviews
                         </a>
                     </li>
                     <li>
@@ -110,7 +110,6 @@
         </div>
         <div class="dashboard_content">
             <h2 class="dashboard_title">Welcome To Your Profile</h2>
-
             <div class="dashboard_overview">
                 <div class="row">
                     <div class="col-xl-3">
@@ -216,7 +215,7 @@
                                             <span class="approved">approved</span>
                                         </td>
                                         <td class="action">
-                                            <a href="#"><i class="far fa-pen"></i> Edit</a>
+                                            <a href="dashboard_edit_property.html"><i class="far fa-pen"></i> Edit</a>
                                             <a href="#"><i class="far fa-trash"></i> Delete</a>
                                         </td>
                                     </tr>
@@ -236,7 +235,7 @@
                                             <span class="pending">pending</span>
                                         </td>
                                         <td class="action">
-                                            <a href="#"><i class="far fa-pen"></i> Edit</a>
+                                            <a href="dashboard_edit_property.html"><i class="far fa-pen"></i> Edit</a>
                                             <a href="#"><i class="far fa-trash"></i> Delete</a>
                                         </td>
                                     </tr>
@@ -257,7 +256,7 @@
                                             <span class="sold">sold</span>
                                         </td>
                                         <td class="action">
-                                            <a href="#"><i class="far fa-pen"></i> Edit</a>
+                                            <a href="dashboard_edit_property.html"><i class="far fa-pen"></i> Edit</a>
                                             <a href="#"><i class="far fa-trash"></i> Delete</a>
                                         </td>
                                     </tr>
@@ -278,7 +277,7 @@
                                             <span class="approved">approved</span>
                                         </td>
                                         <td class="action">
-                                            <a href="#"><i class="far fa-pen"></i> Edit</a>
+                                            <a href="dashboard_edit_property.html"><i class="far fa-pen"></i> Edit</a>
                                             <a href="#"><i class="far fa-trash"></i> Delete</a>
                                         </td>
                                     </tr>
@@ -298,7 +297,7 @@
                                             <span class="pending">pending</span>
                                         </td>
                                         <td class="action">
-                                            <a href="#"><i class="far fa-pen"></i> Edit</a>
+                                            <a href="dashboard_edit_property.html"><i class="far fa-pen"></i> Edit</a>
                                             <a href="#"><i class="far fa-trash"></i> Delete</a>
                                         </td>
                                     </tr>
@@ -417,12 +416,16 @@
     <script src="assets/js/jquery.youtube-background.min.js"></script>
     <!--wow js-->
     <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/sticky_sidebar.js"></script>
+    <!--animated barfiller js-->
     <script src="assets/js/animated_barfiller.js"></script>
+    <!--simple-bar-graph js-->
     <script src="assets/js/jquery.simple-bar-graph.min.js"></script>
-
+    <!--sticky sidebar js-->
+    <script src="assets/js/sticky_sidebar.js"></script>
+    <!--summernote js-->
+    <script src="assets/js/summernote.min.js"></script>
     <!--main/custom js-->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 
