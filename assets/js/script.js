@@ -77,12 +77,21 @@ $(function () {
 
 
     //======= banner search ========
-    $(".adv_search_icon").on("click", function () {
-        $(".adv_search_area").addClass("show_search");
-    });
-
     $(".adv_search_close").on("click", function () {
         $(".adv_search_area").removeClass("show_search");
+    });
+
+    $(".adv_search_icon").on("click", function (event) {
+        $(".adv_search_area").toggleClass("show_search");
+        event.stopPropagation();
+    });
+
+    $('body').click(function (event) {
+        if ($(".adv_search_area").hasClass("show_search")) {
+            if (!$(event.target).closest('.banner_search').length) {
+                $(".adv_search_area").removeClass("show_search");
+            }
+        }
     });
 
 
@@ -303,6 +312,12 @@ $(function () {
     //=====SUMMER NOTE======== 
     $(document).ready(function () {
         $('.summer_note').summernote();
+    });
+
+
+    //======MOBILE MENU BUTTON=======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
     });
 
 

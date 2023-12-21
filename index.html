@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="assets/css/select2.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/animated_barfiller.css">
-    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css">
     <link rel="stylesheet" href="assets/css/summernote.min.css">
     <link rel="stylesheet" href="assets/css/scroll_button.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -34,8 +34,8 @@
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="far fa-bars menu_icon_bar"></i>
-                <i class="far fa-times close_icon_close"></i>
+                <i class="fas fa-bars bar_icon"></i>
+                <i class="far fa-times close_icon"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto">
@@ -99,7 +99,8 @@
                         <a class="common_btn" href="dashboard_add_property.html">Add Listing</a>
                     </li>
                     <li>
-                        <div class="toggol_bar">
+                        <div class="toggol_bar" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight">
                             <span class="toggol_bar_1"></span>
                             <span class="toggol_bar_2"></span>
                             <span class="toggol_bar_1"></span>
@@ -109,6 +110,63 @@
             </div>
         </div>
     </nav>
+
+    <div class="menu_offcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+        style="background: url(assets/images/offcanvas_bg.jpg);">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                class="far fa-times"></i></button>
+        <div class="offcanvas-body">
+            <a class="offcanvas_logo" href="index.html">
+                <img src="assets/images/logo_1.png" alt="FaxEstate" class="img-fluid w-100">
+            </a>
+            <p class="short_description">Through a combination of lectures, readings, and discussions, students will
+                gain.</p>
+            <div class="offcanvas_blog">
+                <h3>Featured Listings</h3>
+                <ul>
+                    <li>
+                        <div class="img">
+                            <img src="assets/images/offcanvas_img_3.jpg" alt="blog" class="img-fluid w-100">
+                        </div>
+                        <div class="text">
+                            <p><i class="far fa-clock"></i> 10 Dec 2023</p>
+                            <a class="title" href="#">Hermosa Casa al Norte</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="assets/images/offcanvas_img_1.jpg" alt="blog" class="img-fluid w-100">
+                        </div>
+                        <div class="text">
+                            <p><i class="far fa-clock"></i> 10 Dec 2023</p>
+                            <a class="title" href="#">Stunning mansion in Reno</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="assets/images/offcanvas_img_2.jpg" alt="blog" class="img-fluid w-100">
+                        </div>
+                        <div class="text">
+                            <p><i class="far fa-clock"></i> 10 Dec 2023</p>
+                            <a class="title" href="#">Luxury Villa In Los Angeles</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="offcanvas_contact">
+                <h3>contact information</h3>
+                <a class="call" href="callto:40276328246">+(402) 763 282 46</a>
+                <a class="mail" href="mailto:example@gmail.com">example@gmail.com</a>
+                <ul class="d-flex flex-wrap">
+                    <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="youtube" href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <!--=============================
         MAIN MENU END
     ==============================-->
@@ -120,7 +178,7 @@
     <section class="banner_area" style="background: url(./assets/images/banner_bg.jpg);">
         <div class="container container_large">
             <div class="row">
-                <div class="col-xl-9">
+                <div class="col-xl-11 col-xxl-9">
                     <div class="banner_contant">
                         <div class="banner_text">
                             <h1>Building houses that feel like home - with us.</h1>
@@ -195,7 +253,7 @@
                                                     class="fal fa-times"></i></div>
                                             <h3>aminities</h3>
                                             <div class="row">
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault">
@@ -204,7 +262,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault2">
@@ -213,7 +271,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault3">
@@ -222,7 +280,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault4">
@@ -231,7 +289,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault5">
@@ -240,7 +298,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault6">
@@ -249,7 +307,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault7">
@@ -258,7 +316,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault12">
@@ -267,7 +325,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault8">
@@ -276,7 +334,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault9">
@@ -285,7 +343,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault10">
@@ -294,7 +352,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault11">
@@ -305,7 +363,7 @@
                                                 </div>
                                             </div>
                                             <div class="row mt_15">
-                                                <div class="col-xl-3">
+                                                <div class="col-lg-3 col-sm-6">
                                                     <select class="select_2" name="state">
                                                         <option value="">Bedroom</option>
                                                         <option value="">01</option>
@@ -315,7 +373,7 @@
                                                         <option value="">05</option>
                                                     </select>
                                                 </div>
-                                                <div class="col-xl-3">
+                                                <div class="col-lg-3 col-sm-6">
                                                     <select class="select_2" name="state">
                                                         <option value="">Barthroom</option>
                                                         <option value="">01</option>
@@ -325,7 +383,7 @@
                                                         <option value="">05</option>
                                                     </select>
                                                 </div>
-                                                <div class="col-xl-3">
+                                                <div class="col-lg-3 col-sm-6">
                                                     <select class="select_2" name="state">
                                                         <option value="">Built Year</option>
                                                         <option value="">2015</option>
@@ -340,7 +398,7 @@
                                                         <option value="">2024</option>
                                                     </select>
                                                 </div>
-                                                <div class="col-xl-3">
+                                                <div class="col-lg-3 col-sm-6">
                                                     <select class="select_2" name="state">
                                                         <option value="">built-up Area</option>
                                                         <option value="">Adana</option>
@@ -404,7 +462,7 @@
                                                     class="fal fa-times"></i></div>
                                             <h3>aminities</h3>
                                             <div class="row">
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault20">
@@ -413,7 +471,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault21">
@@ -422,7 +480,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault22">
@@ -431,7 +489,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault23">
@@ -440,7 +498,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault24">
@@ -449,7 +507,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault25">
@@ -458,7 +516,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault26">
@@ -467,7 +525,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault27">
@@ -476,7 +534,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault28">
@@ -485,7 +543,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault29">
@@ -494,7 +552,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault30">
@@ -503,7 +561,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault31">
@@ -514,7 +572,7 @@
                                                 </div>
                                             </div>
                                             <div class="row mt_15">
-                                                <div class="col-xl-3">
+                                                <div class="col-lg-3 col-sm-6">
                                                     <select class="select_2" name="state">
                                                         <option value="">Bedroom</option>
                                                         <option value="">01</option>
@@ -524,7 +582,7 @@
                                                         <option value="">05</option>
                                                     </select>
                                                 </div>
-                                                <div class="col-xl-3">
+                                                <div class="col-lg-3 col-sm-6">
                                                     <select class="select_2" name="state">
                                                         <option value="">Barthroom</option>
                                                         <option value="">01</option>
@@ -534,7 +592,7 @@
                                                         <option value="">05</option>
                                                     </select>
                                                 </div>
-                                                <div class="col-xl-3">
+                                                <div class="col-lg-3 col-sm-6">
                                                     <select class="select_2" name="state">
                                                         <option value="">Built Year</option>
                                                         <option value="">2015</option>
@@ -549,7 +607,7 @@
                                                         <option value="">2024</option>
                                                     </select>
                                                 </div>
-                                                <div class="col-xl-3">
+                                                <div class="col-lg-3 col-sm-6">
                                                     <select class="select_2" name="state">
                                                         <option value="">built-up Area</option>
                                                         <option value="">Adana</option>
@@ -613,7 +671,7 @@
                                                     class="fal fa-times"></i></div>
                                             <h3>aminities</h3>
                                             <div class="row">
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault40">
@@ -622,7 +680,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault41">
@@ -631,7 +689,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault42">
@@ -640,7 +698,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault43">
@@ -649,7 +707,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault44">
@@ -658,7 +716,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault45">
@@ -667,7 +725,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault46">
@@ -676,7 +734,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault47">
@@ -685,7 +743,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault48">
@@ -694,7 +752,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault49">
@@ -703,7 +761,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault50">
@@ -712,7 +770,7 @@
                                                         </label>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-2">
+                                                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="flexCheckDefault51">
@@ -723,7 +781,7 @@
                                                 </div>
                                             </div>
                                             <div class="row mt_15">
-                                                <div class="col-xl-3">
+                                                <div class="col-lg-3 col-sm-6">
                                                     <select class="select_2" name="state">
                                                         <option value="">Bedroom</option>
                                                         <option value="">01</option>
@@ -733,7 +791,7 @@
                                                         <option value="">05</option>
                                                     </select>
                                                 </div>
-                                                <div class="col-xl-3">
+                                                <div class="col-lg-3 col-sm-6">
                                                     <select class="select_2" name="state">
                                                         <option value="">Barthroom</option>
                                                         <option value="">01</option>
@@ -743,7 +801,7 @@
                                                         <option value="">05</option>
                                                     </select>
                                                 </div>
-                                                <div class="col-xl-3">
+                                                <div class="col-lg-3 col-sm-6">
                                                     <select class="select_2" name="state">
                                                         <option value="">Built Year</option>
                                                         <option value="">2015</option>
@@ -758,7 +816,7 @@
                                                         <option value="">2024</option>
                                                     </select>
                                                 </div>
-                                                <div class="col-xl-3">
+                                                <div class="col-lg-3 col-sm-6">
                                                     <select class="select_2" name="state">
                                                         <option value="">built-up Area</option>
                                                         <option value="">Adana</option>
@@ -789,17 +847,17 @@
     <!--=============================
         ABOUT START
     ==============================-->
-    <section class="about_area pt_120">
+    <section class="about_area pt_120 xs_pt_100">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-6">
                     <div class="row align-items-center">
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-sm-6">
                             <div class="about_area_img_1">
                                 <img src="assets/images/about_1.jpg" alt="img" class="img-fluid w-100">
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-sm-6">
                             <div class="about_area_img_2">
                                 <img src="assets/images/about_2.jpg" alt="img" class="img-fluid w-100">
                             </div>
@@ -809,7 +867,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5">
+                <div class="col-xl-5 col-lg-6">
                     <div class="about_text">
                         <div class="section_heading section_heading_left">
                             <h2>We help clients buy and Sell houses since 2001</h2>
@@ -869,10 +927,10 @@
     <!--=============================
         DESTINATION START
     ==============================-->
-    <section class="destination_area pt_115 xs_pt_95 pb_110 xs_pb_90">
+    <section class="destination_area pt_115 xs_pt_110 pb_110 xs_pb_90">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-6">
+                <div class="col-xl-7">
                     <div class="section_heading mb_50">
                         <h2>Explore Your Neighborhood</h2>
                     </div>
@@ -1030,7 +1088,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single_property">
                         <div class="single_property_img">
                             <img src="assets/images/property_1.jpg" alt="img" class="img-fluid w-100">
@@ -1078,7 +1136,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single_property">
                         <div class="single_property_img">
                             <img src="assets/images/property_2.jpg" alt="img" class="img-fluid w-100">
@@ -1125,7 +1183,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single_property">
                         <div class="single_property_img">
                             <img src="assets/images/property_3.jpg" alt="img" class="img-fluid w-100">
@@ -1173,7 +1231,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single_property">
                         <div class="single_property_img">
                             <img src="assets/images/property_4.jpg" alt="img" class="img-fluid w-100">
@@ -1220,7 +1278,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single_property">
                         <div class="single_property_img">
                             <img src="assets/images/property_5.jpg" alt="img" class="img-fluid w-100">
@@ -1268,7 +1326,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single_property">
                         <div class="single_property_img">
                             <img src="assets/images/property_6.jpg" alt="img" class="img-fluid w-100">
@@ -1332,14 +1390,14 @@
     <section class="agent_area pt_115 xs_pt_95 pb_120 xs_pb_100">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-6">
+                <div class="col-xl-7">
                     <div class="section_heading mb_25">
                         <h2>Meet the Realty Professionals</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-6 col-lg-4">
                     <div class="single_agent">
                         <div class="single_agent_img">
                             <img src="assets/images/agent_1.jpg" alt="img" class="img-fluid w-100">
@@ -1366,7 +1424,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-6 col-lg-4">
                     <div class="single_agent">
                         <div class="single_agent_img">
                             <img src="assets/images/agent_2.jpg" alt="img" class="img-fluid w-100">
@@ -1396,7 +1454,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-6 col-lg-4">
                     <div class="single_agent">
                         <div class="single_agent_img">
                             <img src="assets/images/agent_3.jpg" alt="img" class="img-fluid w-100">
@@ -1423,7 +1481,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-sm-6 col-lg-4">
                     <div class="single_agent">
                         <div class="single_agent_img">
                             <img src="assets/images/agent_4.jpg" alt="img" class="img-fluid w-100">
@@ -1462,16 +1520,14 @@
         FIND STATE START
     ==============================-->
     <section class="find_state" style="background: url(./assets/images/find_state.jpg);">
-        <div class="example-marquee">
-            <div id="vbg12" data-vbg-loop="true" data-vbg="https://youtu.be/ec_fXMrD7Ow?si=m9LJu9X3lzTP5Erz">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="find_state_text">
-                            <h2>Residential</h2>
-                            <a href="#">Discover The Project<i class="fas fa-arrow-right"></i></a>
-                        </div>
+        <div id="vbg12" data-vbg-loop="true" data-vbg="https://youtu.be/ec_fXMrD7Ow?si=m9LJu9X3lzTP5Erz">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="find_state_text">
+                        <h2>Residential</h2>
+                        <a href="#">Discover The Project<i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -1495,7 +1551,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single_blog">
                         <a href="#" class="blog_img">
                             <img src="assets/images/blog_1.jpg" alt="img" class="img-fluid w-100">
@@ -1519,7 +1575,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single_blog">
                         <a href="#" class="blog_img">
                             <img src="assets/images/blog_2.jpg" alt="img" class="img-fluid w-100">
@@ -1543,7 +1599,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="single_blog">
                         <a href="#" class="blog_img">
                             <img src="assets/images/blog_3.jpg" alt="img" class="img-fluid w-100">
@@ -1589,7 +1645,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="single_discover">
                         <div class="discover_img">
                             <img src="assets/images/search.png" alt="icon" class="img-fluid w-100">
@@ -1597,7 +1653,7 @@
                         <a class="item_title" href="#">Search your Location</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="single_discover">
                         <div class="discover_img">
                             <img src="assets/images/house.png" alt="icon" class="img-fluid w-100">
@@ -1605,7 +1661,7 @@
                         <a class="item_title" href="#">Check out The Residence</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="single_discover">
                         <div class="discover_img">
                             <img src="assets/images/bag.png" alt="icon" class="img-fluid w-100">
@@ -1613,7 +1669,7 @@
                         <a class="item_title" href="#">Obtain your Perfect House</a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="single_discover">
                         <div class="discover_img">
                             <img src="assets/images/happy.png" alt="icon" class="img-fluid w-100">
@@ -1686,11 +1742,11 @@
         <div class="container container_large">
             <div class="row">
                 <div class="col-xl-7">
-                    <div class="footer_left pt_110 xs_pt_90 pb_80">
+                    <div class="footer_left pt_100 pb_80">
                         <div class="row justify-content-between">
-                            <div class="col-xl-5">
+                            <div class="col-xl-5 col-sm-10 col-md-4">
                                 <div class="footer_description">
-                                    <a class="footer_logo" href="#">
+                                    <a class="footer_logo" href="index.html">
                                         <img src="assets/images/footer_logo.png" alt="logo" class="img-fluid w-100">
                                     </a>
                                     <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit. Aenean quis orci sit amet
@@ -1700,11 +1756,9 @@
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                     </ul>
-                                    <div class="footer_shape_1"><img src="assets/images/footer_shape_1.png" alt="img"
-                                            class="img-fluid w-100"></div>
                                 </div>
                             </div>
-                            <div class="col-xl-3">
+                            <div class="col-xl-3 col-sm-6 col-md-4">
                                 <div class="footer_link">
                                     <h4>Navigation</h4>
                                     <ul>
@@ -1716,7 +1770,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-xl-3">
+                            <div class="col-xl-3 col-sm-6 col-md-4">
                                 <div class="footer_link">
                                     <h4>Important Link</h4>
                                     <ul>
@@ -1736,22 +1790,22 @@
                         <h4>Get in Touch with Us</h4>
                         <form action="#">
                             <div class="row">
-                                <div class="col-xl-6">
+                                <div class="col-md-6">
                                     <div class="footer_form_input">
                                         <input type="text" placeholder="First name">
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
+                                <div class="col-md-6">
                                     <div class="footer_form_input">
                                         <input type="text" placeholder="Last name">
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
+                                <div class="col-md-6">
                                     <div class="footer_form_input">
                                         <input type="email" placeholder="Email">
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
+                                <div class="col-md-6">
                                     <div class="footer_form_input">
                                         <input type="text" placeholder="Phone number">
                                     </div>

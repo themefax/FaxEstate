@@ -14,12 +14,14 @@
     <link rel="stylesheet" href="assets/css/select2.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/animated_barfiller.css">
-    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css">
     <link rel="stylesheet" href="assets/css/summernote.min.css">
+    <link rel="stylesheet" href="assets/css/scroll_button.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
+
 
 <body class="home_3">
 
@@ -52,7 +54,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Property <i class="far fa-angle-down"></i></a>
                         <ul class="droap_menu">
-                            <li><a href="property.html">Property</a></li>
+                            <li><a href="property_grid_view.html">Property grid view</a></li>
+                            <li><a href="property_list_view.html">Property list view</a></li>
+                            <li><a href="property_left_sidebar.html">Property left sidebar</a></li>
+                            <li><a href="property_right_sidebar.html">Property right sidebar</a></li>
                             <li><a href="property_details.html">Property details</a></li>
                         </ul>
                     </li>
@@ -63,7 +68,7 @@
                             <li><a href="agencies_details.html">Agencies Details</a></li>
                             <li><a href="blog_details.html">blog details</a></li>
                             <li><a href="agent.html">Agent</a></li>
-                            <li><a href="agencies.html">Agent Details</a></li>
+                            <li><a href="agent_details.html">Agent Details</a></li>
                             <li><a href="pricing_plan.html">pricing plan</a></li>
                             <li><a href="checkout.html">checkout</a></li>
                             <li><a href="payment.html">payment</a></li>
@@ -1754,9 +1759,9 @@
 
 
     <!--=============================
-        FOOTER 3 START
+        FOOTER START
     ==============================-->
-    <footer class="footer footer_3">
+    <footer class="footer">
         <div class="container container_large">
             <div class="row">
                 <div class="col-xl-7">
@@ -1782,11 +1787,11 @@
                                 <div class="footer_link">
                                     <h4>Navigation</h4>
                                     <ul>
-                                        <li><a href="#">Home One</a></li>
-                                        <li><a href="#">Properties Right</a></li>
-                                        <li><a href="#">Properties List</a></li>
-                                        <li><a href="#">Property Details</a></li>
-                                        <li><a href="#">Agents Listing</a></li>
+                                        <li><a href="index.html">Home One</a></li>
+                                        <li><a href="property.html">Properties Right</a></li>
+                                        <li><a href="property_details.html">Properties List</a></li>
+                                        <li><a href="property_details.html">Property Details</a></li>
+                                        <li><a href="agent.html">Agents Listing</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1794,11 +1799,11 @@
                                 <div class="footer_link">
                                     <h4>Important Link</h4>
                                     <ul>
-                                        <li><a href="#">Dashboard</a></li>
-                                        <li><a href="#">Wishlist</a></li>
-                                        <li><a href="#">Change Password</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="dashboard.html">Dashboard</a></li>
+                                        <li><a href="dashboard_wishlist.html">Wishlist</a></li>
+                                        <li><a href="dashboard_profile.html">Change Password</a></li>
+                                        <li><a href="about_us.html">About Us</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1851,8 +1856,8 @@
                         <div class="copyright_area d-flex flex-wrap justify-content-between">
                             <p>© 2023 FaxEstate All Rights Reserved by site</p>
                             <ul class="d-flex flex-wrap">
-                                <li><a href="#">Privacy Policy </a></li>
-                                <li><a href="#">Term of Service</a></li>
+                                <li><a href="privacy_policy.html">Privacy Policy </a></li>
+                                <li><a href="terms_condition.html">Term of Service</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1861,8 +1866,21 @@
         </div>
     </footer>
     <!--=============================
-        FOOTER 3 END
+        FOOTER END
     ==============================-->
+
+
+    <!--================================
+        SCROLL BUTTON START
+    =================================-->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
 
 
     <!--jquery library js-->
@@ -1891,6 +1909,8 @@
     <script src="assets/js/sticky_sidebar.js"></script>
     <!--summernote js-->
     <script src="assets/js/summernote.min.js"></script>
+    <!--scroll button js-->
+    <script src="assets/js/scroll_button.js"></script>
     <!--main/custom js-->
     <script src="assets/js/script.js"></script>
 
