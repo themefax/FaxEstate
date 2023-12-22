@@ -32,6 +32,95 @@
     ================================*/
 
 
+    /*================================
+        HOME PAGE 02 START
+    ================================*/
+    .single_property_2 .single_property_img {
+        height: 220px;
+    }
+
+    .category_property_area .nextArrow,
+    .category_property_area .prevArrow {
+        right: 68px;
+    }
+
+    .category_property_area .prevArrow {
+        right: 124px;
+    }
+
+    .category_property_item_img {
+        height: 305px;
+    }
+
+    .banner_2_text h1,
+    .banner_2_text h1 span {
+        font-size: 56px;
+    }
+
+    .banner_2_text p {
+        max-width: 95%;
+    }
+
+    .banner_2_search form ul {
+        width: 85%;
+    }
+
+    .banner_2_search form ul li {
+        width: 22.7%;
+    }
+
+    .banner_2_text h1 span::after {
+        top: 22px;
+    }
+
+    /*================================
+        HOME PAGE 02 END
+    ================================*/
+
+
+    /*================================
+        HOME PAGE 03 START
+    ================================*/
+    .banner_area_3 .banner_search form ul {
+        width: 89%;
+    }
+
+    .banner_area_3 .banner_search form ul li {
+        width: 23.3%;
+    }
+
+    .single_property_3 .single_property_img {
+        height: 230px;
+    }
+
+    .about_2_text ul li {
+        min-width: 40%;
+    }
+
+    .testimonial_2 .slick-list.draggable {
+        padding: 0px 150px !important;
+    }
+
+    .testimonial_item_2_img {
+        height: 375px;
+    }
+
+    .testimonial_item_2_text .testimonial_2_description {
+        font-size: 18px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*================================
+        HOME PAGE 03 END
+    ================================*/
 
 
 
@@ -121,10 +210,118 @@
     ================================*/
 
 
+    /*================================
+        HOME PAGE 02 START
+    ================================*/
+    .banner_2_text p {
+        max-width: 85%;
+    }
+
+    .banner_area_2 {
+        padding-left: 40px;
+    }
+
+    .banner_area_2 .banner_search form ul li {
+        width: 22.5%;
+    }
+
+    .single_amenites li a {
+        padding: 12px 20px;
+    }
+
+    .single_property_2 .single_property_img {
+        height: 185px;
+    }
+
+    .category_property_area .nextArrow,
+    .category_property_area .prevArrow {
+        right: 56px;
+    }
+
+    .category_property_area .prevArrow {
+        right: 112px;
+    }
+
+    .category_property_item_img {
+        height: 330px;
+    }
+
+    .enquiry_text ul li h5 {
+        max-width: 100%;
+    }
+
+    .agent_2_img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .testimonial_description p {
+        font-size: 18px;
+    }
+
+    .single_blog_2_img {
+        height: 205px;
+    }
+
+    .footer_2 .copyright_spacing {
+        padding-left: 60px !important;
+    }
+
+    .footer_2 .copyright_area::after {
+        left: -72px;
+    }
+
+    /*================================
+        HOME PAGE 02 END
+    ================================*/
 
 
+    /*================================
+        HOME PAGE 03 START
+    ================================*/
+    .single_property_3 .single_property_img {
+        height: 195px;
+    }
 
+    .about_2_text ul li {
+        min-width: 45%;
+    }
 
+    .about_2_img {
+        height: 560px;
+    }
+
+    .about_2_img .circle_box {
+        right: -20px;
+    }
+
+    .explore_listing_item {
+        padding: 15px;
+    }
+
+    .explore_listing_item .item_title {
+        font-size: 16px;
+    }
+
+    .testimonial_2 .slick-list.draggable {
+        padding: 0px 100px !important;
+    }
+
+    .testimonial_item_2_img {
+        height: 430px;
+    }
+
+    .testimonial_item_2_text .testimonial_2_description {
+        font-size: 18px;
+    }
+
+    .single_blog_3_img {
+        height: 355px;
+    }
+
+    /*================================
+        HOME PAGE 03 END
+    ================================*/
 
 
 
@@ -261,6 +458,168 @@
 
     /*================================
         HOME PAGE 01 END
+    ================================*/
+
+
+    /*================================
+        HOME PAGE 02 START
+    ================================*/
+    .main_menu_2 .menu_right li:first-child {
+        display: none;
+    }
+
+    .banner_2_text p {
+        max-width: 75%;
+    }
+
+    .banner_2_text {
+        margin-top: 110px;
+    }
+
+    .banner_area_2 {
+        padding: 0px 20px;
+    }
+
+    .banner_2_search .tab-content {
+        padding: 0;
+    }
+
+    .banner_2_text h1,
+    .banner_2_text h1 span {
+        max-width: 85%;
+    }
+
+    .single_property_2 .single_property_img {
+        height: 245px;
+    }
+
+    .category_property_area .nextArrow,
+    .category_property_area .prevArrow {
+        right: 43px;
+    }
+
+    .category_property_area .prevArrow {
+        right: 98px;
+    }
+
+    .category_property_item_img {
+        height: 270px;
+    }
+
+    .enquiry_text ul li h5 {
+        max-width: 100%;
+    }
+
+    .testimonial_description p {
+        font-size: 16px;
+    }
+
+    .testimonial_description {
+        padding-top: 40px;
+        padding-left: 50px;
+    }
+
+    .testimonial .slick-dots {
+        bottom: 0px;
+    }
+
+    .single_blog_2_img {
+        height: 270px;
+    }
+
+    .footer_2 .copyright_spacing {
+        padding-left: 30px !important;
+    }
+
+    .footer_2 .footer_description::before {
+        right: 15px;
+    }
+
+    .footer_2 .footer_link h4 {
+        font-size: 18px;
+    }
+
+    .footer_2 .copyright_area::after {
+        left: -57px;
+    }
+
+    .footer_2 .footer_description::after {
+        display: block;
+    }
+
+    .footer_2 .footer_description {
+        padding-bottom: 130px;
+    }
+
+    .footer_2 .footer_description::after {
+        width: 220px;
+        height: 93px;
+    }
+
+    .banner_2_search {
+        bottom: -165px;
+    }
+
+    /*================================
+        HOME PAGE 02 END
+    ================================*/
+
+
+    /*================================
+        HOME PAGE 03 START
+    ================================*/
+    .about_2_img {
+        height: 565px;
+    }
+
+    .about_2_img .circle_box {
+        top: 15px;
+    }
+
+    .about_2_text {
+        padding-left: 0;
+    }
+
+    .testimonial_2 .section_heading p {
+        margin-top: 20px;
+    }
+
+    .testimonial_2 .slick-list.draggable {
+        padding: 0px !important;
+    }
+
+    .testimonial_item_2 {
+        opacity: 1;
+    }
+
+    .testimonial_item_2_img {
+        height: 430px;
+    }
+
+    .testimonial_item_2_text .testimonial_2_designation {
+        font-size: 14px;
+    }
+
+    .testimonial_item_2_text::after {
+        width: 213px;
+        height: 170px;
+        right: 20px;
+    }
+
+    .single_property_3 .single_property_img {
+        height: 250px;
+    }
+
+    .single_blog_3_img {
+        height: 455px;
+    }
+
+    .about_2_text ul li {
+        min-width: 50%;
+    }
+
+    /*================================
+        HOME PAGE 03 END
     ================================*/
 
 
@@ -452,6 +811,228 @@
         HOME PAGE 01 END
     ================================*/
 
+    /*================================
+        HOME PAGE 02 START
+    ================================*/
+    .main_menu_2 .navbar-toggler {
+        border-radius: 6px;
+        background: var(--colorBlue);
+        border: none;
+        color: var(--colorWhite);
+    }
+
+    .main_menu_2 .menu_right,
+    .main_menu_2 .navbar-nav {
+        background: var(--colorWhite);
+        border-top: 0;
+        border-bottom: 1px solid #b6b3b352;
+    }
+
+    .main_menu_2 .menu_right li:first-child {
+        display: none;
+    }
+
+    .banner_area_2 {
+        height: auto;
+        padding: 50px;
+    }
+
+    .banner_2_text {
+        margin-top: 0;
+    }
+
+    .banner_2_text h1,
+    .banner_2_text h1 span {
+        font-size: 54px;
+        line-height: initial;
+    }
+
+    .banner_2_text h1 span::after {
+        top: 20px;
+    }
+
+    .banner_2_search {
+        bottom: -110px;
+    }
+
+    .banner_2_search .tab-content {
+        padding: 0;
+    }
+
+    .single_amenites li a {
+        font-size: 13px;
+        font-weight: 500;
+        /* padding: 8px 22px; */
+    }
+
+    .single_amenites li a span {
+        width: 20px;
+        height: 20px;
+    }
+
+    .single_property_2 .single_property_img {
+        height: 175px;
+    }
+
+    .category_property_item_img {
+        height: 280px;
+    }
+
+    .enquiry_text ul li {
+        margin-bottom: 30px;
+    }
+
+    .enquiry_form {
+        padding: 35px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .enquiry_form h2 {
+        font-size: 22px;
+    }
+
+    .client_feedback_text_right {
+        display: none;
+    }
+
+    .testimonial_item_tetle {
+        margin-top: 0;
+    }
+
+    .testimonial_description {
+        border-top: 1px solid rgba(3, 26, 38, 0.10);
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-left: 15px;
+        padding-left: 0;
+    }
+
+    .testimonial_description::after {
+        display: none;
+    }
+
+    .testimonial .slick-dots {
+        position: initial;
+        margin-bottom: 15px;
+    }
+
+    .single_blog_2_img {
+        height: 190px;
+    }
+
+    .footer_2 .footer_description::before {
+        display: none;
+    }
+
+    .banner_2_search form ul li {
+        width: 48.2%;
+    }
+
+    .category_property_area .nextArrow,
+    .category_property_area .prevArrow {
+        right: 50px;
+    }
+
+    .category_property_area .prevArrow {
+        right: 105px;
+    }
+
+    .footer_2 .copyright_spacing {
+        padding-top: 50px !important;
+        padding-left: 12px !important;
+    }
+
+    .footer_link h4 {
+        font-size: 18px;
+    }
+
+    .banner_2_text p {
+        max-width: 95%;
+    }
+
+    /*================================
+        HOME PAGE 02 END
+    ================================*/
+
+
+    /*================================
+        HOME PAGE 03 START
+    ================================*/
+    .banner_area_3 .banner_contant {
+        padding-top: 175px;
+    }
+
+    .about_2_img {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .about_2_img .circle_box {
+        top: 15px;
+        right: -30px;
+    }
+
+    .about_2_text {
+        padding-left: 0;
+    }
+
+    .explore_listing_item .img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .explore_listing_item {
+        padding: 15px;
+    }
+
+    .testimonial_2 .section_heading p {
+        margin-top: 20px;
+    }
+
+    .testimonial_2 .slick-list.draggable {
+        padding: 0px !important;
+    }
+
+    .testimonial_item_2 {
+        opacity: 1;
+    }
+
+    .testimonial_item_2_img {
+        height: 350px;
+    }
+
+    .testimonial_item_2_text {
+        padding-left: 15px;
+    }
+
+    .testimonial_item_2_text .testimonial_2_description {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .testimonial_item_2_text .testimonial_2_designation {
+        font-size: 14px;
+    }
+
+    .testimonial_item_2_text::after {
+        width: 213px;
+        height: 170px;
+        right: 20px;
+    }
+
+    .single_property_3 .single_property_img {
+        height: 185px;
+    }
+
+    .single_blog_3_img {
+        height: 335px;
+    }
+
+    /*================================
+        HOME PAGE 03 END
+    ================================*/
+
+
 
 
 
@@ -633,9 +1214,220 @@
     ================================*/
 
 
+    /*================================
+        HOME PAGE 02 START
+    ================================*/
+    .main_menu_2 .navbar-toggler {
+        border-radius: 6px;
+        background: var(--colorBlue);
+        border: none;
+        color: var(--colorWhite);
+    }
+
+    .main_menu_2 .menu_right,
+    .main_menu_2 .navbar-nav {
+        background: var(--colorWhite);
+        border-top: 0;
+        border-bottom: 1px solid #b6b3b352;
+    }
+
+    .main_menu_2 .menu_right li:first-child {
+        display: none;
+    }
+
+    .banner_area_2 {
+        height: auto;
+        padding: 35px;
+    }
+
+    .banner_2_text {
+        margin-top: 0;
+    }
+
+    .banner_2_text h1,
+    .banner_2_text h1 span {
+        font-size: 38px;
+        line-height: initial;
+    }
+
+    .banner_2_text h1 span::after {
+        top: 5px;
+    }
+
+    .banner_2_search {
+        bottom: -65px;
+    }
+
+    .banner_2_search .tab-content {
+        padding: 0;
+    }
+
+    .single_amenites li a {
+        font-size: 13px;
+        font-weight: 500;
+        /* padding: 8px 22px; */
+    }
+
+    .single_amenites li a span {
+        width: 20px;
+        height: 20px;
+    }
+
+    .single_property_2 .single_property_img {
+        height: 280px;
+    }
+
+    .category_property_item_img {
+        height: 320px;
+    }
+
+    .enquiry_text ul li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .enquiry_form {
+        padding: 35px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .enquiry_form h2 {
+        font-size: 22px;
+    }
+
+    .client_feedback_text_right {
+        display: none;
+    }
+
+    .testimonial_item_tetle {
+        margin-top: 0;
+    }
+
+    .testimonial_description {
+        border-top: 1px solid rgba(3, 26, 38, 0.10);
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-left: 15px;
+        padding-left: 0;
+    }
+
+    .testimonial_description::after {
+        display: none;
+    }
+
+    .testimonial .slick-dots {
+        position: initial;
+        margin-bottom: 15px;
+    }
+
+    .single_blog_2_img {
+        height: 310px;
+    }
+
+    .footer_2 .footer_description::before {
+        display: none;
+    }
+
+    .banner_2_search form ul li {
+        width: 47%;
+    }
+
+    .banner_2_text p {
+        max-width: 100%;
+    }
+
+    /*================================
+        HOME PAGE 02 END
+    ================================*/
 
 
+    /*================================
+        HOME PAGE 03 START
+    ================================*/
+    .banner_area_3 .banner_contant {
+        padding-top: 175px;
+    }
 
+    .about_2_img {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .about_2_img .circle_box {
+        top: 15px;
+        right: -30px;
+    }
+
+    .about_2_text {
+        padding-left: 0;
+    }
+
+    .explore_listing_item .img {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+
+    .explore_listing_item {
+        padding: 10px;
+    }
+
+    .explore_listing_item .item_title {
+        font-size: 12px;
+    }
+
+    .explore_listing_item .text p {
+        font-size: 12px;
+    }
+
+    .testimonial_2 .section_heading p {
+        margin-top: 20px;
+    }
+
+    .testimonial_2 .slick-list.draggable {
+        padding: 0px !important;
+    }
+
+    .testimonial_item_2 {
+        opacity: 1;
+    }
+
+    .testimonial_item_2_img {
+        height: 245px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .testimonial_item_2_text {
+        padding: 30px;
+    }
+
+    .testimonial_item_2_text .testimonial_2_description {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .testimonial_item_2_text .testimonial_2_designation {
+        font-size: 14px;
+    }
+
+    .testimonial_item_2_text::after {
+        width: 213px;
+        height: 170px;
+        right: 20px;
+    }
+
+    .single_property_3 .single_property_img {
+        height: 285px;
+    }
+
+    .single_blog_3_img {
+        height: 515px;
+    }
+
+    /*================================
+        HOME PAGE 03 END
+    ================================*/
 
 
 
@@ -768,7 +1560,7 @@
     }
 
     .section_heading h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .about_text {
@@ -860,8 +1652,221 @@
     ================================*/
 
 
+    /*================================
+        HOME PAGE 02 START
+    ================================*/
+    .main_menu_2 .navbar-toggler {
+        border-radius: 6px;
+        background: var(--colorBlue);
+        border: none;
+        color: var(--colorWhite);
+    }
+
+    .main_menu_2 .menu_right,
+    .main_menu_2 .navbar-nav {
+        background: var(--colorWhite);
+        border-top: 0;
+        border-bottom: 1px solid #b6b3b352;
+    }
+
+    .main_menu_2 .menu_right li:first-child {
+        display: none;
+    }
+
+    .banner_area_2 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .banner_2_text {
+        margin-top: 0;
+    }
+
+    .banner_2_text h1,
+    .banner_2_text h1 span {
+        font-size: 32px;
+        line-height: initial;
+    }
+
+    .banner_2_text h1 span::after {
+        top: 5px;
+    }
+
+    .banner_2_search {
+        padding: 20px;
+        bottom: -45px;
+    }
+
+    .banner_2_search .tab-content {
+        padding: 0;
+    }
+
+    .single_amenites li a {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 8px 15px;
+    }
+
+    .single_amenites li a span {
+        width: 20px;
+        height: 20px;
+    }
+
+    .single_property_2 .single_property_img {
+        height: auto;
+    }
+
+    .category_property_item_img {
+        height: auto;
+    }
+
+    .enquiry_text ul li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .enquiry_form {
+        padding: 35px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .enquiry_form h2 {
+        font-size: 22px;
+    }
+
+    .client_feedback_text_right {
+        display: none;
+    }
+
+    .testimonial_item_tetle {
+        margin-top: 0;
+    }
+
+    .testimonial_description {
+        border-top: 1px solid rgba(3, 26, 38, 0.10);
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-left: 15px;
+        padding-left: 0;
+    }
+
+    .testimonial_description::after {
+        display: none;
+    }
+
+    .testimonial .slick-dots {
+        position: initial;
+        margin-bottom: 15px;
+    }
+
+    .single_blog_2_img {
+        height: auto;
+    }
+
+    .footer_2 .footer_description::before {
+        display: none;
+    }
+
+    .testimonial_description p {
+        font-size: 16px;
+    }
+
+    .banner_2_text p {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    /*================================
+        HOME PAGE 02 END
+    ================================*/
 
 
+    /*================================
+        HOME PAGE 03 START
+    ================================*/
+    .banner_area_3 .banner_contant {
+        padding-top: 175px;
+    }
+
+    .explore_listing .read_btn,
+    .latest_property .read_btn {
+        margin-top: 20px;
+    }
+
+    .about_2_img {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .about_2_img .circle_box {
+        top: 15px;
+        right: -30px;
+    }
+
+    .about_2_text {
+        padding-left: 0;
+    }
+
+    .about_2_text ul li {
+        margin-top: 20px;
+    }
+
+    .explore_listing_item .img {
+        width: 80px;
+        height: 70px;
+        margin-right: 10px;
+    }
+
+    .explore_listing_item {
+        padding: 10px;
+    }
+
+    .explore_listing_item .item_title {
+        font-size: 14px;
+    }
+
+    .testimonial_2 .section_heading p {
+        margin-top: 20px;
+    }
+
+    .testimonial_2 .slick-list.draggable {
+        padding: 0px !important;
+    }
+
+    .testimonial_item_2 {
+        opacity: 1;
+    }
+
+    .testimonial_item_2_img {
+        height: auto;
+    }
+
+    .testimonial_item_2_text {
+        padding: 30px;
+    }
+
+    .testimonial_item_2_text .testimonial_2_description {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .testimonial_item_2_text .testimonial_2_designation {
+        font-size: 14px;
+    }
+
+    .testimonial_item_2_text::after {
+        width: 213px;
+        height: 170px;
+        right: 20px;
+    }
+
+    .single_property_3 .single_property_img {
+        height: auto;
+    }
+
+    /*================================
+        HOME PAGE 03 END
+    ================================*/
 
 
 

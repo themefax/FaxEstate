@@ -2345,6 +2345,7 @@ button {
     line-height: 30px;
     margin-top: 13px;
     margin-bottom: 40px;
+    max-width: 70%;
 }
 
 .banner_2_search {
@@ -2361,7 +2362,7 @@ button {
 }
 
 .banner_2_search form ul {
-    width: 88%;
+    width: 89.5%;
 }
 
 .banner_search form ul li {
@@ -2920,6 +2921,7 @@ button {
     align-items: start;
     position: relative;
     margin-top: 60px;
+    padding-left: 12px;
 }
 
 .testimonial_item_tetle::after {
@@ -2979,7 +2981,7 @@ button {
 .testimonial_img_area {
     width: 235px;
     overflow: hidden;
-    margin-left: -4px;
+    margin-left: 2px;
     height: 80px;
     padding-left: 12px;
     margin-top: -80px;
@@ -3166,7 +3168,7 @@ button {
     position: relative;
 }
 
-.footer_2 .footer_description::after {
+.footer_2 .footer_description::before {
     position: absolute;
     content: "";
     width: 1px;
@@ -4012,6 +4014,15 @@ button {
 .home_3 .enquiry_form .enquiry_form_input button:hover {
     background: var(--colorBlack);
     color: var(--colorWhite);
+}
+
+.home_3 .footer_btn:hover {
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+}
+
+.home_3 .footer_btn::after {
+    background: linear-gradient(to right, rgb(255 255 255 / 19%) 0%, rgb(255 255 255 / 24%) 100%);
 }
 
 /*=============================
