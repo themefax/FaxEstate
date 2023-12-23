@@ -109,18 +109,42 @@
         font-size: 18px;
     }
 
-
-
-
-
-
-
-
-
-
     /*================================
         HOME PAGE 03 END
     ================================*/
+
+
+    /*================================
+        AGENCIES DETAILS START
+    ================================*/
+    .agencies_details_img {
+        height: 375px;
+    }
+
+    .popular_blog_text {
+        width: 66%;
+    }
+
+    .agencies_details .single_agent_img {
+        height: 290px;
+    }
+
+    /*================================
+        AGENCIES DETAILS END
+    ================================*/
+
+    .single_agencies_img {
+        height: 260px;
+    }
+
+    .agent_details_area_img {
+        height: 430px;
+    }
+
+
+
+
+
 
 
 
@@ -203,6 +227,10 @@
 
     .footer_description::after {
         bottom: -30px;
+    }
+
+    .blog_img {
+        height: 225px;
     }
 
     /*================================
@@ -328,6 +356,152 @@
     ================================*/
 
 
+    /*================================
+        ABOUT PAGE START
+    ================================*/
+    .breadcrumb_text h1 {
+        font-size: 56px;
+    }
+
+    .breadcrumbs_overly {
+        padding: 185px 0px 115px 0px;
+    }
+
+    /*================================
+        ABOUT PAGE END
+    ================================*/
+
+
+    /*================================
+        AGENCIES DETAILS START
+    ================================*/
+    .popular_blog_text {
+        width: 66%;
+    }
+
+    .agencies_details_img {
+        height: 330px;
+    }
+
+    .agencies_details_header .text h2 {
+        font-size: 22px;
+    }
+
+    .agencies_details .single_agent_img {
+        height: 250px;
+    }
+
+    /*================================
+        AGENCIES DETAILS END
+    ================================*/
+
+
+    /*================================
+        AGENCIES START
+    ================================*/
+    .single_agencies_img {
+        height: 225px;
+    }
+
+    .single_agencies_text .item_title {
+        font-size: 18px;
+    }
+
+    .single_agencies_text {
+        padding: 30px;
+    }
+
+    /*================================
+        AGENCIES END
+    ================================*/
+
+
+    /*================================
+        AGENCIES DETAILS START
+    ================================*/
+    .agent_details_area {
+        padding: 30px;
+    }
+
+    .agent_details_area_img {
+        height: 390px;
+    }
+
+    .agent_details_area_text {
+        margin-left: 20px;
+    }
+
+    .agent_details_area_text h2 {
+        font-size: 28px;
+    }
+
+    .agent_social_media li a {
+        padding: 8px 20px;
+    }
+
+    .agent_social_media {
+        margin-top: 25px;
+    }
+
+    .agent_info li {
+        font-size: 15px;
+    }
+
+    /*================================
+        AGENCIES DETAILS END
+    ================================*/
+
+
+    /*================================
+        BLOG DETAILS START
+    ================================*/
+    .blog_details_img_1 {
+        height: 320px;
+    }
+
+    .blog_details_img_2 {
+        height: 320px;
+    }
+
+    .blog_shear_area_left {
+        margin-bottom: 20px;
+    }
+
+    .blog_comment_text {
+        width: 86% !important;
+    }
+
+    .blog_state p {
+        padding: 0px 30px;
+    }
+
+    .blog_state {
+        padding: 45px 0px 180px 0px;
+    }
+
+    .blog_details_right_header .blog_details_tag {
+        margin-bottom: 25px;
+    }
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+
+
+    /*================================
+        CONTACT START
+    ================================*/
+    .contact_address_text {
+        width: 83%;
+    }
+
+    .contact_map {
+        height: 450px;
+    }
+
+    /*================================
+        CONTACT END
+    ================================*/
 
 
 }
@@ -627,6 +801,228 @@
     ================================*/
 
 
+    /*================================
+        ABOUT PAGE START
+    ================================*/
+    .breadcrumb_text h1 {
+        font-size: 48px;
+    }
+
+    .breadcrumbs_overly {
+        padding: 170px 0px 90px 0px;
+    }
+
+    /*================================
+        ABOUT PAGE END
+    ================================*/
+
+
+    /*================================
+        AGENCIES DETAILS START
+    ================================*/
+    .agencies_details_img {
+        height: 305px;
+    }
+
+    .agencies_details_header {
+        padding: 15px;
+    }
+
+    .agencies_details_header {
+        width: 90%;
+        margin-left: 5%;
+        padding: 15px;
+    }
+
+    .agencies_details_header .img {
+        width: 150px;
+        /*! border: 0; */
+    }
+
+    .agencies_details_header .text h2 {
+        font-size: 20px;
+    }
+
+    .agencies_details_text .agent_map {
+        height: 300px;
+    }
+
+    .agencies_details_area {
+        /* margin-bottom: 50px; */
+    }
+
+    .agencies_tabs {
+        margin-left: 12px;
+    }
+
+    .blog_details_right_header {
+        padding-left: 20px;
+        padding-top: 22px;
+    }
+
+    .blog_details_right form {
+        margin-left: 20px;
+        padding-bottom: 25px;
+    }
+
+    .popular_blog_text {
+        width: 63%;
+    }
+
+    .blog_details_right_header.sidebar_blog {
+        padding-bottom: 25px;
+    }
+
+    .categories_property {
+        margin-bottom: 25px;
+    }
+
+    .agencies_details .single_property_img {
+        height: 205px;
+    }
+
+    .agencies_details .single_property_text {
+        margin: 0;
+    }
+
+    .agencies_details .item_title {
+        font-size: 18px;
+    }
+
+    .agencies_details .single_agent_img {
+        height: 330px;
+    }
+
+    .popular_blog_img {
+        width: 80px;
+        height: 90px;
+    }
+
+    .agencies_details .popular_blog_text a {
+        font-size: 16px;
+    }
+
+    /*================================
+        AGENCIES DETAILS END
+    ================================*/
+
+
+    /*================================
+        AGENCIES START
+    ================================*/
+    .single_agencies_img {
+        height: 185px;
+    }
+
+    .single_agencies_text {
+        padding: 25px;
+    }
+
+    .single_agencies_text .item_title {
+        font-size: 18px;
+    }
+
+    /*================================
+        AGENCIES END
+    ================================*/
+
+
+    /*================================
+        AGENCIES DETAILS START
+    ================================*/
+    .agent_details_area {
+        padding: 30px;
+    }
+
+    .agent_details_area_img {
+        height: 405px;
+    }
+
+    .agent_details_area_text {
+        margin-left: 0;
+    }
+
+    .agent_details_area_text h2 {
+        font-size: 28px;
+    }
+
+    .agent_social_media li a {
+        padding: 8px 20px;
+    }
+
+    .agent_social_media {
+        margin-top: 25px;
+    }
+
+    /*================================
+        AGENCIES DETAILS END
+    ================================*/
+
+
+    /*================================
+        BLOG DETAILS START
+    ================================*/
+    .blog_details_img_1 {
+        height: 270px;
+    }
+
+    .blog_details_img_2 {
+        height: 270px;
+    }
+
+    .blog_shear_area_left {
+        margin-bottom: 20px;
+    }
+
+    .blog_comment_text {
+        width: 86% !important;
+    }
+
+    .blog_comment_reply {
+        margin-left: 0;
+    }
+
+    .blog_state p {
+        padding: 0px 30px;
+    }
+
+    .blog_state {
+        padding: 45px 0px 180px 0px;
+    }
+
+    .blog_details_right_header .blog_details_tag {
+        margin-bottom: 25px;
+    }
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+
+
+    /*================================
+        CONTACT START
+    ================================*/
+    .contact_address h4 {
+        font-size: 34px;
+    }
+
+    .contact_address_text a {
+        font-size: 15px;
+    }
+
+    .contact_address_text {
+        width: 80%;
+    }
+
+    .contact_map {
+        height: 400px;
+    }
+
+    /*================================
+        CONTACT END
+    ================================*/
+
+
 
 }
 
@@ -755,7 +1151,7 @@
     }
 
     .single_agent_img {
-        height: 365px;
+        height: 365px !important;
     }
 
     .find_state_text h2 {
@@ -1037,6 +1433,229 @@
     ================================*/
 
 
+    /*================================
+        ABOUT PAGE START
+    ================================*/
+    .breadcrumb_text h1 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .breadcrumbs_overly {
+        padding: 170px 0px 90px 0px;
+    }
+
+    /*================================
+        ABOUT PAGE END
+    ================================*/
+
+
+    /*================================
+        AGENCIES DETAILS START
+    ================================*/
+    .agencies_details_img {
+        height: 305px;
+    }
+
+    .agencies_details_header {
+        padding: 15px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .agencies_details_header .img {
+        width: 150px;
+    }
+
+    .agencies_details_header .text h2 {
+        font-size: 20px;
+    }
+
+    .agencies_details_area {
+        margin-bottom: 50px;
+    }
+
+    .agencies_tabs {
+        margin-left: 12px;
+    }
+
+    .blog_details_right_header {
+        padding-left: 20px;
+        padding-top: 22px;
+    }
+
+    .blog_details_right form {
+        margin-left: 20px;
+        padding-bottom: 25px;
+    }
+
+    .popular_blog_text {
+        width: 70%;
+    }
+
+    .blog_details_right_header.sidebar_blog {
+        padding-bottom: 25px;
+    }
+
+    .categories_property {
+        margin-bottom: 25px;
+    }
+
+    /*================================
+        AGENCIES DETAILS END
+    ================================*/
+
+
+    /*================================
+        AGENCIES START
+    ================================*/
+    .single_agencies_img {
+        height: 210px;
+    }
+
+    .single_agencies_text {
+        padding: 25px;
+    }
+
+    .agencies_page .margin_sm {
+        margin-bottom: 50px;
+    }
+
+    /*================================
+        AGENCIES END
+    ================================*/
+
+
+    /*================================
+        AGENCIES DETAILS START
+    ================================*/
+    .agent_details_area {
+        padding: 30px;
+    }
+
+    .agent_details_area_img {
+        height: 416px;
+    }
+
+    .agent_details_area_text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .agent_details_area_text h2 {
+        font-size: 28px;
+    }
+
+    /*================================
+        AGENCIES DETAILS END
+    ================================*/
+
+
+    /*================================
+        BLOG DETAILS START
+    ================================*/
+    .blog_details_img_1 {
+        height: 305px;
+    }
+
+    .blog_details_img_2 {
+        height: 305px;
+    }
+
+    .blog_shear_area_left {
+        margin-bottom: 20px;
+    }
+
+    .blog_comment_text {
+        width: 86%;
+    }
+
+    .blog_comment_reply .blog_comment_text {
+        width: 86%;
+    }
+
+    .blog_comment_reply {
+        margin-left: 0;
+    }
+
+    .blog_details_left form {
+        margin-bottom: 50px;
+    }
+
+    .blog_state p {
+        padding: 0px 30px;
+    }
+
+    .blog_state {
+        padding: 45px 0px 230px 0px;
+    }
+
+    .blog_details_right_header .blog_details_tag {
+        margin-bottom: 25px;
+    }
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+
+    .checkout_left {
+        margin-bottom: 25px;
+    }
+
+    /*================================
+        CONTACT START
+    ================================*/
+    .contact_address_text {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .contact_address_text a {
+        font-size: 16px;
+    }
+
+    .contact_area form {
+        margin-top: 45px;
+    }
+
+    .contact_map {
+        height: 300px;
+    }
+
+    /*================================
+        CONTACT END
+    ================================*/
+
+
+    /*================================
+        CONTACT START
+    ================================*/
+    .contact_address ul {
+        flex-direction: inherit;
+    }
+
+    .contact_address_text {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .contact_area form {
+        margin-top: 45px;
+    }
+
+    .contact_map {
+        height: 400px;
+    }
+
+    .contact_address ul li {
+        width: 28%;
+    }
+
+    /*================================
+        CONTACT END
+    ================================*/
 
 
 
@@ -1211,6 +1830,10 @@
 
     .main_menu .navbar-brand {
         margin-left: 12px;
+    }
+
+    .blog_img {
+        height: 330px;
     }
 
     /*================================
@@ -1434,12 +2057,237 @@
     ================================*/
 
 
+    /*================================
+        ABOUT PAGE START
+    ================================*/
+    .breadcrumb_text h1 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    .breadcrumbs_overly {
+        padding: 170px 0px 90px 0px;
+    }
+
+    /*================================
+        ABOUT PAGE END
+    ================================*/
 
 
+    /*================================
+        AGENCIES DETAILS START
+    ================================*/
+    .agencies_details_img {
+        height: 230px;
+    }
+
+    .agencies_details_header {
+        margin-top: 25px;
+        width: 100%;
+        margin-left: 0;
+        padding: 25px;
+    }
+
+    .agencies_details_header .img {
+        width: 110px;
+        border: 0;
+    }
+
+    .agencies_details_header .text h2 {
+        font-size: 18px;
+    }
+
+    .agencies_details_text .agent_map {
+        height: 300px;
+    }
+
+    .agencies_details_area {
+        margin-bottom: 50px;
+    }
+
+    .agencies_tabs {
+        margin-left: 12px;
+    }
+
+    .blog_details_right_header {
+        padding-left: 20px;
+        padding-top: 22px;
+    }
+
+    .blog_details_right form {
+        margin-left: 20px;
+        padding-bottom: 25px;
+    }
+
+    .popular_blog_text {
+        width: 70%;
+    }
+
+    .blog_details_right_header.sidebar_blog {
+        padding-bottom: 25px;
+    }
+
+    .categories_property {
+        margin-bottom: 25px;
+    }
+
+    /*================================
+        AGENCIES DETAILS END
+    ================================*/
 
 
+    /*================================
+        AGENCIES START
+    ================================*/
+    .single_agencies_img {
+        height: 325px;
+    }
+
+    .single_agencies_text {
+        /* padding: 25px; */
+    }
+
+    .agencies_page .margin_sm {
+        margin-bottom: 50px;
+    }
+
+    #pagination_area ul {
+        gap: 10px;
+    }
+
+    /*================================
+        AGENCIES END
+    ================================*/
 
 
+    /*================================
+        AGENCIES DETAILS START
+    ================================*/
+    .agent_details_area {
+        padding: 30px;
+    }
+
+    .agent_details_area_img {
+        height: 525px;
+    }
+
+    .agent_details_area_text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .agent_details_area_text h2 {
+        font-size: 28px;
+    }
+
+    /*================================
+        AGENCIES DETAILS END
+    ================================*/
+
+
+    /*================================
+        BLOG DETAILS START
+    ================================*/
+    .blog_details_img_1 {
+        height: 225px;
+    }
+
+    .blog_details_review {
+        padding: 40px;
+    }
+
+    .blog_details_review::after {
+        display: none;
+    }
+
+    .blog_details_img_2 {
+        height: 225px;
+    }
+
+    .blog_shear_area_left {
+        margin-bottom: 20px;
+    }
+
+    .blog_comment_text {
+        width: 100% !important;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .blog_comment_reply {
+        margin-left: 0;
+    }
+
+    .blog_details_left form {
+        margin-bottom: 50px;
+    }
+
+    .blog_state p {
+        padding: 0px 30px;
+    }
+
+    .blog_state {
+        padding: 45px 0px 230px 0px;
+    }
+
+    .blog_details_right_header .blog_details_tag {
+        margin-bottom: 25px;
+    }
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+
+
+    /*================================
+        CHECKOUT START
+    ================================*/
+    .checkout_left {
+        padding: 40px;
+        margin-bottom: 25px;
+    }
+
+    .checkout_right {
+        padding: 40px;
+    }
+
+    /*================================
+        CHECKOUT END
+    ================================*/
+
+
+    /*================================
+        CONTACT START
+    ================================*/
+    .contact_address h4 {
+        font-size: 32px;
+    }
+
+    .contact_address_text {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .contact_address_text a {
+        font-size: 16px;
+    }
+
+    .contact_area form {
+        margin-top: 45px;
+    }
+
+    .contact_map {
+        height: 350px;
+    }
+
+    .contact_address ul li {
+        width: 46%;
+    }
+
+    /*================================
+        CONTACT END
+    ================================*/
 
 
 
@@ -1649,6 +2497,16 @@
 
     .main_menu .navbar-brand {
         margin-left: 12px;
+    }
+
+    .blog_img {
+        height: auto;
+    }
+
+    .blog_text {
+        margin-top: 0;
+        width: 100%;
+        margin-left: 0;
     }
 
     /*================================
@@ -1868,12 +2726,292 @@
         height: auto;
     }
 
+    .single_blog_3_img {
+        height: auto;
+    }
+
     /*================================
         HOME PAGE 03 END
     ================================*/
 
 
+    /*================================
+        ABOUT PAGE START
+    ================================*/
+    .breadcrumb_text h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
 
+    .breadcrumb_text ul li a {
+        font-size: 14px;
+    }
+
+    .breadcrumbs_overly {
+        padding: 140px 0px 60px 0px;
+    }
+
+    /*================================
+        ABOUT PAGE END
+    ================================*/
+
+
+    /*================================
+        AGENCIES DETAILS START
+    ================================*/
+    .agencies_details_img {
+        height: 200px;
+    }
+
+    .agencies_details_header {
+        margin-top: 25px;
+        width: 100%;
+        margin-left: 0;
+        padding: 25px;
+    }
+
+    .agencies_details_header .img {
+        width: 110px;
+        border: 0;
+    }
+
+    .agencies_details_header .text h2 {
+        font-size: 18px;
+    }
+
+    .agencies_details_text .agent_map {
+        height: 250px;
+    }
+
+    .agencies_details_area {
+        margin-bottom: 50px;
+    }
+
+    .agencies_tabs {
+        margin-left: 12px;
+    }
+
+    .blog_details_right_header {
+        padding-left: 20px;
+        padding-top: 22px;
+    }
+
+    .blog_details_right form {
+        margin-left: 20px;
+        padding-bottom: 25px;
+    }
+
+    .popular_blog_text {
+        width: 60%;
+    }
+
+    .blog_details_right_header.sidebar_blog {
+        padding-bottom: 25px;
+    }
+
+    .categories_property {
+        margin-bottom: 25px;
+    }
+
+    .blog_details_right_header .blog_details_tag {
+        margin-bottom: 25px;
+    }
+
+    /*================================
+        AGENCIES DETAILS END
+    ================================*/
+
+
+    /*================================
+        AGENCIES START
+    ================================*/
+    .single_agencies_img {
+        height: auto;
+    }
+
+    .single_agencies_text {
+        padding: 25px;
+    }
+
+    .agencies_page .margin_sm {
+        margin-bottom: 50px;
+    }
+
+    #pagination_area ul {
+        gap: 10px;
+    }
+
+    /*================================
+        AGENCIES END
+    ================================*/
+
+
+    /*================================
+        AGENCIES DETAILS START
+    ================================*/
+    .agent_details_area {
+        padding: 20px;
+    }
+
+    .agent_details_area_img {
+        height: auto;
+    }
+
+    .agent_details_area_text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .agent_details_area_text h2 {
+        font-size: 24px;
+    }
+
+    .agent_property_quantity {
+        display: none;
+    }
+
+    /*================================
+        AGENCIES DETAILS END
+    ================================*/
+
+
+    /*================================
+        BLOG DETAILS START
+    ================================*/
+    .blog_details_img_1 {
+        height: auto;
+    }
+
+    .blog_details_engage {
+        gap: 15px;
+    }
+
+    .blog_details_left h2 {
+        font-size: 22px;
+    }
+
+    .blog_details_review {
+        padding: 30px;
+    }
+
+    .blog_details_review p {
+        font-size: 14px;
+    }
+
+    .blog_details_review::after {
+        display: none;
+    }
+
+    .blog_details_img_2 {
+        height: auto;
+    }
+
+    .blog_shear_area_left {
+        margin-bottom: 20px;
+    }
+
+    .blog_shear_area_left h5 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .blog_comment_text {
+        width: 100% !important;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .blog_comment_reply {
+        margin-left: 0;
+    }
+
+    .blog_details_left form {
+        margin-bottom: 50px;
+    }
+
+    .blog_state p {
+        padding: 0px 30px;
+    }
+
+    .blog_state {
+        padding: 45px 0px 130px 0px;
+    }
+
+    /*================================
+        BLOG DETAILS END
+    ================================*/
+
+
+    /*================================
+        CHECKOUT START
+    ================================*/
+    .checkout_left {
+        padding: 30px;
+        margin-bottom: 25px;
+    }
+
+    .checkout_heading {
+        font-size: 20px;
+    }
+
+    .checkout_right {
+        padding: 30px;
+    }
+
+    /*================================
+        CHECKOUT END
+    ================================*/
+
+
+    /*================================
+        CONTACT START
+    ================================*/
+    .contact_address h4 {
+        font-size: 26px;
+    }
+
+    .contact_address_text {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .contact_address_text a {
+        font-size: 16px;
+    }
+
+    .contact_area form {
+        margin-top: 45px;
+    }
+
+    .contact_map {
+        height: 300px;
+    }
+
+    /*================================
+        CONTACT END
+    ================================*/
+
+
+    /*================================
+        DASHBOARD START
+    ================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*================================
+        DASHBOARD END
+    ================================*/
 
 
 

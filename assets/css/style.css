@@ -350,8 +350,7 @@ button {
 }
 
 .breadcrumbs_overly {
-    padding-top: 215px;
-    padding-bottom: 145px;
+    padding: 215px 0px 145px 0px;
     background: rgba(3, 26, 38, 0.50);
 }
 
@@ -425,6 +424,10 @@ button {
 
 
 /* pagination start */
+#pagination_area ul {
+    gap: 15px;
+}
+
 #pagination_area .page-link {
     font-size: 16px;
     font-family: var(--paraFont);
@@ -436,7 +439,6 @@ button {
     color: var(--colorBlack);
     line-height: 50px;
     border-radius: 0px;
-    margin: 0px 8px;
     background: var(--colorWhite) !important;
     border: 1px solid rgba(3, 26, 38, 0.14);
     -webkit-border-radius: 0px;
@@ -1660,6 +1662,8 @@ button {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+    width: 100%;
+    justify-content: center;
 }
 
 .single_agent_overly ul li a {
@@ -4553,6 +4557,10 @@ button {
     width: 88%;
 }
 
+.blog_comment_reply {
+    margin-left: 90px;
+}
+
 .blog_details_left form {
     margin-top: 85px;
 }
@@ -4563,7 +4571,7 @@ button {
 
 .blog_checkbox {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     margin-top: 15px;
     margin-bottom: 28px;
@@ -4794,6 +4802,7 @@ button {
 .blog_details_right_header .blog_details_tag {
     margin-top: 25px;
     margin-bottom: 40px;
+    padding-bottom: 1px;
 }
 
 .blog_state {
@@ -4937,9 +4946,9 @@ button {
     text-transform: capitalize;
 }
 
-.checkout_left form {
+/* .checkout_left form {
     margin-top: 25px !important;
-}
+} */
 
 .checkout_left_input {
     margin-top: 20px;
@@ -5023,12 +5032,15 @@ button {
 
 .contact_address ul {
     margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .contact_address ul li {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    width: 100%;
 }
 
 .contact_address ul li span {
@@ -5038,7 +5050,7 @@ button {
 }
 
 .contact_address_text {
-    margin-left: 12px;
+    margin-left: 25px;
 }
 
 .contact_address_text p {
@@ -5072,6 +5084,7 @@ button {
 }
 
 .contact_input .select2-container--default .select2-selection--single {
+    margin-bottom: 20px;
     border: 1px solid rgba(3, 26, 38, 0.10);
     border-radius: 0px;
     -webkit-border-radius: 0px;
@@ -5809,7 +5822,7 @@ button {
 
 .single_agencies_img {
     display: block;
-    height: 220px;
+    height: 260px;
     overflow: hidden;
 }
 
