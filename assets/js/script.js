@@ -364,7 +364,7 @@ $(function () {
     });
 
 
-    //=====LOGIN PASSWORD======== 
+    //=====PROPERTY DETAILS SLIDER======== 
     $('.slider-for2').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -385,6 +385,35 @@ $(function () {
         focusOnSelect: true,
         nextArrow: '<i class="fas fa-long-arrow-right nextArrow"></i>',
         prevArrow: '<i class="fas fa-long-arrow-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    // arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 
@@ -397,6 +426,54 @@ $(function () {
     //======MOBILE MENU BUTTON=======
     $(".navbar-toggler").on("click", function () {
         $(".navbar-toggler").toggleClass("show");
+    });
+
+
+    //======related property slider======
+    $('.related_property_slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        dots: false,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: false,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: false,
+                    arrows: false,
+                }
+            }
+        ]
+    });
+
+
+    //======dsahboard menu icon======
+    $(".sidebar_menu_icon").on("click", function () {
+        $(".dashboard_sidebar").toggleClass("dash_show_menu");
     });
 
 

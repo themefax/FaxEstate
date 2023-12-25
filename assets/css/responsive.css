@@ -141,6 +141,61 @@
         height: 430px;
     }
 
+    .property_grid_view .banner_search {
+        margin-top: -70px;
+    }
+
+    .property_grid_view .banner_search form ul {
+        width: 89%;
+    }
+
+    .property_grid_view form ul li {
+        width: 23.33%;
+    }
+
+    /*================================
+        DASHBOARD START
+    ================================*/
+    /* dashboard overview start */
+
+    .dashboard_sidebar {
+        width: 18%;
+    }
+
+    .dashboard_sidebar.dash_show_menu {
+        left: 0;
+    }
+
+    .dashboard_sidebar_menu ul {
+        max-height: 340px;
+    }
+
+    .dashboard_content {
+        width: 82%;
+    }
+
+    .dashboard_overview_item .icon {
+        margin-right: 20px;
+        width: 65px;
+        font-size: 25px;
+    }
+
+    .dashboard_sidebar_user {
+        padding: 50px 30px;
+    }
+
+    .dashboard_sidebar_user h3 {
+        font-size: 18px;
+    }
+
+    .dashboard_overview_review .single_review_text h3 span {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .dashboard_profile_img {
+        height: 370px;
+    }
 
 
 
@@ -148,6 +203,11 @@
 
 
 
+
+
+    /*================================
+        DASHBOARD END
+    ================================*/
 
 }
 
@@ -502,6 +562,100 @@
     /*================================
         CONTACT END
     ================================*/
+
+    .property_list_item .single_property_img {
+        height: 250px;
+    }
+
+    .property_grid_view .banner_search {
+        margin-top: -60px;
+    }
+
+    .property_grid_view .banner_search form ul {
+        gap: 17px;
+    }
+
+    /*================================
+        PROPERTY DETAILS START
+    ================================*/
+    .property_details_large_img {
+        height: 490px;
+    }
+
+    .single_property_details {
+        padding: 30px;
+    }
+
+    .property_details_sidebar {
+        padding: 30px;
+    }
+
+    .apertment_layout {
+        height: 670px;
+    }
+
+    .single_review_text {
+        width: 88%;
+    }
+
+    /*================================
+        PROPERTY DETAILS END
+    ================================*/
+
+
+    /*================================
+        DASHBOARD START
+    ================================*/
+    /* dashboard overview start */
+
+    .dashboard_sidebar {
+        width: 22%;
+    }
+
+    .dashboard_sidebar.dash_show_menu {
+        left: 0;
+    }
+
+    .dashboard_sidebar_menu ul {
+        max-height: 340px;
+    }
+
+    .dashboard_content {
+        width: 78%;
+    }
+
+    .dashboard_overview_review .single_review_text span {
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .dashboard_sidebar_user h3 {
+        font-size: 18px;
+    }
+
+    .dashboard_profile_img {
+        height: 360px;
+    }
+
+
+
+
+
+
+
+
+
+    /*================================
+        DASHBOARD END
+    ================================*/
+
+
+
+
+
+
+
 
 
 }
@@ -1021,6 +1175,149 @@
     /*================================
         CONTACT END
     ================================*/
+
+    .login_text {
+        padding: 50px;
+    }
+
+    .other_login_option li {
+        width: 48%;
+    }
+
+    .single_pricing {
+        padding: 30px;
+    }
+
+    .property_sm_margin {
+        margin-bottom: 50px;
+    }
+
+    .property_list_item {
+        margin: 15px 0px 43px 0px;
+    }
+
+    .property_grid_view .banner_search {
+        margin-top: -50px;
+    }
+
+    /*================================
+        PROPERTY DETAILS START
+    ================================*/
+    .property_details_large_img {
+        height: 410px;
+    }
+
+    .property_details_slider .slider-nav2 {
+        width: 500px;
+    }
+
+    .property_details_small_img {
+        height: auto;
+    }
+
+    .property_details_share {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .property_apartment_details li,
+    .property_facilities ul li {
+        width: 50%;
+    }
+
+    .apertment_layout {
+        height: 550px;
+    }
+
+    .apertment_map {
+        height: 350px;
+    }
+
+    .apertment_video {
+        height: 310px;
+    }
+
+    .apartment_review_counter {
+        margin-bottom: 25px;
+    }
+
+    .single_review_text {
+        width: 86%;
+    }
+
+    .single_property_details {
+        padding: 30px;
+    }
+
+    .single_property_details h4 {
+        font-size: 24px;
+    }
+
+    .property_details_sidebar {
+        padding: 30px;
+    }
+
+    /*================================
+        PROPERTY DETAILS END
+    ================================*/
+
+
+    /*================================
+        DASHBOARD START
+    ================================*/
+    /* dashboard overview start */
+    .dashboard_sidebar {
+        width: 25%;
+    }
+
+    .dashboard_sidebar_menu ul {
+        max-height: 340px;
+    }
+
+    .dashboard_content {
+        width: 75%;
+    }
+
+    .dashboard_overview_review .single_review_text {
+        width: 88%;
+        margin-left: 20px;
+    }
+
+    .dashboard_sidebar_user h3 {
+        font-size: 18px;
+    }
+
+    .dashboard_profile_img {
+        height: 340px;
+    }
+
+    .dashboard_profile_text {
+        padding: 30px 30px 30px 0px;
+    }
+
+    .dashboard_invoice_header .text {
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+    /*================================
+        DASHBOARD END
+    ================================*/
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1657,6 +1954,158 @@
         CONTACT END
     ================================*/
 
+    .other_login_option li {
+        width: 48%;
+    }
+
+    .single_pricing {
+        padding: 30px;
+    }
+
+    .single_pricing h2 {
+        font-size: 32px;
+    }
+
+    .property_sm_margin {
+        margin-bottom: 50px;
+    }
+
+    .property_list_item .single_property_img {
+        height: 250px;
+    }
+
+    .property_list_item {
+        margin: 17px 0px 43px 0px;
+    }
+
+    .property_grid_view .banner_search {
+        margin-top: 100px;
+    }
+
+    .property_grid_view .banner_search .nav {
+        border: 1px solid rgba(3, 26, 38, 0.10);
+    }
+
+    /*================================
+        PROPERTY DETAILS START
+    ================================*/
+    .property_details_large_img {
+        height: 305px;
+    }
+
+    .property_details_slider .slider-nav2 {
+        width: 400px;
+        margin-top: -75px;
+    }
+
+    .property_details_small_img {
+        height: auto;
+    }
+
+    .single_property_details h4 {
+        font-size: 24px;
+    }
+
+    .property_details_share {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .property_apartment_details li,
+    .property_facilities ul li {
+        width: 50%;
+    }
+
+    .apertment_layout {
+        height: 610px;
+    }
+
+    .apertment_map {
+        height: 350px;
+    }
+
+    .apertment_video {
+        height: 350px;
+    }
+
+    .apartment_review_counter {
+        margin-bottom: 25px;
+    }
+
+    .single_review_text {
+        width: 86%;
+    }
+
+    .details_apertment_form {
+        margin-bottom: 25px;
+    }
+
+    /*================================
+        PROPERTY DETAILS END
+    ================================*/
+
+
+    /*================================
+        DASHBOARD START
+    ================================*/
+    /* dashboard overview start */
+    .sidebar_menu_icon {
+        display: block;
+    }
+
+    .dashboard_sidebar {
+        width: 300px;
+        left: -300px;
+    }
+
+    .dashboard_sidebar.dash_show_menu {
+        left: 0;
+    }
+
+    .dashboard_sidebar_menu ul {
+        max-height: 340px;
+    }
+
+    .dashboard_content {
+        width: 100%;
+        padding: 80px 30px 30px 30px;
+    }
+
+    .dashboard_overview_review .single_review_text {
+        width: 88%;
+        margin-left: 20px;
+    }
+
+    .dashboard_profile_text .list li span {
+        width: 80px;
+    }
+
+    .dashboard_profile_img {
+        height: 290px;
+    }
+
+    .dashboard_profile_text {
+        padding: 30px 30px 30px 0px;
+    }
+
+
+
+
+
+    /*================================
+        DASHBOARD END
+    ================================*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
@@ -2288,6 +2737,258 @@
     /*================================
         CONTACT END
     ================================*/
+
+    .login_text {
+        padding: 40px;
+    }
+
+    .other_login_option li {
+        width: 48%;
+    }
+
+    .privacy_policy_area {
+        padding: 8px 30px 30px 30px;
+    }
+
+    .privacy_policy_area h4 {
+        font-size: 18px;
+    }
+
+
+
+
+
+
+    .payment_area {
+        margin-bottom: 25px;
+    }
+
+    .single_pricing {
+        /* padding: 30px; */
+    }
+
+    .single_pricing h2 {
+        font-size: 32px;
+    }
+
+    .single_pricing p {
+        padding-right: 0;
+    }
+
+    .single_payment {
+        max-height: 95px;
+    }
+
+    .property_sm_margin {
+        margin-bottom: 50px;
+    }
+
+    .blog_details_right_header h3,
+    .sidebar_wizerd .accordion-button,
+    .sidebar_wizerd h3 {
+        font-size: 16px;
+    }
+
+    .sidebar_amenities .accordion-button::after {
+        height: 39px;
+        line-height: 39px;
+    }
+
+    /*================================
+        PROPERTY LIST START
+    ================================*/
+    .property_list_item .single_property_img {
+        height: 350px;
+    }
+
+    .property_list_item .single_property_top {
+        padding: 30px 20px 20px 20px;
+        width: 100%;
+    }
+
+    .property_list_item .single_property_bottom {
+        padding: 10px 20px;
+    }
+
+    .property_list_item .single_property_text {
+        margin: 0;
+    }
+
+    .property_list_item .property_price {
+        right: 10px;
+    }
+
+    .property_grid_view .banner_search {
+        margin-top: 100px;
+    }
+
+    .property_grid_view .banner_search .nav {
+        border: 1px solid rgba(3, 26, 38, 0.10);
+    }
+
+    /*================================
+        PROPERTY LIST END
+    ================================*/
+
+
+    /*================================
+        PROPERTY DETAILS START
+    ================================*/
+    .property_details_large_img {
+        height: 225px;
+    }
+
+    .property_details_slider .slider-nav2 {
+        width: 260px;
+        position: relative;
+        margin-top: -30px;
+    }
+
+    .property_details_small_img {
+        height: auto;
+    }
+
+    .single_property_details {
+        padding: 30px;
+    }
+
+    .single_property_details h4 {
+        font-size: 22px;
+    }
+
+    .property_details_share {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .property_details_address h3 {
+        margin-top: 20px;
+    }
+
+    .property_apartment_details li {
+        width: 100%;
+    }
+
+    .property_facilities ul li {
+        width: 50%;
+    }
+
+    .apertment_layout {
+        height: 450px;
+    }
+
+    .apertment_map {
+        height: 280px;
+    }
+
+    .apertment_video {
+        height: 260px;
+    }
+
+    .apartment_review_counter {
+        margin-bottom: 25px;
+    }
+
+    .single_review_text {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .single_review_text h3 span {
+        color: #FFA800;
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .details_apertment_form {
+        margin-bottom: 25px;
+    }
+
+    .property_details_sidebar {
+        padding: 25px;
+    }
+
+    .property_list_item {
+        margin: 0px 0px 25px 0px;
+    }
+
+    /*================================
+        PROPERTY DETAILS END
+    ================================*/
+
+
+    /*================================
+        DASHBOARD START
+    ================================*/
+    .sidebar_menu_icon {
+        display: block;
+    }
+
+    .dashboard_sidebar {
+        width: 300px;
+        left: -300px;
+    }
+
+    .dashboard_sidebar.dash_show_menu {
+        left: 0;
+    }
+
+    .dashboard_sidebar_menu ul {
+        max-height: 340px;
+    }
+
+    .dashboard_content {
+        width: 100%;
+        padding: 80px 30px 30px 30px;
+    }
+
+    .dashboard_profile_img {
+        border-right: 0;
+        margin-right: 0;
+        height: auto;
+    }
+
+    .dashboard_profile_text {
+        padding: 25px;
+    }
+
+
+
+
+    .dashboard_invoice_header .text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .dashboard_invoice_header .text ul li span {
+        width: 100%;
+    }
+
+    .dashboard_invoice_header {
+        padding-bottom: 0;
+    }
+
+
+
+
+
+
+
+
+
+    /*================================
+        DASHBOARD END
+    ================================*/
+
+
+
+
+
+
+
+
 
 
 
@@ -2992,26 +3693,309 @@
         CONTACT END
     ================================*/
 
+    .main_error h2 {
+        font-size: 130px;
+        margin-top: 20px;
+    }
+
+    .main_error h4 {
+        font-size: 28px;
+    }
+
+    .faq_accordion button {
+        font-size: 14px;
+    }
+
+    .faq_accordion .accordion-body {
+        font-size: 14px;
+    }
+
+    .login_text {
+        padding: 30px;
+    }
+
+    .login_text h4 {
+        font-size: 24px;
+    }
+
+    .other_login_option li {
+        width: 100%;
+    }
+
+    .privacy_policy_area {
+        padding: 8px 30px 30px 30px;
+    }
+
+    .privacy_policy_area h4 {
+        font-size: 18px;
+    }
+
+
+
+    .payment_area {
+        margin-bottom: 25px;
+    }
+
+    .single_pricing {
+        padding: 30px;
+    }
+
+    .single_payment {
+        max-height: inherit;
+    }
+
+    .payment_modal .modal-body {
+        padding: 20px;
+    }
+
+    .property_sm_margin {
+        margin-bottom: 50px;
+    }
+
+    .blog_details_right_header h3,
+    .sidebar_wizerd .accordion-button,
+    .sidebar_wizerd h3 {
+        font-size: 16px;
+    }
+
+    .sidebar_amenities .accordion-button::after {
+        height: 39px;
+        line-height: 39px;
+    }
+
+    .sidebar_wizerd {
+        padding-right: 20px;
+        padding-bottom: 25px;
+        padding-top: 22px;
+    }
+
+
+    /*================================
+        PROPERTY LIST START
+    ================================*/
+    .property_list_item .single_property_img {
+        height: auto;
+    }
+
+    .property_list_item .single_property_top {
+        padding: 30px 20px 20px 20px;
+        width: 100%;
+    }
+
+    .property_list_item .single_property_bottom {
+        padding: 10px 20px;
+    }
+
+    .property_list_item .single_property_text {
+        margin: 0;
+    }
+
+    .property_list_item .property_price {
+        right: 10px;
+    }
+
+    .property_grid_view .banner_search {
+        margin-top: 100px;
+    }
+
+    .property_grid_view .banner_search .nav {
+        border: 1px solid rgba(3, 26, 38, 0.10);
+    }
+
+    /*================================
+        PROPERTY LIST END
+    ================================*/
+
+
+    /*================================
+        PROPERTY DETAILS START
+    ================================*/
+    .property_details_large_img {
+        height: auto;
+    }
+
+    .property_details_slider .slider-nav2 {
+        width: 260px;
+        position: relative;
+        margin-top: -15px;
+    }
+
+    .property_details_small_img {
+        height: auto;
+    }
+
+    .single_property_details {
+        padding: 25px;
+    }
+
+    .single_property_details h4 {
+        font-size: 20px;
+    }
+
+    .property_details_share {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .property_details_address h3 {
+        margin-top: 20px;
+    }
+
+    .property_facilities ul li,
+    .property_apartment_details li {
+        width: 100%;
+    }
+
+    .apertment_layout {
+        height: auto;
+    }
+
+    .apertment_map {
+        height: 220px;
+    }
+
+    .apertment_video {
+        height: 190px;
+    }
+
+    .apartment_review_counter {
+        margin-bottom: 25px;
+    }
+
+    .single_review_text {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .single_review_text h3 span {
+        color: #FFA800;
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .details_apertment_form {
+        margin-bottom: 25px;
+    }
+
+    .property_details_sidebar {
+        padding: 25px;
+    }
+
+    .property_list_item {
+        margin: 0px 0px 25px 0px;
+    }
+
+    /*================================
+        PROPERTY DETAILS END
+    ================================*/
+
 
     /*================================
         DASHBOARD START
     ================================*/
+    /* dashboard overview start */
+    .sidebar_menu_icon {
+        display: block;
+    }
 
+    .dashboard_sidebar {
+        width: 270px;
+        left: -270px;
+    }
 
+    .dashboard_sidebar.dash_show_menu {
+        left: 0;
+    }
 
+    .dashboard_sidebar_menu ul {
+        max-height: 340px;
+    }
 
+    .dashboard_content {
+        width: 100%;
+        padding: 65px 20px 20px 20px;
+    }
 
+    .dashboard_content .dashboard_title {
+        font-size: 20px;
+        display: block;
+    }
 
+    .dashboard_overview_item .icon {
+        margin-right: 25px;
+    }
 
+    .dashboard_content .dashboard_title .common_btn {
+        margin-top: 15px;
+    }
 
+    .dashboard_profile_img {
+        border-right: 0;
+        margin-right: 0;
+        padding: 0;
+        height: auto;
+    }
 
+    .dashboard_profile_text {
+        padding: 25px;
+    }
 
+    .dashboard_profile_text .list li span {
+        width: 100%;
+    }
+
+    .dashboard_profile_text h3 {
+        font-size: 18px;
+    }
+
+    .add_property_info h3,
+    .dashboard_profile_edit h3 {
+        font-size: 18px;
+    }
+
+    .dashboard_invoice_logo_area .text {
+        margin-top: 25px;
+    }
+
+    .dashboard_invoice_header .text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .dashboard_invoice_header .text ul li span {
+        width: 100%;
+    }
+
+    .dashboard_invoice_header {
+        padding-bottom: 0;
+    }
+
+    .dashboard_invoice_footer a {
+        position: initial;
+        margin-top: 30px;
+    }
+
+    .dashboard_invoice_header .text h2 {
+        font-size: 18px;
+    }
 
 
 
     /*================================
         DASHBOARD END
     ================================*/
+
+
+
+
+
+
+
+
+
+
 
 
 

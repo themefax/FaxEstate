@@ -28,6 +28,11 @@
     ==========================-->
     <section class="dashboard">
         <div class="dashboard_sidebar">
+            <div class="sidebar_menu_icon">
+                <i class="fas fa-bars dash_bar_icon"></i>
+                <i class="far fa-times dash_close_icon"></i>
+            </div>
+
             <a class="dashboard_sidebar_logo" href="index.html">
                 <img src="assets/images/logo_1.png" alt="FaxEstate" class="img-fluid w-100">
             </a>
@@ -113,7 +118,7 @@
             <h2 class="dashboard_title">Welcome To Your Profile</h2>
             <div class="dashboard_overview">
                 <div class="row">
-                    <div class="col-xl-3">
+                    <div class="col-xxl-3 col-md-6 col-xl-6">
                         <div class="dashboard_overview_item">
                             <div class="icon">
                                 <i class="far fa-list-ul"></i>
@@ -121,7 +126,7 @@
                             <h3> 471 <span>Listing Property</span></h3>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xxl-3 col-md-6 col-xl-6">
                         <div class="dashboard_overview_item blue">
                             <div class="icon">
                                 <i class="fas fa-spinner"></i>
@@ -129,7 +134,7 @@
                             <h3> 56 <span>Pending Property</span></h3>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xxl-3 col-md-6 col-xl-6">
                         <div class="dashboard_overview_item orange">
                             <div class="icon">
                                 <i class="far fa-heart"></i>
@@ -137,7 +142,7 @@
                             <h3> 37 <span>Wishlist</span></h3>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xxl-3 col-md-6 col-xl-6">
                         <div class="dashboard_overview_item red">
                             <div class="icon">
                                 <i class="far fa-star"></i>
@@ -147,14 +152,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-9">
+                    <div class="col-xxl-9 col-xl-8">
                         <div class="row">
-                            <div class="col-xl-6">
+                            <div class="col-xxl-6 col-xl-12">
                                 <div class="overview_chart">
                                     <div class="example-two"></div>
                                 </div>
                             </div>
-                            <div class="col-xl-6">
+                            <div class="col-xxl-6 col-xl-12">
                                 <div class="review_progressbar mt_25">
                                     <h3>Summary</h3>
                                     <div class="single_bar">
@@ -188,122 +193,131 @@
                             </div>
                         </div>
                         <div class="overview_listing">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th class="images">images</th>
-                                        <th class="details">details</th>
-                                        <th class="price">price</th>
-                                        <th class="status">status</th>
-                                        <th class="action">action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="images">
-                                            <img src="assets/images/property_1.jpg" alt="property"
-                                                class="img-fluid w-100">
-                                        </td>
-                                        <td class="details">
-                                            <a class="item_title" href="property_details.html">Leisure Beautiful
-                                                Health</a>
-                                            <p>Posting date: March 22, 2023</p>
-                                        </td>
-                                        <td class="price">
-                                            <h3>$599.00</h3>
-                                        </td>
-                                        <td class="status">
-                                            <span class="approved">approved</span>
-                                        </td>
-                                        <td class="action">
-                                            <a href="dashboard_edit_property.html"><i class="far fa-pen"></i> Edit</a>
-                                            <a href="#"><i class="far fa-trash"></i> Delete</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="images">
-                                            <img src="assets/images/property_2.jpg" alt="property"
-                                                class="img-fluid w-100">
-                                        </td>
-                                        <td class="details">
-                                            <a class="item_title" href="property_details.html">Hermosa Casa al Norte</a>
-                                            <p>Posting date: March 22, 2023</p>
-                                        </td>
-                                        <td class="price">
-                                            <h3>$455.00</h3>
-                                        </td>
-                                        <td class="status">
-                                            <span class="pending">pending</span>
-                                        </td>
-                                        <td class="action">
-                                            <a href="dashboard_edit_property.html"><i class="far fa-pen"></i> Edit</a>
-                                            <a href="#"><i class="far fa-trash"></i> Delete</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="images">
-                                            <img src="assets/images/property_3.jpg" alt="property"
-                                                class="img-fluid w-100">
-                                        </td>
-                                        <td class="details">
-                                            <a class="item_title" href="property_details.html">South Side Garden
-                                                House</a>
-                                            <p>Posting date: March 22, 2023</p>
-                                        </td>
-                                        <td class="price">
-                                            <h3>$599.00</h3>
-                                        </td>
-                                        <td class="status">
-                                            <span class="sold">sold</span>
-                                        </td>
-                                        <td class="action">
-                                            <a href="dashboard_edit_property.html"><i class="far fa-pen"></i> Edit</a>
-                                            <a href="#"><i class="far fa-trash"></i> Delete</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="images">
-                                            <img src="assets/images/property_4.jpg" alt="property"
-                                                class="img-fluid w-100">
-                                        </td>
-                                        <td class="details">
-                                            <a class="item_title" href="property_details.html">Leisure Beautiful
-                                                Health</a>
-                                            <p>Posting date: March 22, 2023</p>
-                                        </td>
-                                        <td class="price">
-                                            <h3>$599.00</h3>
-                                        </td>
-                                        <td class="status">
-                                            <span class="approved">approved</span>
-                                        </td>
-                                        <td class="action">
-                                            <a href="dashboard_edit_property.html"><i class="far fa-pen"></i> Edit</a>
-                                            <a href="#"><i class="far fa-trash"></i> Delete</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="images">
-                                            <img src="assets/images/property_5.jpg" alt="property"
-                                                class="img-fluid w-100">
-                                        </td>
-                                        <td class="details">
-                                            <a class="item_title" href="property_details.html">Hermosa Casa al Norte</a>
-                                            <p>Posting date: March 22, 2023</p>
-                                        </td>
-                                        <td class="price">
-                                            <h3>$455.00</h3>
-                                        </td>
-                                        <td class="status">
-                                            <span class="pending">pending</span>
-                                        </td>
-                                        <td class="action">
-                                            <a href="dashboard_edit_property.html"><i class="far fa-pen"></i> Edit</a>
-                                            <a href="#"><i class="far fa-trash"></i> Delete</a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="table-responsive">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th class="images">images</th>
+                                            <th class="details">details</th>
+                                            <th class="price">price</th>
+                                            <th class="status">status</th>
+                                            <th class="action">action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="images">
+                                                <img src="assets/images/property_1.jpg" alt="property"
+                                                    class="img-fluid w-100">
+                                            </td>
+                                            <td class="details">
+                                                <a class="item_title" href="property_details.html">Leisure Beautiful
+                                                    Health</a>
+                                                <p>Posting date: March 22, 2023</p>
+                                            </td>
+                                            <td class="price">
+                                                <h3>$599.00</h3>
+                                            </td>
+                                            <td class="status">
+                                                <span class="approved">approved</span>
+                                            </td>
+                                            <td class="action">
+                                                <a href="dashboard_edit_property.html"><i class="far fa-pen"></i>
+                                                    Edit</a>
+                                                <a href="#"><i class="far fa-trash"></i> Delete</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="images">
+                                                <img src="assets/images/property_2.jpg" alt="property"
+                                                    class="img-fluid w-100">
+                                            </td>
+                                            <td class="details">
+                                                <a class="item_title" href="property_details.html">Hermosa Casa al
+                                                    Norte</a>
+                                                <p>Posting date: March 22, 2023</p>
+                                            </td>
+                                            <td class="price">
+                                                <h3>$455.00</h3>
+                                            </td>
+                                            <td class="status">
+                                                <span class="pending">pending</span>
+                                            </td>
+                                            <td class="action">
+                                                <a href="dashboard_edit_property.html"><i class="far fa-pen"></i>
+                                                    Edit</a>
+                                                <a href="#"><i class="far fa-trash"></i> Delete</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="images">
+                                                <img src="assets/images/property_3.jpg" alt="property"
+                                                    class="img-fluid w-100">
+                                            </td>
+                                            <td class="details">
+                                                <a class="item_title" href="property_details.html">South Side Garden
+                                                    House</a>
+                                                <p>Posting date: March 22, 2023</p>
+                                            </td>
+                                            <td class="price">
+                                                <h3>$599.00</h3>
+                                            </td>
+                                            <td class="status">
+                                                <span class="sold">sold</span>
+                                            </td>
+                                            <td class="action">
+                                                <a href="dashboard_edit_property.html"><i class="far fa-pen"></i>
+                                                    Edit</a>
+                                                <a href="#"><i class="far fa-trash"></i> Delete</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="images">
+                                                <img src="assets/images/property_4.jpg" alt="property"
+                                                    class="img-fluid w-100">
+                                            </td>
+                                            <td class="details">
+                                                <a class="item_title" href="property_details.html">Leisure Beautiful
+                                                    Health</a>
+                                                <p>Posting date: March 22, 2023</p>
+                                            </td>
+                                            <td class="price">
+                                                <h3>$599.00</h3>
+                                            </td>
+                                            <td class="status">
+                                                <span class="approved">approved</span>
+                                            </td>
+                                            <td class="action">
+                                                <a href="dashboard_edit_property.html"><i class="far fa-pen"></i>
+                                                    Edit</a>
+                                                <a href="#"><i class="far fa-trash"></i> Delete</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="images">
+                                                <img src="assets/images/property_5.jpg" alt="property"
+                                                    class="img-fluid w-100">
+                                            </td>
+                                            <td class="details">
+                                                <a class="item_title" href="property_details.html">Hermosa Casa al
+                                                    Norte</a>
+                                                <p>Posting date: March 22, 2023</p>
+                                            </td>
+                                            <td class="price">
+                                                <h3>$455.00</h3>
+                                            </td>
+                                            <td class="status">
+                                                <span class="pending">pending</span>
+                                            </td>
+                                            <td class="action">
+                                                <a href="dashboard_edit_property.html"><i class="far fa-pen"></i>
+                                                    Edit</a>
+                                                <a href="#"><i class="far fa-trash"></i> Delete</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                             <div class="row mt_25">
                                 <div class="col-12">
                                     <div id="pagination_area">
@@ -312,7 +326,8 @@
                                                 <li class="page-item"><a class="page-link" href="#"><i
                                                             class="far fa-angle-double-left" aria-hidden="true"></i></a>
                                                 </li>
-                                                <li class="page-item"><a class="page-link active" href="#">01</a></li>
+                                                <li class="page-item"><a class="page-link active" href="#">01</a>
+                                                </li>
                                                 <li class="page-item"><a class="page-link" href="#">02</a></li>
                                                 <li class="page-item"><a class="page-link" href="#">03</a></li>
                                                 <li class="page-item"><a class="page-link" href="#"><i
@@ -325,7 +340,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3">
+                    <div class="col-xxl-3 col-xl-4">
                         <div class="dashboard_overview_review">
                             <h2>Recent Reviews</h2>
                             <div class="single_review">
