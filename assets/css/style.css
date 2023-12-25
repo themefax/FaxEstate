@@ -1,9 +1,8 @@
 /****************************************
-Template Name: RESTINA - Restaurant Food Ordering System HTML Template.
+Template Name: FaxEstate - Real Estate & Property HTML5 Template.
 Author: ThemeLab-Portfolio 
 Author Email: themelab.bd@gmail.com
 Version: 1.0
-Description: CTAKE is Multi Page HTML Template designed for Restaurants, cafes, Seafood, Bakeries, bars, Catering, and Food business websites. It is designed with a Unique and clean & modern Look. This template is designed based on the Bootstrap5 Grid System. You can customize it very easily to fit your needs. CTAKE is a fully responsive layout. It fits perfectly on various displays and resolutions from regular desktop screens to tablets, iPads, iPhones, and small mobile devices.
 ***************************************
 
 CSS INDEX
@@ -12,29 +11,25 @@ CSS INDEX
 02. HOME PAGE 01
 03. HOME PAGE 02 
 04. HOME PAGE 03
-05. ABOUT US PAGE 01
-06. ABOUT US PAGE 02
-07. MENU STYLE 01
-08. MENU STYLE 02
-09. MENU GRID VIEW PAGE
-10. MENU DETAILS PAGE
-11. BRANCH PAGE
-12. BLOG DETAILS PAGE
-13. DASHBOARD PAGE 
-14. CART VIEW PAGE
-15. SERVICE PAGE
-16. SERVICE DETAILS PAGE
-17. FAQ'S PAGE
-18. CHEFS DETAILS PAGE
-19. RESERVATION PAGE
-20. CHECKOUT PAGE
-21. PAYMENT PAGE
-22. CONTACT PAGE
-23. SIGN IN PAGE
-24. PRIVACY POLICY PAGE
-25. ERROR/404 PAGE
+05. AGENT PAGE
+06. AGENT DETAILS
+07. BLOG DETAILS
+08. PRICEING PAGE
+09. CHECKOUT PAGE
+10. CONTACT PAGE
+11. FAQ PAGE
+12. LOGIN PAGE
+13. PRIVACY POLICY
+14. ERROR PAGE
+14. PROPERTY GRID VIEW 
+15. PROPERTY LIST VIEW
+16. PROPERTY LEFT SIDEBAR
+17. PAYMENT PAGE
+18. AGENCIES PAGE
+19. AGENCIES DETAILS
+20. PROPERTY DETAILS
+21. DASHBOARD
 **********************************/
-
 
 /*=============================
     GLOBAL CSS START
@@ -4035,7 +4030,7 @@ button {
 
 
 /*=============================
-    AGENT START
+    AGENT PAGE START
 =============================*/
 .single_agent_2 {
     margin-top: 25px;
@@ -4161,7 +4156,7 @@ button {
 }
 
 /*=============================
-    AGENT END
+    AGENT PAGE END
 =============================*/
 
 
@@ -4571,7 +4566,6 @@ button {
 
 .blog_checkbox {
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
     margin-top: 15px;
     margin-bottom: 28px;
@@ -4841,7 +4835,7 @@ button {
 
 
 /*=============================
-    PRICEING START
+    PRICEING PAGE START
 =============================*/
 .single_pricing {
     margin-top: 25px;
@@ -4923,12 +4917,11 @@ button {
 }
 
 /*=============================
-    PRICEING END
+    PRICEING PAGE END
 =============================*/
 
-
 /*=============================
-    CHECKOUT START
+    CHECKOUT PAGE START
 =============================*/
 .checkout_area {
     background: #F3F5F9;
@@ -4945,10 +4938,6 @@ button {
     font-weight: 700;
     text-transform: capitalize;
 }
-
-/* .checkout_left form {
-    margin-top: 25px !important;
-} */
 
 .checkout_left_input {
     margin-top: 20px;
@@ -5017,12 +5006,11 @@ button {
 }
 
 /*=============================
-    CHECKOUT END
+    CHECKOUT PAGE END
 =============================*/
 
-
 /*=============================
-    CONTACT START
+    CONTACT PAGE START
 =============================*/
 .contact_address h4 {
     font-size: 40px;
@@ -5105,12 +5093,11 @@ button {
 }
 
 /*=============================
-    CONTACT END
+    CONTACT PAGE END
 =============================*/
 
-
 /*=============================
-    FAQ START
+    FAQ PAGE START
 =============================*/
 .faq_area {
     background: #F3F5F9;
@@ -5181,12 +5168,12 @@ button {
 }
 
 /*=============================
-    FAQ END
+    FAQ PAGE END
 =============================*/
 
 
 /*=============================
-    LOGIN START
+    LOGIN PAGE START
 =============================*/
 .login_area {
     background: #F3F5F9;
@@ -5364,12 +5351,12 @@ button {
 }
 
 /*=============================
-    LOGIN END
+    LOGIN PAGE END
 =============================*/
 
 
 /*=============================
-    PRIVACY_POLICY START
+    PRIVACY POLICY START
 =============================*/
 .privacy_policy {
     background: #F3F5F9;
@@ -5429,12 +5416,11 @@ button {
 }
 
 /*=============================
-    PRIVACY_POLICY END
+    PRIVACY POLICY END
 =============================*/
 
-
 /*=============================
-    ERROR START
+    ERROR PAGE START
 =============================*/
 .error_area {
     background-size: cover !important;
@@ -5475,9 +5461,8 @@ button {
 }
 
 /*=============================
-    ERROR END
+    ERROR PAGE END
 =============================*/
-
 
 /*=============================
     PROPERTY GRID VIEW START
@@ -5492,7 +5477,7 @@ button {
 
 
 /*=============================
-    PROPERTY LIST VIEW END
+    PROPERTY LIST VIEW START
 =============================*/
 .property_list_item {
     position: relative;
@@ -5668,7 +5653,6 @@ button {
     PROPERTY LEFT SIDEBAR END
 =============================*/
 
-
 /*=============================
     PAYMENT PAGE START
 =============================*/
@@ -5812,7 +5796,6 @@ button {
     PAYMENT PAGE END
 =============================*/
 
-
 /*=============================
     AGENCIES PAGE START
 =============================*/
@@ -5894,7 +5877,6 @@ button {
 /*=============================
     AGENCIES PAGE END
 =============================*/
-
 
 /*=============================
     AGENCIES DETAILS START
@@ -6036,7 +6018,6 @@ button {
 /*=============================
     AGENCIES DETAILS END
 =============================*/
-
 
 /*=============================
     PROPERTY DETAILS START
@@ -6370,7 +6351,6 @@ button {
     box-shadow: 0px 1px 2px 0px rgba(3, 26, 38, 0.10);
 }
 
-
 .schedule_input {
     margin-top: 20px;
 }
@@ -6561,7 +6541,6 @@ button {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-
 /*=============================
     PROPERTY DETAILS END
 =============================*/
@@ -6569,6 +6548,7 @@ button {
 /*=============================
     DASHBOARD START
 =============================*/
+/* dashboard sidebar start */
 .sidebar_menu_icon {
     position: absolute;
     top: 10px;
@@ -6605,7 +6585,6 @@ button {
     display: none;
 }
 
-/* dashboard sidebar start */
 .dashboard_sidebar {
     background: var(--colorBlack);
     height: 100%;
@@ -6752,6 +6731,8 @@ button {
 }
 
 /* dashboard sidebar end */
+
+/* dashboard overview start */
 .dashboard_content {
     width: 85%;
     margin-left: auto;
@@ -6760,7 +6741,6 @@ button {
     min-height: 100vh;
 }
 
-/* dashboard overview start */
 .dashboard_content .dashboard_title {
     font-size: 22px;
     font-weight: 700;
@@ -6832,7 +6812,6 @@ button {
 
 .overview_listing {
     margin-top: 25px;
-    /* border: 1px solid rgb(3 26 38 / 4%); */
 }
 
 .overview_listing table {
@@ -7026,7 +7005,6 @@ button {
 
 /* dashboard overview end */
 
-
 /* dashboard profile start */
 .dashboard_profile {
     margin-top: 25px;
@@ -7183,7 +7161,6 @@ button {
 
 /* dashboard profile end */
 
-
 /* dashboard reviews start */
 .dashboard_reviews {
     border: 1px solid rgb(3 26 38 / 4%);
@@ -7193,7 +7170,6 @@ button {
 }
 
 /* dashboard reviews end */
-
 
 /* dashboard add property start */
 .add_property_aminities .form-check input {
@@ -7211,7 +7187,6 @@ button {
 
 /* dashboard add property end */
 
-
 /* dashboard order start */
 .dashboard_order {
     margin-top: 20px;
@@ -7221,7 +7196,6 @@ button {
     width: 100%;
     border: 1px solid rgb(3 26 38 / 4%);
     margin: 0;
-    /* margin-top: 25px; */
 }
 
 .dashboard_order table tr {

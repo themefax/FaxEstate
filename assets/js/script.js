@@ -403,7 +403,6 @@ $(function () {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
-                    // arrows: false,
                 }
             },
             {
@@ -475,6 +474,5 @@ $(function () {
     $(".sidebar_menu_icon").on("click", function () {
         $(".dashboard_sidebar").toggleClass("dash_show_menu");
     });
-
 
 });
