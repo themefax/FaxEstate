@@ -2093,7 +2093,6 @@ button {
     padding: 0px 10px 10px 0px;
     color: var(--colorWhite);
     border-bottom: 1px solid rgba(255, 255, 255, 0.14);
-    /* resize: auto; */
 }
 
 .footer_form_input input::placeholder {
@@ -2107,13 +2106,11 @@ button {
 }
 
 .footer_btn {
-    background: var(--colorWhite);
-    color: var(--colorBlack);
     margin-top: 35px;
 }
 
 .footer_btn:hover {
-    background: var(--colorPrimary);
+    background: var(--colorWhite);
     color: var(--colorBlack);
 }
 
