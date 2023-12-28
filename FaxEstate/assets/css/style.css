@@ -3,6 +3,9 @@ Template Name: FaxEstate - Real Estate & Property HTML5 Template.
 Author: ThemeLab-Portfolio 
 Author Email: themelab.bd@gmail.com
 Version: 1.0
+Description: FaxEstate offers a full range of real estate solutions. It is especially made for any kind of real estate listing, including apartments, rentals, and agencies. The Bootstrap 5 framework was used to create the high-end HTML5 template FaxEstate, which is intended for real estate-related websites. Excellent responsiveness was used in the construction of the entire template. It has all the components you require for an effective real estate company website.
+
+W3C HTML validation coding and 100% responsive, mobile-friendly design are guaranteed by FaxEstate. Because all of the HTML, CSS, and JS code is clearly commented, customising it is simple.e easily customized.
 ***************************************
 
 CSS INDEX
@@ -34,7 +37,7 @@ CSS INDEX
 /*=============================
     GLOBAL CSS START
 =============================*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:wght@400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 * {
     margin: 0;
@@ -129,7 +132,6 @@ button {
     --paraFont: 'Roboto', sans-serif;
     --headingFont: 'Merriweather', sans-serif;
 }
-
 
 .section_heading h2 {
     font-size: 40px;
@@ -978,7 +980,7 @@ button {
 
 .banner_text h1 {
     font-size: 80px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .banner_text p {
@@ -1448,7 +1450,7 @@ button {
     left: 30px;
     padding: 2px 10px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--colorWhite);
     background: var(--colorBlack);
     text-transform: capitalize;
@@ -1864,7 +1866,8 @@ button {
     font-weight: 400;
     font-family: var(--paraFont);
     margin-right: 20px;
-    color: var(--paraColor);
+    color: var(--colorBlack);
+    opacity: .8;
 }
 
 .blog_text ul li span {
@@ -2553,10 +2556,12 @@ button {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    font-weight: 500;
 }
 
 .single_property_2 .property_price b {
     font-size: 18px;
+    font-weight: 500;
 }
 
 .single_property_2 .single_property_top ul {
@@ -2883,6 +2888,12 @@ button {
 
 .enquiry_form .enquiry_form_input button {
     margin-top: 25px;
+    background: var(--colorBlue);
+    color: var(--colorWhite);
+}
+
+.enquiry_form .enquiry_form_input button:hover {
+    background: var(--colorBlack);
 }
 
 .enquiry_form .enquiry_form_input span {
@@ -3768,7 +3779,7 @@ button {
 }
 
 .explore_listing_item:hover {
-    border-color: #c8c8c8;
+    border-color: var(--colorOrange);
     transform: translateY(-3px);
     -webkit-transform: translateY(-3px);
     -moz-transform: translateY(-3px);
@@ -4019,6 +4030,15 @@ button {
 
 .home_3 .footer_btn::after {
     background: linear-gradient(to right, rgb(255 255 255 / 19%) 0%, rgb(255 255 255 / 24%) 100%);
+}
+
+.home_3 .enquiry_form .enquiry_form_input button {
+    background: var(--colorOrange);
+    color: var(--colorWhite);
+}
+
+.home_3 .enquiry_form .enquiry_form_input button:hover {
+    background: var(--colorBlack);
 }
 
 /*=============================
