@@ -126,6 +126,7 @@ button {
     --colorOrange: #F15A29;
     --colorBlue: #0080FF;
     --colorBlack: #031A26;
+    --colorLightBg: #F1FAFF;
     --colorWhite: #ffffff;
     --paraColor: rgba(3, 26, 38, 0.60);
     --ratingColor: #FFA800;
@@ -1415,7 +1416,7 @@ button {
 
 /* property start */
 .property_area {
-    background: #F1FAFF;
+    background: var(--colorLightBg);
 }
 
 .single_property {
@@ -2185,7 +2186,7 @@ button {
 
 /* main_manu_2 start */
 .main_menu_2 {
-    background: #F1FAFF;
+    background: var(--colorLightBg);
 }
 
 .main_menu_2.menu_fix {
@@ -2290,7 +2291,7 @@ button {
 
 /* banner_2 start */
 .banner_2 {
-    background: #F1FAFF;
+    background: var(--colorLightBg);
     position: relative;
 }
 
@@ -2437,7 +2438,7 @@ button {
 
 /* amenities start */
 .amenities_area {
-    background: #F1FAFF;
+    background: var(--colorLightBg);
 }
 
 .single_amenites {
@@ -2907,7 +2908,7 @@ button {
 
 /* testimonial start */
 .testimonial {
-    background: #F1FAFF;
+    background: var(--colorLightBg);
 }
 
 .client_feedback_text_right {
@@ -6754,7 +6755,7 @@ button {
     width: 85%;
     margin-left: auto;
     padding: 30px;
-    background: #f1faffa8;
+    background: var(--colorLightBg);
     min-height: 100vh;
 }
 
